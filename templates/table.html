@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOTO Audio Latency Data</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-container">
+        <header>
+            <h1>MOTO Audio Latency Data</h1>
+            <p>Complete list of measured device latencies</p>
+            <div style="margin-top: 20px;">
+                <a href="/" class="btn-primary">← Back to Calculator</a>
+            </div>
+        </header>
+
+        <main>
+            <section class="table-container">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Device Name</th>
+                            <th>Input Type</th>
+                            <th>Output Type</th>
+                            <th>Input SR</th>
+                            <th>Output SR</th>
+                            <th>Latency</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for device in devices %}
+                        {% set in_type = device.raw_data.input_type|lower %}
+                        {% set out_type = device.raw_data.output_type|lower %}
+
+                        {% set in_class = 'default' %}
+                        {% if 'analog' in in_type %}{% set in_class = 'analog' %}
+                        {% elif 'aes' in in_type %}{% set in_class = 'aes3' %}
+                        {% elif 'dante' in in_type %}{% set in_class = 'dante' %}
+                        {% elif 'avb' in in_type %}{% set in_class = 'avb' %}
+                        {% endif %}
+
+                        {% set out_class = 'default' %}
+                        {% if 'analog' in out_type %}{% set out_class = 'analog' %}
+                        {% elif 'aes' in out_type %}{% set out_class = 'aes3' %}
+                        {% elif 'dante' in out_type %}{% set out_class = 'dante' %}
+                        {% elif 'avb' in out_type %}{% set out_class = 'avb' %}
+                        {% endif %}
+
+                        <tr>
+                            <td class="device-name-cell">{{ device.name }}</td>
+                            <td><span class="badge {{ in_class }}">{{ device.raw_data.input_type or '-' }}</span></td>
+                            <td><span class="badge {{ out_class }}">{{ device.raw_data.output_type or '-' }}</span></td>
+                            <td>{{ device.raw_data.input_sr or '-' }}</td>
+                            <td>{{ device.raw_data.output_sr or '-' }}</td>
+                            <td class="latency-cell">{{ device.display_time }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>

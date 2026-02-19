@@ -1,0 +1,730 @@
+:root {
+    --bg-color: #121212;
+    --surface-color: #1e1e1e;
+    --surface-hover: #2c2c2c;
+    --primary-color: #bb86fc;
+    --primary-variant: #3700b3;
+    --secondary-color: #03dac6;
+    --text-primary: #ffffff;
+    --text-secondary: #b0b0b0;
+    --border-radius: 12px;
+    --spacing: 16px;
+    --font-heading: 'Outfit', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    font-family: var(--font-body);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    /* Prevent body scroll, handle in sections */
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: var(--spacing);
+    max-width: 1600px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    margin-bottom: var(--spacing);
+    flex-shrink: 0;
+}
+
+header h1 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    color: var(--text-secondary);
+}
+
+main {
+    display: flex;
+    flex: 1;
+    gap: var(--spacing);
+    overflow: hidden;
+    /* Important for independent scrolling */
+}
+
+/* --- Device Library (Left) --- */
+.device-library {
+    flex: 1;
+    background-color: var(--surface-color);
+    border-radius: var(--border-radius);
+    padding: var(--spacing);
+    display: flex;
+    flex-direction: column;
+    box-shadow: var(--shadow);
+    min-width: 300px;
+}
+
+.device-library h2 {
+    font-family: var(--font-heading);
+    margin-bottom: var(--spacing);
+    font-size: 1.5rem;
+}
+
+.search-bar {
+    margin-bottom: var(--spacing);
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--bg-color);
+    border: 1px solid #333;
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.search-bar input:focus {
+    border-color: var(--primary-color);
+}
+
+.device-grid {
+    flex: 1;
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: var(--spacing);
+    padding-right: 8px;
+    /* Space for scrollbar */
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Device Card */
+.device-card {
+    background-color: var(--surface-color);
+    border: 1px solid #333;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: auto;
+    /* Allow growth */
+    min-height: 350px;
+}
+
+
+.device-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--primary-color);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.device-card:active {
+    transform: scale(0.98);
+}
+
+.card-media {
+    height: 200px;
+    width: 100%;
+    background: #151515;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 10px;
+    opacity: 0;
+    /* Fade in on load */
+    transition: opacity 0.3s;
+    z-index: 2;
+}
+
+.fallback-icon {
+    display: none;
+    /* Hidden by default, shown if img fails */
+    color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #1a1a1a 0%, #111 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.card-content {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.device-title-container {
+    margin-bottom: 8px;
+    color: var(--text-primary);
+}
+
+.device-part {
+    font-weight: 600;
+    font-size: 0.95rem;
+    line-height: 1.3;
+}
+
+.device-arrow {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    margin: 2px 0;
+}
+
+.device-latency {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    letter-spacing: 0.5px;
+}
+
+.device-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: auto;
+}
+
+.badge {
+    font-size: 0.7rem;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-weight: 500;
+}
+
+/* Protocol Badge Colors */
+.badge.analog {
+    background-color: rgba(34, 197, 94, 0.15);
+    /* Green #22c55e */
+    color: #22c55e;
+    border: 1px solid rgba(34, 197, 94, 0.3);
+}
+
+.badge.aes3 {
+    background-color: rgba(59, 130, 246, 0.15);
+    /* Blue #3b82f6 */
+    color: #3b82f6;
+    border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.badge.dante {
+    background-color: rgba(249, 115, 22, 0.15);
+    /* Orange #f97316 */
+    color: #f97316;
+    border: 1px solid rgba(249, 115, 22, 0.3);
+}
+
+.badge.avb {
+    background-color: rgba(6, 182, 212, 0.15);
+    /* Cyan #06b6d4 */
+    color: #06b6d4;
+    border: 1px solid rgba(6, 182, 212, 0.3);
+}
+
+.badge.default {
+    background-color: rgba(187, 134, 252, 0.1);
+    color: var(--primary-color);
+    border: 1px solid rgba(187, 134, 252, 0.2);
+}
+
+.badge.state {
+    background-color: rgba(3, 218, 198, 0.1);
+    color: var(--secondary-color);
+    border: 1px solid rgba(3, 218, 198, 0.2);
+}
+
+/* Device Card States */
+.device-card.dimmed {
+    opacity: 0.3;
+    pointer-events: none;
+    filter: grayscale(0.8);
+    transform: scale(0.98);
+    transition: all 0.3s ease;
+}
+
+.device-card.recommended {
+    border: 1px solid var(--primary-color);
+    box-shadow: 0 0 15px rgba(187, 134, 252, 0.3);
+    z-index: 10;
+}
+
+
+/* --- Signal Chain (Right) --- */
+.signal-chain-container {
+    flex: 1;
+    background-color: var(--surface-color);
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    box-shadow: var(--shadow);
+    min-width: 300px;
+    position: relative;
+}
+
+.chain-header {
+    padding: var(--spacing);
+    border-bottom: 1px solid #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chain-header h2 {
+    font-family: var(--font-heading);
+}
+
+.btn-secondary {
+    background: transparent;
+    border: 1px solid #555;
+    color: var(--text-secondary);
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+    border-color: #777;
+    color: var(--text-primary);
+}
+
+.chain-list {
+    flex: 1;
+    padding: var(--spacing);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.empty-state {
+    color: var(--text-secondary);
+    text-align: center;
+    margin-top: 40px;
+    border: 2px dashed #333;
+    padding: 40px;
+    border-radius: var(--border-radius);
+}
+
+/* Chain Item */
+.chain-item {
+    background-color: #252525;
+    border-radius: 8px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: slideIn 0.3s ease-out;
+    border-left: 4px solid var(--primary-color);
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.chain-item-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.chain-item-img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 4px;
+    background-color: #000;
+}
+
+.chain-item-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.chain-item-name {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.chain-item-latency {
+    color: var(--secondary-color);
+    font-size: 0.8rem;
+}
+
+.remove-btn {
+    background: none;
+    border: none;
+    color: #666;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 4px;
+    transition: color 0.2s;
+}
+
+.remove-btn:hover {
+    color: #ff5252;
+}
+
+/* --- Arrow Connector between items --- */
+.chain-arrow {
+    text-align: center;
+    color: #444;
+    font-size: 1.2rem;
+}
+
+/* --- Footer --- */
+.result-footer {
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-top: 1px solid #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+}
+
+.total-label {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+}
+
+.total-value {
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+    text-shadow: 0 0 10px rgba(3, 218, 198, 0.4);
+}
+
+/* Chain Item Updates */
+.chain-icon {
+    width: 40px;
+    height: 40px;
+    background: #111;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chain-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.chain-fallback {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: #444;
+}
+
+.chain-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 2px;
+}
+
+/* --- Data Table Page --- */
+.table-container {
+    background-color: var(--surface-color);
+    border-radius: var(--border-radius);
+    padding: var(--spacing);
+    box-shadow: var(--shadow);
+    overflow-x: auto;
+    width: 100%;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: var(--text-primary);
+}
+
+.data-table th,
+.data-table td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+.data-table th {
+    background-color: #252525;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+    color: var(--text-secondary);
+}
+
+.data-table tr:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.device-name-cell {
+    font-weight: 500;
+}
+
+.latency-cell {
+    font-family: var(--font-heading);
+    color: var(--secondary-color);
+    font-weight: 700;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform 0.2s, background-color 0.2s;
+    display: inline-block;
+}
+
+transform: translateY(-2px);
+background-color: #a370f7;
+}
+
+/* --- Print / PDF Export Styles --- */
+@media print {
+
+    /* HIDE SIDEBAR AND IRRELEVANT ELEMENTS */
+    .device-library,
+    .search-bar,
+    .btn-primary,
+    .btn-secondary,
+    .remove-btn,
+    .app-container>header p,
+    .app-container>header div,
+    header,
+    /* Hide the main header to create a custom one */
+    .chain-fallback,
+    /* Hide fallback icons if images load */
+    .empty-state {
+        display: none !important;
+    }
+
+    /* FULL PAGE LAYOUT */
+    body,
+    .app-container {
+        height: auto;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        overflow: visible;
+        display: block;
+    }
+
+    main {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+
+    /* SIGNAL CHAIN CONTAINER - FULL WIDTH, CLEAN */
+    .signal-chain-container {
+        box-shadow: none;
+        background-color: white;
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: none;
+        display: block;
+        border: none;
+    }
+
+    .chain-header {
+        border-bottom: 2px solid #000;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    /* Custom Print Header */
+    .chain-header:before {
+        content: "MOTO Audio Latency Calculator - Report";
+        display: block;
+        font-family: var(--font-heading);
+        font-size: 24px;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .chain-list {
+        overflow: visible;
+        padding: 0;
+        display: block;
+    }
+
+    /* CHAIN ITEMS - COMPACT AND CLEAN */
+    .chain-item {
+        background-color: white;
+        border: 1px solid #ccc;
+        color: black;
+        margin-bottom: 15px;
+        page-break-inside: avoid;
+        box-shadow: none;
+        padding: 10px;
+        /* Force flex to keep layout */
+        display: flex;
+        align-items: center;
+    }
+
+    .chain-item-info {
+        flex: 1;
+    }
+
+    .chain-item-name {
+        font-size: 14px;
+        color: black;
+    }
+
+    .chain-item-latency {
+        color: #000;
+        font-weight: bold;
+    }
+
+    .chain-arrow {
+        color: #000;
+        margin: 5px 0;
+        text-align: center;
+    }
+
+    .chain-arrow-connector {
+        text-align: center;
+        color: black;
+        margin: 10px 0;
+        font-weight: bold;
+    }
+
+    /* BADGES - FORCE COLORS FOR PRINT */
+    .badge {
+        border: 1px solid #000;
+        color: black !important;
+        /* Use light backgrounds for high contrast printing */
+    }
+
+    .badge.analog {
+        background-color: #e6fffa !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .badge.aes3 {
+        background-color: #ebf8ff !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .badge.dante {
+        background-color: #fffaf0 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .badge.avb {
+        background-color: #e0f2f1 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    /* FOOTER - CLEAN */
+    .result-footer {
+        margin-top: 30px;
+        background-color: white;
+        border-top: 2px solid #000;
+        color: black;
+        padding: 20px 0;
+        justify-content: flex-end;
+    }
+
+    .total-label {
+        font-size: 18px;
+        color: black;
+        margin-right: 15px;
+    }
+
+    .total-value {
+        font-size: 24px;
+        color: black;
+        text-shadow: none;
+    }
+}
