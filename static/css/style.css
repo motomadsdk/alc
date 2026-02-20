@@ -832,6 +832,109 @@ main {
     }
 }
 
+/* --- Mobile Responsive Styles --- */
+@media (max-width: 768px) {
+    body {
+        height: auto;
+        overflow-y: auto;
+    }
+
+    .app-container {
+        height: auto;
+        padding: 10px;
+        overflow-y: visible;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    main {
+        flex-direction: column;
+        height: auto;
+        overflow: visible;
+        gap: 20px;
+    }
+
+    /* Device Library (Mobile: Top/First) */
+    .device-library {
+        flex: none;
+        height: 500px;
+        /* Fixed height for scrolling library */
+        width: 100%;
+        min-width: 0;
+    }
+
+    .device-grid {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        /* Smaller cards */
+        gap: 10px;
+    }
+
+    .device-card {
+        min-height: 280px;
+        /* Compact cards */
+    }
+
+    .card-media {
+        height: 140px;
+    }
+
+    /* Search Bar Stack */
+    .search-bar>div {
+        flex-direction: column;
+        align-items: stretch !important;
+    }
+
+    .search-bar input,
+    .search-bar select {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    /* Signal Chain (Mobile: Bottom/Second) */
+    .signal-chain-container {
+        flex: none;
+        width: 100%;
+        min-width: 0;
+        height: aut0;
+        min-height: 400px;
+    }
+
+    .chain-list {
+        max-height: 500px;
+        /* Limit height */
+    }
+
+    .chain-icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .chain-item {
+        padding: 8px;
+    }
+
+    .chain-item-name {
+        font-size: 0.85rem;
+    }
+
+    .chain-arrow-connector {
+        font-size: 1rem;
+    }
+
+    /* Sticky Footer for Total on Mobile */
+    .result-footer {
+        position: sticky;
+        bottom: 0;
+        background-color: var(--surface-color);
+        z-index: 100;
+        border-top: 1px solid #333;
+        padding: 15px;
+        box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3);
+    }
+}
+
 /* Device Source Text */
 .device-source {
     font-size: 0.75rem;
