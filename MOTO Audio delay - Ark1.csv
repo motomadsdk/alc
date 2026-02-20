@@ -579,6 +579,10 @@ L-Acoustics LA7.16i,AVB,Analog,48kHz,-,"3,84ms",L-Acoustics LA7.16i Technical Da
 L-Acoustics LA7.16i,AVB,Analog,96kHz,-,"3,84ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics P1,Analog,AES3,-,96kHz,"0,995ms",(moto measured)
 L-Acoustics P1,AES3,Analog,96kHz,-,"1,045ms",(moto measured)
+L-Acoustics P1,Analog,AES3,-,48kHz,"2,0ms",(Estimated - 2x buffer)
+L-Acoustics P1,AES3,Analog,48kHz,-,"2,0ms",(Estimated - 2x buffer)
+L-Acoustics P1,AVB,Analog,48kHz,-,"2,37ms",(2ms presentation + 0.37ms DSP)
+L-Acoustics P1,AVB,Analog,96kHz,-,"2,37ms",(2ms presentation + 0.37ms DSP)
 RME ADI-2 Pro FS,Analog,Analog,-,-,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS,Analog,AES3,-,48kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS,Analog,AES3,-,96kHz,"0,57ms",RME ADI-2 Pro FS Manual

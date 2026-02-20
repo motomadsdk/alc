@@ -1339,6 +1339,11 @@ main {
         padding: 15px;
         box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3);
     }
+
+    .main-logo {
+        max-width: 140px;
+        margin: 0 auto;
+    }
 }
 
 /* Device Source Text */
