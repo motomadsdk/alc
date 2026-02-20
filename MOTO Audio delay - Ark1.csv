@@ -759,48 +759,6 @@ Sennheiser Digital 6000 (Long Range),Analog,Dante,-,48kHz,"3,0ms",Sennheiser Dig
 Sennheiser Digital 6000 (Long Range),Analog,Dante,-,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
 Sennheiser Digital 6000 (Long Range),Analog,AES67,-,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
 Sennheiser Digital 6000 (Long Range),Analog,AES67,-,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES3,Analog,48kHz,-,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES3,Analog,96kHz,-,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES3,AES3,48kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES3,AES3,48kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES3,AES3,96kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES3,AES3,96kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES3,Dante,48kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES3,Dante,48kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES3,Dante,96kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES3,Dante,96kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES3,AES67,48kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES3,AES67,48kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES3,AES67,96kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES3,AES67,96kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),Dante,Analog,48kHz,-,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),Dante,Analog,96kHz,-,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),Dante,AES3,48kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),Dante,AES3,48kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),Dante,AES3,96kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),Dante,AES3,96kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),Dante,Dante,48kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),Dante,Dante,48kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),Dante,Dante,96kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),Dante,Dante,96kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),Dante,AES67,48kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),Dante,AES67,48kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),Dante,AES67,96kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),Dante,AES67,96kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES67,Analog,48kHz,-,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES67,Analog,96kHz,-,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES67,AES3,48kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES67,AES3,48kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES67,AES3,96kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES67,AES3,96kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES67,Dante,48kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES67,Dante,48kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES67,Dante,96kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES67,Dante,96kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES67,AES67,48kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES67,AES67,48kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES67,AES67,96kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Long Range),AES67,AES67,96kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
 Sennheiser Digital 6000 (Standard),Analog,Analog,-,-,"3,0ms",Sennheiser Digital 6000 Spec Sheet
 Sennheiser Digital 6000 (Standard),Analog,AES3,-,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
 Sennheiser Digital 6000 (Standard),Analog,AES3,-,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
@@ -808,48 +766,6 @@ Sennheiser Digital 6000 (Standard),Analog,Dante,-,48kHz,"3,0ms",Sennheiser Digit
 Sennheiser Digital 6000 (Standard),Analog,Dante,-,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
 Sennheiser Digital 6000 (Standard),Analog,AES67,-,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
 Sennheiser Digital 6000 (Standard),Analog,AES67,-,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES3,Analog,48kHz,-,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES3,Analog,96kHz,-,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES3,AES3,48kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES3,AES3,48kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES3,AES3,96kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES3,AES3,96kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES3,Dante,48kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES3,Dante,48kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES3,Dante,96kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES3,Dante,96kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES3,AES67,48kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES3,AES67,48kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES3,AES67,96kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES3,AES67,96kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),Dante,Analog,48kHz,-,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),Dante,Analog,96kHz,-,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),Dante,AES3,48kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),Dante,AES3,48kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),Dante,AES3,96kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),Dante,AES3,96kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),Dante,Dante,48kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),Dante,Dante,48kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),Dante,Dante,96kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),Dante,Dante,96kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),Dante,AES67,48kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),Dante,AES67,48kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),Dante,AES67,96kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),Dante,AES67,96kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES67,Analog,48kHz,-,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES67,Analog,96kHz,-,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES67,AES3,48kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES67,AES3,48kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES67,AES3,96kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES67,AES3,96kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES67,Dante,48kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES67,Dante,48kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES67,Dante,96kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES67,Dante,96kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES67,AES67,48kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES67,AES67,48kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES67,AES67,96kHz,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
-Sennheiser Digital 6000 (Standard),AES67,AES67,96kHz,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
 Sennheiser EW-DX (High Density),Analog,Analog,-,-,"1,9ms",Sennheiser EW-DX Spec Sheet
 Sennheiser EW-DX (High Density),Analog,AES3,-,48kHz,"1,9ms",Sennheiser EW-DX Spec Sheet
 Sennheiser EW-DX (High Density),Analog,AES3,-,96kHz,"1,9ms",Sennheiser EW-DX Spec Sheet
@@ -857,97 +773,13 @@ Sennheiser EW-DX (High Density),Analog,Dante,-,48kHz,"2,4ms",Sennheiser EW-DX Sp
 Sennheiser EW-DX (High Density),Analog,Dante,-,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
 Sennheiser EW-DX (High Density),Analog,AES67,-,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
 Sennheiser EW-DX (High Density),Analog,AES67,-,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES3,Analog,48kHz,-,"1,9ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES3,Analog,96kHz,-,"1,9ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES3,AES3,48kHz,48kHz,"1,9ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES3,AES3,48kHz,96kHz,"1,9ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES3,AES3,96kHz,48kHz,"1,9ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES3,AES3,96kHz,96kHz,"1,9ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES3,Dante,48kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES3,Dante,48kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES3,Dante,96kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES3,Dante,96kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES3,AES67,48kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES3,AES67,48kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES3,AES67,96kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES3,AES67,96kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),Dante,Analog,48kHz,-,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),Dante,Analog,96kHz,-,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),Dante,AES3,48kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),Dante,AES3,48kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),Dante,AES3,96kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),Dante,AES3,96kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),Dante,Dante,48kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),Dante,Dante,48kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),Dante,Dante,96kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),Dante,Dante,96kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),Dante,AES67,48kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),Dante,AES67,48kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),Dante,AES67,96kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),Dante,AES67,96kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES67,Analog,48kHz,-,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES67,Analog,96kHz,-,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES67,AES3,48kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES67,AES3,48kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES67,AES3,96kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES67,AES3,96kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES67,Dante,48kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES67,Dante,48kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES67,Dante,96kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES67,Dante,96kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES67,AES67,48kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES67,AES67,48kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES67,AES67,96kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (High Density),AES67,AES67,96kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),Analog,Analog,-,-,"1,9ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),Analog,AES3,-,48kHz,"1,9ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),Analog,AES3,-,96kHz,"1,9ms",Sennheiser EW-DX Spec Sheet
+Sennheiser EW-DX (Standard),Analog,Analog,-,-,"2,4ms",Sennheiser EW-DX Spec Sheet
+Sennheiser EW-DX (Standard),Analog,AES3,-,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
+Sennheiser EW-DX (Standard),Analog,AES3,-,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
 Sennheiser EW-DX (Standard),Analog,Dante,-,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
 Sennheiser EW-DX (Standard),Analog,Dante,-,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
 Sennheiser EW-DX (Standard),Analog,AES67,-,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
 Sennheiser EW-DX (Standard),Analog,AES67,-,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES3,Analog,48kHz,-,"1,9ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES3,Analog,96kHz,-,"1,9ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES3,AES3,48kHz,48kHz,"1,9ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES3,AES3,48kHz,96kHz,"1,9ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES3,AES3,96kHz,48kHz,"1,9ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES3,AES3,96kHz,96kHz,"1,9ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES3,Dante,48kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES3,Dante,48kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES3,Dante,96kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES3,Dante,96kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES3,AES67,48kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES3,AES67,48kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES3,AES67,96kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES3,AES67,96kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),Dante,Analog,48kHz,-,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),Dante,Analog,96kHz,-,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),Dante,AES3,48kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),Dante,AES3,48kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),Dante,AES3,96kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),Dante,AES3,96kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),Dante,Dante,48kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),Dante,Dante,48kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),Dante,Dante,96kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),Dante,Dante,96kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),Dante,AES67,48kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),Dante,AES67,48kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),Dante,AES67,96kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),Dante,AES67,96kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES67,Analog,48kHz,-,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES67,Analog,96kHz,-,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES67,AES3,48kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES67,AES3,48kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES67,AES3,96kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES67,AES3,96kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES67,Dante,48kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES67,Dante,48kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES67,Dante,96kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES67,Dante,96kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES67,AES67,48kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES67,AES67,48kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES67,AES67,96kHz,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Sennheiser EW-DX (Standard),AES67,AES67,96kHz,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
 Shure AD4D (ADX1),Analog,Analog,-,-,"2,0ms",(moto measured)
 Shure AD4D (ADX1) (Axient digital),Analog,AES3,-,96kHz,"2,0ms",(moto measured)
 Shure ADTQ (ADXR) (Analog FM),Analog,Analog,-,-,"1,27ms",(moto measured)
@@ -961,48 +793,6 @@ Shure Axient Digital AD4D/AD4Q (High Density),Analog,Dante,-,48kHz,"2,95ms",Shur
 Shure Axient Digital AD4D/AD4Q (High Density),Analog,Dante,-,96kHz,"2,95ms",Shure Axient Digital Spec Sheet
 Shure Axient Digital AD4D/AD4Q (High Density),Analog,AES67,-,48kHz,"2,95ms",Shure Axient Digital Spec Sheet
 Shure Axient Digital AD4D/AD4Q (High Density),Analog,AES67,-,96kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES3,Analog,48kHz,-,"2,45ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES3,Analog,96kHz,-,"2,45ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES3,AES3,48kHz,48kHz,"2,45ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES3,AES3,48kHz,96kHz,"2,45ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES3,AES3,96kHz,48kHz,"2,45ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES3,AES3,96kHz,96kHz,"2,45ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES3,Dante,48kHz,48kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES3,Dante,48kHz,96kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES3,Dante,96kHz,48kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES3,Dante,96kHz,96kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES3,AES67,48kHz,48kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES3,AES67,48kHz,96kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES3,AES67,96kHz,48kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES3,AES67,96kHz,96kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),Dante,Analog,48kHz,-,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),Dante,Analog,96kHz,-,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),Dante,AES3,48kHz,48kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),Dante,AES3,48kHz,96kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),Dante,AES3,96kHz,48kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),Dante,AES3,96kHz,96kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),Dante,Dante,48kHz,48kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),Dante,Dante,48kHz,96kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),Dante,Dante,96kHz,48kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),Dante,Dante,96kHz,96kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),Dante,AES67,48kHz,48kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),Dante,AES67,48kHz,96kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),Dante,AES67,96kHz,48kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),Dante,AES67,96kHz,96kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES67,Analog,48kHz,-,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES67,Analog,96kHz,-,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES67,AES3,48kHz,48kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES67,AES3,48kHz,96kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES67,AES3,96kHz,48kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES67,AES3,96kHz,96kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES67,Dante,48kHz,48kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES67,Dante,48kHz,96kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES67,Dante,96kHz,48kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES67,Dante,96kHz,96kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES67,AES67,48kHz,48kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES67,AES67,48kHz,96kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES67,AES67,96kHz,48kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),AES67,AES67,96kHz,96kHz,"2,95ms",Shure Axient Digital Spec Sheet
 Shure Axient Digital AD4D/AD4Q (Standard),Analog,Analog,-,-,"2,0ms",Shure Axient Digital Spec Sheet
 Shure Axient Digital AD4D/AD4Q (Standard),Analog,AES3,-,48kHz,"2,0ms",Shure Axient Digital Spec Sheet
 Shure Axient Digital AD4D/AD4Q (Standard),Analog,AES3,-,96kHz,"2,0ms",Shure Axient Digital Spec Sheet
@@ -1010,48 +800,6 @@ Shure Axient Digital AD4D/AD4Q (Standard),Analog,Dante,-,48kHz,"2,0ms",Shure Axi
 Shure Axient Digital AD4D/AD4Q (Standard),Analog,Dante,-,96kHz,"2,0ms",Shure Axient Digital Spec Sheet
 Shure Axient Digital AD4D/AD4Q (Standard),Analog,AES67,-,48kHz,"2,0ms",Shure Axient Digital Spec Sheet
 Shure Axient Digital AD4D/AD4Q (Standard),Analog,AES67,-,96kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES3,Analog,48kHz,-,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES3,Analog,96kHz,-,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES3,AES3,48kHz,48kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES3,AES3,48kHz,96kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES3,AES3,96kHz,48kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES3,AES3,96kHz,96kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES3,Dante,48kHz,48kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES3,Dante,48kHz,96kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES3,Dante,96kHz,48kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES3,Dante,96kHz,96kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES3,AES67,48kHz,48kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES3,AES67,48kHz,96kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES3,AES67,96kHz,48kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES3,AES67,96kHz,96kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),Dante,Analog,48kHz,-,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),Dante,Analog,96kHz,-,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),Dante,AES3,48kHz,48kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),Dante,AES3,48kHz,96kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),Dante,AES3,96kHz,48kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),Dante,AES3,96kHz,96kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),Dante,Dante,48kHz,48kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),Dante,Dante,48kHz,96kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),Dante,Dante,96kHz,48kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),Dante,Dante,96kHz,96kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),Dante,AES67,48kHz,48kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),Dante,AES67,48kHz,96kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),Dante,AES67,96kHz,48kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),Dante,AES67,96kHz,96kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES67,Analog,48kHz,-,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES67,Analog,96kHz,-,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES67,AES3,48kHz,48kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES67,AES3,48kHz,96kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES67,AES3,96kHz,48kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES67,AES3,96kHz,96kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES67,Dante,48kHz,48kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES67,Dante,48kHz,96kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES67,Dante,96kHz,48kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES67,Dante,96kHz,96kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES67,AES67,48kHz,48kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES67,AES67,48kHz,96kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES67,AES67,96kHz,48kHz,"2,0ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (Standard),AES67,AES67,96kHz,96kHz,"2,0ms",Shure Axient Digital Spec Sheet
 Shure PSM1000 P10T (P10R+) (Analog FM),Analog,Analog,-,-,"0,44ms",(moto measured)
 Shure ULX-D (High Density),Analog,Analog,-,-,"2,45ms",Shure ULX-D Spec Sheet
 Shure ULX-D (High Density),Analog,AES3,-,48kHz,"2,45ms",Shure ULX-D Spec Sheet
@@ -1060,97 +808,13 @@ Shure ULX-D (High Density),Analog,Dante,-,48kHz,"2,95ms",Shure ULX-D Spec Sheet
 Shure ULX-D (High Density),Analog,Dante,-,96kHz,"2,95ms",Shure ULX-D Spec Sheet
 Shure ULX-D (High Density),Analog,AES67,-,48kHz,"2,95ms",Shure ULX-D Spec Sheet
 Shure ULX-D (High Density),Analog,AES67,-,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES3,Analog,48kHz,-,"2,45ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES3,Analog,96kHz,-,"2,45ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES3,AES3,48kHz,48kHz,"2,45ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES3,AES3,48kHz,96kHz,"2,45ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES3,AES3,96kHz,48kHz,"2,45ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES3,AES3,96kHz,96kHz,"2,45ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES3,Dante,48kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES3,Dante,48kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES3,Dante,96kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES3,Dante,96kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES3,AES67,48kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES3,AES67,48kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES3,AES67,96kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES3,AES67,96kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),Dante,Analog,48kHz,-,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),Dante,Analog,96kHz,-,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),Dante,AES3,48kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),Dante,AES3,48kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),Dante,AES3,96kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),Dante,AES3,96kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),Dante,Dante,48kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),Dante,Dante,48kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),Dante,Dante,96kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),Dante,Dante,96kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),Dante,AES67,48kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),Dante,AES67,48kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),Dante,AES67,96kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),Dante,AES67,96kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES67,Analog,48kHz,-,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES67,Analog,96kHz,-,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES67,AES3,48kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES67,AES3,48kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES67,AES3,96kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES67,AES3,96kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES67,Dante,48kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES67,Dante,48kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES67,Dante,96kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES67,Dante,96kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES67,AES67,48kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES67,AES67,48kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES67,AES67,96kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),AES67,AES67,96kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
 Shure ULX-D (Standard),Analog,Analog,-,-,"2,45ms",Shure ULX-D Spec Sheet
 Shure ULX-D (Standard),Analog,AES3,-,48kHz,"2,45ms",Shure ULX-D Spec Sheet
 Shure ULX-D (Standard),Analog,AES3,-,96kHz,"2,45ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),Analog,Dante,-,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),Analog,Dante,-,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),Analog,AES67,-,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),Analog,AES67,-,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES3,Analog,48kHz,-,"2,45ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES3,Analog,96kHz,-,"2,45ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES3,AES3,48kHz,48kHz,"2,45ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES3,AES3,48kHz,96kHz,"2,45ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES3,AES3,96kHz,48kHz,"2,45ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES3,AES3,96kHz,96kHz,"2,45ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES3,Dante,48kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES3,Dante,48kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES3,Dante,96kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES3,Dante,96kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES3,AES67,48kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES3,AES67,48kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES3,AES67,96kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES3,AES67,96kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),Dante,Analog,48kHz,-,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),Dante,Analog,96kHz,-,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),Dante,AES3,48kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),Dante,AES3,48kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),Dante,AES3,96kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),Dante,AES3,96kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),Dante,Dante,48kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),Dante,Dante,48kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),Dante,Dante,96kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),Dante,Dante,96kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),Dante,AES67,48kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),Dante,AES67,48kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),Dante,AES67,96kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),Dante,AES67,96kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES67,Analog,48kHz,-,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES67,Analog,96kHz,-,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES67,AES3,48kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES67,AES3,48kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES67,AES3,96kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES67,AES3,96kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES67,Dante,48kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES67,Dante,48kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES67,Dante,96kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES67,Dante,96kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES67,AES67,48kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES67,AES67,48kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES67,AES67,96kHz,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (Standard),AES67,AES67,96kHz,96kHz,"2,95ms",Shure ULX-D Spec Sheet
+Shure ULX-D (Standard),Analog,Dante,-,48kHz,"2,45ms",Shure ULX-D Spec Sheet
+Shure ULX-D (Standard),Analog,Dante,-,96kHz,"2,45ms",Shure ULX-D Spec Sheet
+Shure ULX-D (Standard),Analog,AES67,-,48kHz,"2,45ms",Shure ULX-D Spec Sheet
+Shure ULX-D (Standard),Analog,AES67,-,96kHz,"2,45ms",Shure ULX-D Spec Sheet
 Soniflex RB-ADDA,Analog,AES3,-,96kHz,"0,105ms",(moto measured)
 Soniflex RB-ADDA,AES3,Analog,96kHz,-,"0,105ms",(moto measured)
 Soniflex RB-ADDA,Analog,AES3,-,48kHz,"0,24ms",(moto measured)
@@ -1162,48 +826,6 @@ Sound Devices Astral ARX32 (Long Range),Analog,Dante,-,48kHz,"4,9ms",Sound Devic
 Sound Devices Astral ARX32 (Long Range),Analog,Dante,-,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
 Sound Devices Astral ARX32 (Long Range),Analog,AES67,-,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
 Sound Devices Astral ARX32 (Long Range),Analog,AES67,-,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES3,Analog,48kHz,-,"4,4ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES3,Analog,96kHz,-,"4,4ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES3,AES3,48kHz,48kHz,"4,4ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES3,AES3,48kHz,96kHz,"4,4ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES3,AES3,96kHz,48kHz,"4,4ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES3,AES3,96kHz,96kHz,"4,4ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES3,Dante,48kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES3,Dante,48kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES3,Dante,96kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES3,Dante,96kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES3,AES67,48kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES3,AES67,48kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES3,AES67,96kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES3,AES67,96kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),Dante,Analog,48kHz,-,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),Dante,Analog,96kHz,-,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),Dante,AES3,48kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),Dante,AES3,48kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),Dante,AES3,96kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),Dante,AES3,96kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),Dante,Dante,48kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),Dante,Dante,48kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),Dante,Dante,96kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),Dante,Dante,96kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),Dante,AES67,48kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),Dante,AES67,48kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),Dante,AES67,96kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),Dante,AES67,96kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES67,Analog,48kHz,-,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES67,Analog,96kHz,-,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES67,AES3,48kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES67,AES3,48kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES67,AES3,96kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES67,AES3,96kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES67,Dante,48kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES67,Dante,48kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES67,Dante,96kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES67,Dante,96kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES67,AES67,48kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES67,AES67,48kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES67,AES67,96kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),AES67,AES67,96kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
 Sound Devices Astral ARX32 (Standard),Analog,Analog,-,-,"4,4ms",Sound Devices Astral ARX32 User Guide
 Sound Devices Astral ARX32 (Standard),Analog,AES3,-,48kHz,"4,4ms",Sound Devices Astral ARX32 User Guide
 Sound Devices Astral ARX32 (Standard),Analog,AES3,-,96kHz,"4,4ms",Sound Devices Astral ARX32 User Guide
@@ -1211,48 +833,6 @@ Sound Devices Astral ARX32 (Standard),Analog,Dante,-,48kHz,"4,9ms",Sound Devices
 Sound Devices Astral ARX32 (Standard),Analog,Dante,-,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
 Sound Devices Astral ARX32 (Standard),Analog,AES67,-,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
 Sound Devices Astral ARX32 (Standard),Analog,AES67,-,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES3,Analog,48kHz,-,"4,4ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES3,Analog,96kHz,-,"4,4ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES3,AES3,48kHz,48kHz,"4,4ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES3,AES3,48kHz,96kHz,"4,4ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES3,AES3,96kHz,48kHz,"4,4ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES3,AES3,96kHz,96kHz,"4,4ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES3,Dante,48kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES3,Dante,48kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES3,Dante,96kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES3,Dante,96kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES3,AES67,48kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES3,AES67,48kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES3,AES67,96kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES3,AES67,96kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),Dante,Analog,48kHz,-,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),Dante,Analog,96kHz,-,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),Dante,AES3,48kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),Dante,AES3,48kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),Dante,AES3,96kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),Dante,AES3,96kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),Dante,Dante,48kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),Dante,Dante,48kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),Dante,Dante,96kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),Dante,Dante,96kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),Dante,AES67,48kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),Dante,AES67,48kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),Dante,AES67,96kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),Dante,AES67,96kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES67,Analog,48kHz,-,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES67,Analog,96kHz,-,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES67,AES3,48kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES67,AES3,48kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES67,AES3,96kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES67,AES3,96kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES67,Dante,48kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES67,Dante,48kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES67,Dante,96kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES67,Dante,96kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES67,AES67,48kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES67,AES67,48kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES67,AES67,96kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),AES67,AES67,96kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
 Sound Devices Astral ARX32 (Astral TX) (Long Range),Analog,Analog,-,-,"6,85ms",(moto measured)
 Sound Devices Astral ARX32 (Astral TX) (Long Range),Analog,AES3,-,96kHz,"6,815ms",(moto measured)
 Sound Devices Astral ARX32 (Astral TX) (Standard),Analog,Analog,-,-,"2,92ms",(moto measured)
@@ -1266,146 +846,20 @@ Wisycom MPR50-IEM (High Density),Analog,Dante,-,48kHz,"1,4ms",Wisycom MPR50 Prod
 Wisycom MPR50-IEM (High Density),Analog,Dante,-,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (High Density),Analog,AES67,-,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (High Density),Analog,AES67,-,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES3,Analog,48kHz,-,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES3,Analog,96kHz,-,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES3,AES3,48kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES3,AES3,48kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES3,AES3,96kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES3,AES3,96kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES3,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES3,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES3,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES3,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES3,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES3,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES3,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES3,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Dante,Analog,48kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Dante,Analog,96kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Dante,AES3,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Dante,AES3,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Dante,AES3,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Dante,AES3,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Dante,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Dante,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Dante,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Dante,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Dante,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Dante,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Dante,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Dante,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES67,Analog,48kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES67,Analog,96kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES67,AES3,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES67,AES3,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES67,AES3,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES67,AES3,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES67,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES67,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES67,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES67,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES67,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES67,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES67,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES67,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Analog,Analog,-,-,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Analog,AES3,-,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Analog,AES3,-,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
+Wisycom MPR50-IEM (Long Range),Analog,Analog,-,-,"1,4ms",Wisycom MPR50 Product Documentation
+Wisycom MPR50-IEM (Long Range),Analog,AES3,-,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
+Wisycom MPR50-IEM (Long Range),Analog,AES3,-,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),Analog,Dante,-,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),Analog,Dante,-,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),Analog,AES67,-,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),Analog,AES67,-,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES3,Analog,48kHz,-,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES3,Analog,96kHz,-,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES3,AES3,48kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES3,AES3,48kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES3,AES3,96kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES3,AES3,96kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES3,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES3,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES3,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES3,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES3,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES3,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES3,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES3,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Dante,Analog,48kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Dante,Analog,96kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Dante,AES3,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Dante,AES3,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Dante,AES3,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Dante,AES3,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Dante,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Dante,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Dante,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Dante,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Dante,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Dante,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Dante,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Dante,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES67,Analog,48kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES67,Analog,96kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES67,AES3,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES67,AES3,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES67,AES3,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES67,AES3,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES67,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES67,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES67,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES67,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES67,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES67,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES67,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES67,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),Analog,Analog,-,-,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),Analog,AES3,-,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),Analog,AES3,-,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Analog,Dante,-,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Analog,Dante,-,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Analog,AES67,-,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Analog,AES67,-,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES3,Analog,48kHz,-,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES3,Analog,96kHz,-,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES3,AES3,48kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES3,AES3,48kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES3,AES3,96kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES3,AES3,96kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES3,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES3,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES3,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES3,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES3,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES3,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES3,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES3,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Dante,Analog,48kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Dante,Analog,96kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Dante,AES3,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Dante,AES3,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Dante,AES3,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Dante,AES3,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Dante,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Dante,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Dante,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Dante,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Dante,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Dante,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Dante,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Dante,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES67,Analog,48kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES67,Analog,96kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES67,AES3,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES67,AES3,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES67,AES3,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES67,AES3,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES67,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES67,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES67,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES67,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES67,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES67,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES67,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES67,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
+Wisycom MPR50-IEM (Standard),Analog,Dante,-,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
+Wisycom MPR50-IEM (Standard),Analog,Dante,-,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
+Wisycom MPR50-IEM (Standard),Analog,AES67,-,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
+Wisycom MPR50-IEM (Standard),Analog,AES67,-,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Riedel Bolero Beltpack,AES67,AES67,48kHz,48kHz,"0,50ms",chatgpt
 Riedel Bolero Antenna,AES67,AES67,48kHz,48kHz,"0,30ms",chatgpt
 Riedel Artist Matrix,AES67,AES67,48kHz,48kHz,"0,50ms",chatgpt

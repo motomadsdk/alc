@@ -10,9 +10,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const brandFilter = document.getElementById('brand-filter');
     const sortSelect = document.getElementById('sort-select');
     const showSourceCheckbox = document.getElementById('show-source');
+    const hearLatencyBtn = document.getElementById('hear-latency');
+    const hearRefBtn = document.getElementById('hear-ref');
 
     let allDevices = [];
     let currentChain = [];
+
+    const MEASURED_SOURCE = '(moto measured)';
+    const measuredIcon = `<img src="/static/images/measured.svg" class="measured-icon-file" alt="Measured">`;
 
     // Protocol Code Mapping for Background Images
     function getProtocolCode(type) {
@@ -113,6 +118,77 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Audio Latency Preview Logic
+    if (hearLatencyBtn) {
+        hearLatencyBtn.addEventListener('click', () => {
+            const latencyStr = totalLatencyEl.textContent.replace(' ms', '').trim();
+            const latency = parseFloat(latencyStr);
+
+            if (isNaN(latency) || latency <= 0) {
+                showToast("Add devices to hear the latency difference.", "warning");
+                return;
+            }
+
+            // Visual feedback
+            const originalHtml = hearLatencyBtn.innerHTML;
+            hearLatencyBtn.innerHTML = `
+                <svg class="spin" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"><path d="M21 12a9 9 0 1 1-6.219-8.56"></path></svg>
+                Generating...
+            `;
+            hearLatencyBtn.disabled = true;
+
+            // Call backend API
+            fetch(`/api/audio_preview?latency=${latency}`)
+                .then(response => {
+                    if (!response.ok) throw new Error("Audio generation failed");
+                    return response.blob();
+                })
+                .then(blob => {
+                    const url = URL.createObjectURL(blob);
+                    const audio = new Audio(url);
+                    audio.play();
+
+                    // Restore button after playback starts (or with a small delay)
+                    setTimeout(() => {
+                        hearLatencyBtn.innerHTML = originalHtml;
+                        hearLatencyBtn.disabled = false;
+                    }, 1000);
+                })
+                .catch(err => {
+                    console.error(err);
+                    showToast("Failed to generate audio.", "error");
+                    hearLatencyBtn.innerHTML = originalHtml;
+                    hearLatencyBtn.disabled = false;
+                });
+        });
+    }
+
+    if (hearRefBtn) {
+        hearRefBtn.addEventListener('click', () => {
+            // Visual feedback
+            const originalHtml = hearRefBtn.innerHTML;
+            hearRefBtn.innerHTML = `<svg class="spin" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none"><path d="M21 12a9 9 0 1 1-6.219-8.56"></path></svg>`;
+            hearRefBtn.disabled = true;
+
+            fetch(`/api/audio_preview?latency=0`)
+                .then(response => response.blob())
+                .then(blob => {
+                    const url = URL.createObjectURL(blob);
+                    const audio = new Audio(url);
+                    audio.play();
+                    setTimeout(() => {
+                        hearRefBtn.innerHTML = originalHtml;
+                        hearRefBtn.disabled = false;
+                    }, 500);
+                })
+                .catch(err => {
+                    console.error(err);
+                    hearRefBtn.innerHTML = originalHtml;
+                    hearRefBtn.disabled = false;
+                });
+        });
+    }
+
     // Render Library
     function renderDeviceLibrary(devices) {
         deviceListEl.innerHTML = '';
@@ -180,10 +256,6 @@ document.addEventListener('DOMContentLoaded', () => {
             // Limit to top 100 to prevent DOM freeze
             const displayLimit = 100;
             const limitedDevices = processedDevices.slice(0, displayLimit);
-
-            const MEASURED_SOURCE = '(moto measured)';
-            // Minimal icon without badge wrapper in the logic, we'll handle the wrapper in CSS/HTML
-            const measuredIcon = `<img src="/static/images/measured.svg" class="measured-icon-file" alt="Measured">`;
 
             limitedDevices.forEach(device => {
                 const card = document.createElement('div');
@@ -286,7 +358,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const chainItem = { ...device, uniqueId: Date.now() + Math.random() };
         currentChain.push(chainItem);
         saveChain(); // Save
-        renderChain();
         renderChain();
         filterDevices(); // Re-filter to update validity/recommended status
         showToast(`Added: ${device.name}`, 'success');

@@ -2,7 +2,11 @@ import os
 import csv
 import re
 import datetime
-from flask import Flask, render_template, jsonify, send_from_directory, request
+import math
+import io
+import wave
+import struct
+from flask import Flask, render_template, jsonify, send_from_directory, request, send_file
 
 app = Flask(__name__)
 
@@ -196,6 +200,67 @@ def get_data():
 @app.route('/images/<path:filename>')
 def serve_image(filename):
     return send_from_directory(IMAGE_FOLDER, filename)
+
+@app.route('/api/audio_preview')
+def audio_preview():
+    """
+    Generates a stereo WAV file with two beeps.
+    Left ear: Beep at T=0
+    Right ear: Beep at T=Latency
+    """
+    try:
+        latency_ms = float(request.args.get('latency', 0))
+        # Limit latency for safety
+        latency_ms = max(0, min(1000, latency_ms))
+        
+        sample_rate = 44100
+        duration_sec = 1.0 + (latency_ms / 1000.0)
+        num_samples = int(sample_rate * duration_sec)
+        
+        beep_freq = 1000 # Hz
+        beep_duration_ms = 100
+        beep_samples = int(sample_rate * (beep_duration_ms / 1000.0))
+        
+        # Buffer for WAV file
+        buf = io.BytesIO()
+        with wave.open(buf, 'wb') as wav_file:
+            wav_file.setnchannels(2) # Stereo
+            wav_file.setsampwidth(2) # 16-bit
+            wav_file.setframerate(sample_rate)
+            
+            latency_samples = int(sample_rate * (latency_ms / 1000.0))
+            
+            for i in range(num_samples):
+                # Left Channel Beep (starts at 0)
+                l_val = 0
+                if 0 <= i < beep_samples:
+                    # Sine wave with fade out
+                    fade = 1.0
+                    if i > beep_samples * 0.8: # Fade out last 20%
+                        fade = (beep_samples - i) / (beep_samples * 0.2)
+                    l_val = int(math.sin(2 * math.pi * beep_freq * i / sample_rate) * 16384 * fade)
+                
+                # Right Channel Beep (starts after latency)
+                r_val = 0
+                if latency_samples <= i < (latency_samples + beep_samples):
+                    rel_i = i - latency_samples
+                    fade = 1.0
+                    if rel_i > beep_samples * 0.8:
+                        fade = (beep_samples - rel_i) / (beep_samples * 0.2)
+                    r_val = int(math.sin(2 * math.pi * beep_freq * rel_i / sample_rate) * 16384 * fade)
+                
+                wav_file.writeframes(struct.pack('<hh', l_val, r_val))
+
+        buf.seek(0)
+        return send_file(
+            buf,
+            mimetype="audio/wav",
+            as_attachment=True,
+            download_name=f"latency_{latency_ms}ms.wav"
+        )
+    except Exception as e:
+        print(f"Audio generation error: {e}")
+        return jsonify({"status": "error", "message": str(e)}), 500
 
 @app.route('/api/sources')
 def get_sources():
