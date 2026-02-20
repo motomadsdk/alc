@@ -16,7 +16,7 @@
     /* Protocol Colors – Pro Audio Standard */
     --color-analog: #08ee0088;
     /* Greenish/Greyish - user customized */
-    --color-aes3: #8024b9;
+    --color-aes3: #0084ff;
     /* Purple – AES/EBU standard */
     --color-dante: #E31C23;
     /* Official Dante red */
@@ -211,25 +211,29 @@ main {
 
 /* Device Card */
 .device-card {
-    background-color: var(--surface-color);
-    border: 1px solid #333;
-    border-radius: var(--border-radius);
+    background: rgba(30, 30, 30, 0.7);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    /* Slightly softer */
     overflow: hidden;
     cursor: pointer;
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
     display: flex;
     flex-direction: column;
     position: relative;
     height: auto;
-    /* Allow growth */
     min-height: 350px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-
 .device-card:hover {
-    transform: translateY(-4px);
-    border-color: var(--primary-color);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-8px) scale(1.02);
+    border-color: rgba(187, 134, 252, 0.4);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5),
+        0 0 20px rgba(187, 134, 252, 0.1);
+    background: rgba(40, 40, 40, 0.8);
 }
 
 .device-card:active {
@@ -247,7 +251,19 @@ main {
     overflow: hidden;
 }
 
-.card-media img {
+.card-media::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, transparent 100%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.card-media>img {
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -280,6 +296,62 @@ main {
     flex-grow: 1;
 }
 
+.measured-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 34px;
+    height: 34px;
+    background: rgba(3, 218, 198, 0.25);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1.5px solid var(--secondary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 0.4s ease-out;
+    pointer-events: auto;
+}
+
+.measured-badge.small {
+    top: 4px;
+    right: 4px;
+    width: 20px;
+    height: 20px;
+    border-width: 1px;
+}
+
+.measured-badge svg,
+.measured-icon-file {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    opacity: 1 !important;
+    /* Force visibility */
+    display: block;
+    filter: drop-shadow(0 0 3px rgba(3, 218, 198, 0.6));
+}
+
+.measured-badge.small .measured-icon-file {
+    width: 12px;
+    height: 12px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .device-title-container {
     margin-bottom: 8px;
     color: var(--text-primary);
@@ -298,19 +370,119 @@ main {
 }
 
 .device-latency {
-    font-size: 0.75rem;
-    font-weight: 700;
+    font-size: 0.8rem;
+    font-weight: 800;
     color: var(--secondary-color);
     text-transform: uppercase;
-    margin-bottom: 4px;
-    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 2px 0;
+    border-bottom: 2px solid rgba(3, 218, 198, 0.3);
 }
 
 .device-badges {
     display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
+    justify-content: space-between;
+    align-items: flex-end;
+    /* Align to bottom */
+    gap: 8px;
     margin-top: auto;
+    width: 100%;
+}
+
+.badges-left,
+.badges-right {
+    display: flex;
+    flex-direction: column;
+    /* Stack if needed, or row */
+    gap: 6px;
+}
+
+/* Grouped Badge Pill */
+.badge-group {
+    display: inline-flex;
+    align-items: stretch;
+    border-radius: 20px;
+    overflow: hidden;
+    font-size: 0.7rem;
+    font-weight: 600;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+}
+
+.badge-group .badge-label {
+    padding: 2px 6px 2px 10px;
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-secondary);
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.badge-group .badge-value {
+    padding: 2px 8px;
+    display: flex;
+    align-items: center;
+    color: inherit;
+    /* Use protocol color */
+}
+
+.badge-group .badge-sr {
+    padding: 2px 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--secondary-color);
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+/* Protocol Colors for Badge Groups */
+.badge-group.analog {
+    color: var(--color-analog);
+    border-color: var(--color-analog);
+}
+
+.badge-group.aes3 {
+    color: var(--color-aes3);
+    border-color: var(--color-aes3);
+}
+
+.badge-group.dante {
+    color: var(--color-dante);
+    border-color: var(--color-dante);
+}
+
+.badge-group.avb {
+    color: var(--color-avb);
+    border-color: var(--color-avb);
+}
+
+.badge-group.aes67 {
+    color: var(--color-aes67);
+    border-color: var(--color-aes67);
+}
+
+.badge-group.optocore {
+    color: var(--color-optocore);
+    border-color: var(--color-optocore);
+}
+
+.badge-group.madi {
+    color: var(--color-madi);
+    border-color: var(--color-madi);
+}
+
+.badge-group.digital {
+    color: var(--color-digital);
+    border-color: var(--color-digital);
+}
+
+.badge-group.default {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
 }
 
 .badge {

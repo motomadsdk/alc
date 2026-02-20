@@ -1,0 +1,674 @@
+﻿Redundant Modes for Allen & Heath dLive MixRack [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,7ms
+Redundant Modes for Allen & Heath dLive MixRack [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,7ms
+Redundant Modes for Allen & Heath dLive MixRack [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,7ms
+Redundant Modes for Allen & Heath dLive MixRack [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,7ms
+Redundant Modes for Allen & Heath dLive MixRack [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,7ms
+Redundant Modes for Allen & Heath dLive MixRack [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,7ms
+Redundant Modes for Allen & Heath dLive MixRack [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,7ms
+Redundant Modes for Allen & Heath dLive MixRack [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,7ms
+Redundant Modes for Allen & Heath dLive MixRack [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,7ms
+Redundant Modes for Allen & Heath dLive MixRack [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,7ms
+Redundant Modes for Allen & Heath dLive MixRack [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,7ms
+Redundant Modes for Allen & Heath dLive MixRack [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,7ms
+Redundant Modes for Allen & Heath dLive MixRack [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,7ms
+Redundant Modes for Allen & Heath dLive MixRack [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,7ms
+Redundant Modes for Allen & Heath dLive MixRack [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,7ms
+Redundant Modes for Allen & Heath dLive MixRack [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,7ms
+Redundant Modes for Allen & Heath dLive MixRack [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,7ms
+Redundant Modes for Allen & Heath dLive MixRack [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,7ms
+Redundant Modes for Allen & Heath dLive MixRack [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,7ms
+Redundant Modes for Allen & Heath dLive MixRack [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,7ms
+Redundant Modes for Allen & Heath dLive MixRack [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,7ms
+Redundant Modes for Allen & Heath dLive MixRack [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,7ms
+Redundant Modes for Allen & Heath dLive MixRack [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,7ms
+Redundant Modes for Allen & Heath dLive MixRack [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,7ms
+Redundant Modes for Allen & Heath dLive MixRack [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,7ms
+Redundant Modes for Allen & Heath dLive MixRack [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for Allen & Heath dLive MixRack [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,2ms
+Redundant Modes for d&b D80 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,3ms
+Redundant Modes for d&b D80 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,3ms
+Redundant Modes for d&b D80 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,3ms
+Redundant Modes for d&b D80 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,3ms
+Redundant Modes for d&b D80 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,3ms
+Redundant Modes for d&b D80 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,3ms
+Redundant Modes for d&b D80 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,3ms
+Redundant Modes for d&b D80 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,3ms
+Redundant Modes for d&b D80 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,3ms
+Redundant Modes for d&b D80 [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,3ms
+Redundant Modes for d&b D80 [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,3ms
+Redundant Modes for d&b D80 [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,3ms
+Redundant Modes for d&b D80 [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,3ms
+Redundant Modes for d&b D80 [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,3ms
+Redundant Modes for d&b D80 [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,3ms
+Redundant Modes for Dante Receiver Buffer (0.25ms setting) [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,25ms
+Redundant Modes for Dante Receiver Buffer (0.25ms setting) [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,25ms
+Redundant Modes for Dante Receiver Buffer (0.5ms setting) [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,5ms
+Redundant Modes for Dante Receiver Buffer (0.5ms setting) [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,5ms
+Redundant Modes for Dante Receiver Buffer (1.0ms setting) [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Dante Receiver Buffer (1.0ms setting) [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Dante Receiver Buffer (2.0ms setting) [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,0ms
+Redundant Modes for Dante Receiver Buffer (2.0ms setting) [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,0ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,0ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for Focusrite RedNet A16R MkII [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,5ms
+Redundant Modes for L-Acoustics LA12X [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,3ms
+Redundant Modes for L-Acoustics LA12X [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,3ms
+Redundant Modes for L-Acoustics LA12X [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,3ms
+Redundant Modes for L-Acoustics LA12X [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,3ms
+Redundant Modes for L-Acoustics LA12X [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,3ms
+Redundant Modes for L-Acoustics LA12X [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,3ms
+Redundant Modes for L-Acoustics LA12X [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,3ms
+Redundant Modes for L-Acoustics LA12X [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,3ms
+Redundant Modes for L-Acoustics LA12X [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,3ms
+Redundant Modes for L-Acoustics LA12X [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,3ms
+Redundant Modes for L-Acoustics LA12X [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,3ms
+Redundant Modes for L-Acoustics LA12X [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,3ms
+Redundant Modes for L-Acoustics LA12X [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,3ms
+Redundant Modes for L-Acoustics LA12X [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,3ms
+Redundant Modes for L-Acoustics LA12X [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,3ms
+Redundant Modes for L-Acoustics LA7.16i [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,51ms
+Redundant Modes for L-Acoustics LA7.16i [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,51ms
+Redundant Modes for L-Acoustics LA7.16i [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,51ms
+Redundant Modes for L-Acoustics LA7.16i [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,51ms
+Redundant Modes for L-Acoustics LA7.16i [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,51ms
+Redundant Modes for L-Acoustics LA7.16i [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,51ms
+Redundant Modes for L-Acoustics LA7.16i [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,51ms
+Redundant Modes for L-Acoustics LA7.16i [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,51ms
+Redundant Modes for L-Acoustics LA7.16i [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,51ms
+Redundant Modes for L-Acoustics LA7.16i [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,51ms
+Redundant Modes for L-Acoustics LA7.16i [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,51ms
+Redundant Modes for L-Acoustics LA7.16i [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,51ms
+Redundant Modes for L-Acoustics LA7.16i [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,51ms
+Redundant Modes for L-Acoustics LA7.16i [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,51ms
+Redundant Modes for L-Acoustics LA7.16i [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,51ms
+Redundant Modes for RME ADI-2 Pro FS [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,57ms
+Redundant Modes for RME ADI-2 Pro FS [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,57ms
+Redundant Modes for RME ADI-2 Pro FS [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,57ms
+Redundant Modes for RME ADI-2 Pro FS [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,57ms
+Redundant Modes for RME ADI-2 Pro FS [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,57ms
+Redundant Modes for RME ADI-2 Pro FS [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,57ms
+Redundant Modes for RME ADI-2 Pro FS [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,57ms
+Redundant Modes for RME ADI-2 Pro FS [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,57ms
+Redundant Modes for RME ADI-2 Pro FS [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,57ms
+Redundant Modes for RME ADI-2 Pro FS [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,57ms
+Redundant Modes for RME ADI-2 Pro FS [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,57ms
+Redundant Modes for RME ADI-2 Pro FS [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,57ms
+Redundant Modes for RME ADI-2 Pro FS [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,57ms
+Redundant Modes for RME ADI-2 Pro FS [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,57ms
+Redundant Modes for RME ADI-2 Pro FS [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,57ms
+Redundant Modes for RME ADI-2 Pro FS [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,57ms
+Redundant Modes for RME ADI-2 Pro FS [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,57ms
+Redundant Modes for RME ADI-2 Pro FS [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,57ms
+Redundant Modes for RME ADI-2 Pro FS [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,57ms
+Redundant Modes for RME ADI-2 Pro FS [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,57ms
+Redundant Modes for RME ADI-2 Pro FS [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,57ms
+Redundant Modes for RME ADI-2 Pro FS [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,57ms
+Redundant Modes for RME ADI-2 Pro FS [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,57ms
+Redundant Modes for RME ADI-2 Pro FS [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,57ms
+Redundant Modes for RME ADI-2 Pro FS [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,57ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,0ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,0ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,0ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,0ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,0ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,0ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,0ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,0ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,0ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,0ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,0ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,0ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,0ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,0ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,0ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,0ms
+Redundant Modes for Sennheiser Digital 6000 [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,0ms
+Redundant Modes for Sennheiser Digital 6000 [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,0ms
+Redundant Modes for Sennheiser Digital 6000 [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,0ms
+Redundant Modes for Sennheiser Digital 6000 [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,0ms
+Redundant Modes for Sennheiser Digital 6000 [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,0ms
+Redundant Modes for Sennheiser Digital 6000 [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,0ms
+Redundant Modes for Sennheiser Digital 6000 [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,0ms
+Redundant Modes for Sennheiser Digital 6000 [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,0ms
+Redundant Modes for Sennheiser Digital 6000 [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,0ms
+Redundant Modes for Sennheiser Digital 6000 [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser Digital 6000 [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 3,5ms
+Redundant Modes for Sennheiser EW-DX [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,9ms
+Redundant Modes for Sennheiser EW-DX [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,9ms
+Redundant Modes for Sennheiser EW-DX [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,9ms
+Redundant Modes for Sennheiser EW-DX [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,9ms
+Redundant Modes for Sennheiser EW-DX [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,9ms
+Redundant Modes for Sennheiser EW-DX [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,9ms
+Redundant Modes for Sennheiser EW-DX [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,9ms
+Redundant Modes for Sennheiser EW-DX [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,9ms
+Redundant Modes for Sennheiser EW-DX [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,9ms
+Redundant Modes for Sennheiser EW-DX [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,9ms
+Redundant Modes for Sennheiser EW-DX [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,9ms
+Redundant Modes for Sennheiser EW-DX [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,9ms
+Redundant Modes for Sennheiser EW-DX [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,9ms
+Redundant Modes for Sennheiser EW-DX [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,9ms
+Redundant Modes for Sennheiser EW-DX [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,9ms
+Redundant Modes for Sennheiser EW-DX [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,9ms
+Redundant Modes for Sennheiser EW-DX [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,9ms
+Redundant Modes for Sennheiser EW-DX [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,9ms
+Redundant Modes for Sennheiser EW-DX [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,9ms
+Redundant Modes for Sennheiser EW-DX [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,9ms
+Redundant Modes for Sennheiser EW-DX [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,9ms
+Redundant Modes for Sennheiser EW-DX [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,9ms
+Redundant Modes for Sennheiser EW-DX [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,9ms
+Redundant Modes for Sennheiser EW-DX [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,9ms
+Redundant Modes for Sennheiser EW-DX [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,9ms
+Redundant Modes for Sennheiser EW-DX [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Sennheiser EW-DX [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,4ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure Axient Digital AD4D/AD4Q [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure ULX-D [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure ULX-D [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure ULX-D [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure ULX-D [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure ULX-D [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure ULX-D [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure ULX-D [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure ULX-D [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure ULX-D [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure ULX-D [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure ULX-D [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure ULX-D [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure ULX-D [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure ULX-D [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure ULX-D [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure ULX-D [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure ULX-D [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure ULX-D [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure ULX-D [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure ULX-D [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure ULX-D [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure ULX-D [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure ULX-D [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure ULX-D [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,45ms
+Redundant Modes for Shure ULX-D [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Shure ULX-D [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 2,95ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,4ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,4ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,4ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,4ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,4ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,4ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,4ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,4ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,4ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,4ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,4ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,4ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,4ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,4ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,4ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Analog->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,4ms
+Redundant Modes for Sound Devices Astral ARX32 [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,4ms
+Redundant Modes for Sound Devices Astral ARX32 [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,4ms
+Redundant Modes for Sound Devices Astral ARX32 [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,4ms
+Redundant Modes for Sound Devices Astral ARX32 [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,4ms
+Redundant Modes for Sound Devices Astral ARX32 [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,4ms
+Redundant Modes for Sound Devices Astral ARX32 [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,4ms
+Redundant Modes for Sound Devices Astral ARX32 [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,4ms
+Redundant Modes for Sound Devices Astral ARX32 [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,4ms
+Redundant Modes for Sound Devices Astral ARX32 [AES3->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,4ms
+Redundant Modes for Sound Devices Astral ARX32 [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [AES3->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [AES3->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Dante->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Dante->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [Dante->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [AES67->AES3]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [AES67->Dante]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+Redundant Modes for Sound Devices Astral ARX32 [AES67->AES67]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 4,9ms
+DIFFERENT Latencies for Sound Devices Astral ARX32 (Astral TX) [Analog->Analog]: {'Long Range': '6,85ms', 'Standard': '2,92ms'}
+DIFFERENT Latencies for Sound Devices Astral ARX32 (Astral TX) [Analog->AES3]: {'Long Range': '6,815ms', 'Standard': '2,855ms'}
+Redundant Modes for Wisycom MPR50-IEM [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,9ms
+Redundant Modes for Wisycom MPR50-IEM [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,9ms
+Redundant Modes for Wisycom MPR50-IEM [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,9ms
+Redundant Modes for Wisycom MPR50-IEM [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,9ms
+Redundant Modes for Wisycom MPR50-IEM [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,9ms
+Redundant Modes for Wisycom MPR50-IEM [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,9ms
+Redundant Modes for Wisycom MPR50-IEM [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,9ms
+Redundant Modes for Wisycom MPR50-IEM [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,9ms
+Redundant Modes for Wisycom MPR50-IEM [Analog->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,9ms
+Redundant Modes for Wisycom MPR50-IEM [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,9ms
+Redundant Modes for Wisycom MPR50-IEM [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,9ms
+Redundant Modes for Wisycom MPR50-IEM [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,9ms
+Redundant Modes for Wisycom MPR50-IEM [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,9ms
+Redundant Modes for Wisycom MPR50-IEM [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,9ms
+Redundant Modes for Wisycom MPR50-IEM [AES3->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 0,9ms
+Redundant Modes for Wisycom MPR50-IEM [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,4ms
+Redundant Modes for Wisycom MPR50-IEM [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,4ms
+Redundant Modes for Wisycom MPR50-IEM [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,4ms
+Redundant Modes for Wisycom MPR50-IEM [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,4ms
+Redundant Modes for Wisycom MPR50-IEM [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,4ms
+Redundant Modes for Wisycom MPR50-IEM [Dante->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,4ms
+Redundant Modes for Wisycom MPR50-IEM [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,4ms
+Redundant Modes for Wisycom MPR50-IEM [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,4ms
+Redundant Modes for Wisycom MPR50-IEM [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,4ms
+Redundant Modes for Wisycom MPR50-IEM [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,4ms
+Redundant Modes for Wisycom MPR50-IEM [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,4ms
+Redundant Modes for Wisycom MPR50-IEM [AES67->Analog]: ['High Density', 'Long Range', 'Low Latency', 'Pass-thru', 'Standard'] all have 1,4ms

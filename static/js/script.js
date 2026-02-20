@@ -181,6 +181,10 @@ document.addEventListener('DOMContentLoaded', () => {
             const displayLimit = 100;
             const limitedDevices = processedDevices.slice(0, displayLimit);
 
+            const MEASURED_SOURCE = '(moto measured)';
+            // Minimal icon without badge wrapper in the logic, we'll handle the wrapper in CSS/HTML
+            const measuredIcon = `<img src="/static/images/measured.svg" class="measured-icon-file" alt="Measured">`;
+
             limitedDevices.forEach(device => {
                 const card = document.createElement('div');
                 card.className = 'device-card';
@@ -205,19 +209,27 @@ document.addEventListener('DOMContentLoaded', () => {
                 const inClass = getProtocolClass(device.inputType);
                 const outClass = getProtocolClass(device.raw_data.output_type);
 
-                const inputBadge = `<span class="badge ${inClass}">In: ${device.inputType}</span>`;
-                const outputBadge = `<span class="badge ${outClass}">Out: ${device.raw_data.output_type || '?'}</span>`;
+                // Grouped Badges logic
+                const inputBadge = `
+                    <div class="badge-group ${inClass}">
+                        <span class="badge-label">In:</span>
+                        <span class="badge-value">${device.inputType}</span>
+                        ${device.inputSR !== '-' ? `<span class="badge-sr">${device.inputSR}</span>` : ''}
+                    </div>`;
 
-                let srText = '';
+                const outputBadge = `
+                    <div class="badge-group ${outClass}">
+                        <span class="badge-label">Out:</span>
+                        <span class="badge-value">${device.raw_data.output_type || '?'}</span>
+                        ${device.outputSR !== '-' ? `<span class="badge-sr">${device.outputSR}</span>` : ''}
+                    </div>`;
+
+                // If In-to-Out SR conversion exists, we can still show it or rely on the grouped ones
+                let srDisplay = '';
                 if (device.inputSR !== '-' && device.outputSR !== '-' && device.inputSR !== device.outputSR) {
-                    srText = `${device.inputSR} -> ${device.outputSR}`;
-                } else if (device.inputSR !== '-') {
-                    srText = device.inputSR;
-                } else if (device.outputSR !== '-') {
-                    srText = device.outputSR;
+                    // Visual indicator for conversion if needed, but the groups might be enough
+                    // srDisplay = `<span class="badge state sr-conversion">${device.inputSR} ➔ ${device.outputSR}</span>`;
                 }
-
-                const srBadge = srText ? `<span class="badge state sr">${srText}</span>` : '';
 
                 // Source Link Logic
                 let sourceDisplay = '';
@@ -230,12 +242,19 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 }
 
+                // Measured Badge Overlay
+                let measuredBadge = '';
+                if (device.source === MEASURED_SOURCE) {
+                    measuredBadge = `<div class="measured-badge" title="Verified Measurement By MOTO">${measuredIcon}</div>`;
+                }
+
                 card.innerHTML = `
                     <div class="card-media" style="background-image: ${bgImage}; background-size: cover; background-position: center;">
                         <img src="/static/images/${device.image}" alt="${device.name}" onload="this.style.opacity=1" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
                          <div class="fallback-icon">
                             <svg viewBox="0 0 24 24" width="48" height="48" stroke="currentColor" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><circle cx="12" cy="12" r="3"></circle><line x1="12" y1="9" x2="12" y2="15"></line><line x1="9" y1="12" x2="15" y2="12"></line></svg>
                         </div>
+                        ${measuredBadge}
                     </div>
                     <div class="card-content">
                         <div class="device-latency">${device.display_time}</div>
@@ -244,9 +263,13 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                         ${sourceDisplay}
                         <div class="device-badges">
-                            ${inputBadge}
-                            ${outputBadge}
-                            ${srBadge}
+                            <div class="badges-left">
+                                ${inputBadge}
+                            </div>
+                            <div class="badges-right">
+                                ${outputBadge}
+                                ${srDisplay}
+                            </div>
                         </div>
                     </div>
                 `;
@@ -402,17 +425,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
             itemEl.innerHTML = `
                 <div class="chain-item-info">
-                   <div class="chain-icon" style="background-image: url('/static/images/${getProtocolCode(item.raw_data.input_type)}_to_${getProtocolCode(item.raw_data.output_type)}.png'); background-size: cover; background-position: center;">
+                    <div class="chain-icon" style="background-image: url('/static/images/${getProtocolCode(item.raw_data.input_type)}_to_${getProtocolCode(item.raw_data.output_type)}.png'); background-size: cover; background-position: center;">
                         <img src="/static/images/${item.image}" onload="this.style.opacity=1" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
                         <div class="chain-fallback">
                             <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><circle cx="12" cy="12" r="3"></circle></svg>
                         </div>
-                   </div>
+                        ${(item.source === MEASURED_SOURCE) ? `<div class="measured-badge small">${measuredIcon}</div>` : ''}
+                    </div>
                     <div class="chain-item-details">
                         <span class="chain-item-name">${item.name}</span>
                         <div class="chain-meta">
                             <span class="chain-item-latency">${item.display_time}</span>
-                            ${inputBadge} ${outputBadge} ${srBadge}
+                            <div class="device-badges">
+                                <div class="badges-left">
+                                    <div class="badge-group ${getProtocolClass(item.raw_data.input_type)}">
+                                        <span class="badge-label">In:</span>
+                                        <span class="badge-value">${item.raw_data.input_type || '-'}</span>
+                                        ${item.raw_data.input_sr !== '-' ? `<span class="badge-sr">${item.raw_data.input_sr}</span>` : ''}
+                                    </div>
+                                </div>
+                                <div class="badges-right">
+                                    <div class="badge-group ${getProtocolClass(item.raw_data.output_type)}">
+                                        <span class="badge-label">Out:</span>
+                                        <span class="badge-value">${item.raw_data.output_type || '?'}</span>
+                                        ${item.raw_data.output_sr !== '-' ? `<span class="badge-sr">${item.raw_data.output_sr}</span>` : ''}
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
