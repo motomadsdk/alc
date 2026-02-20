@@ -740,7 +740,7 @@ Wisycom MPR50-IEM (Standard),Analog,Dante,-,48kHz,"0,9ms",Wisycom MPR50 Product 
 Wisycom MPR50-IEM (Standard),Analog,Dante,-,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),Analog,AES67,-,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),Analog,AES67,-,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Riedel Bolero Beltpack,AES67,AES67,48kHz,48kHz,"35,00ms",Riedel Bolero Documentation
+Riedel Bolero Beltpack,AES67,Analog,48kHz,-,"35,00ms",Riedel Bolero Documentation
 Riedel Bolero Antenna,AES67,AES67,48kHz,48kHz,"0,30ms",Riedel Bolero Documentation
 Riedel Artist Matrix,AES67,AES67,48kHz,48kHz,"35,00ms",Riedel Artist Documentation
 AES67 Network (typical),AES67,AES67,48kHz,48kHz,"0,50ms",chatgpt
