@@ -15,7 +15,11 @@
     <div class="app-container">
         <!-- Header -->
         <header>
-            <h1>MOTO Audio Latency Calculator</h1>
+            <div class="logo-container">
+                <img src="{{ url_for('static', filename='images/logo_main.svg') }}" alt="MOTO Audio Latency Calculator"
+                    class="main-logo">
+            </div>
+            <!-- <h1>MOTO Audio Latency Calculator</h1> removed in favor of logo -->
             <p>Build your signal chain to calculate total latency<br>Match <strong>Output</strong> to
                 <strong>Input</strong> and <strong>Sample Rate</strong>
             </p>
@@ -28,8 +32,21 @@
             <section class="device-library">
                 <h2>Device Library</h2>
                 <div class="search-bar">
-                    <div style="display: flex; align-items: center; gap: 10px;">
-                        <input type="text" id="search-input" placeholder="Search devices..." style="flex: 1;">
+                    <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+                        <input type="text" id="search-input" placeholder="Search devices..."
+                            style="flex: 1; min-width: 150px;">
+
+                        <!-- Sort Dropdown -->
+                        <select id="sort-select"
+                            style="padding: 10px; border-radius: 8px; border: 1px solid #333; background: #1a1a1a; color: #fff;">
+                            <option value="popularity">Popularity</option>
+                            <option value="name_asc">Name (A-Z)</option>
+                            <option value="name_desc">Name (Z-A)</option>
+                            <option value="latency_asc">Lowest Latency</option>
+                            <option value="latency_desc">Highest Latency</option>
+                        </select>
+
+                        <!-- Brand Filter -->
                         <select id="brand-filter"
                             style="padding: 10px; border-radius: 8px; border: 1px solid #333; background: #1a1a1a; color: #fff;">
                             <option value="">All Brands</option>
@@ -67,8 +84,37 @@
                     <div class="total-label">Total Latency</div>
                     <div class="total-value" id="total-latency">0.00 ms</div>
                 </div>
+
+                <div class="app-footer">
+                    <img src="{{ url_for('static', filename='images/logo_buttom.svg') }}" alt="MOTO"
+                        class="footer-logo">
+                </div>
             </section>
         </main>
+    </div>
+
+    <!-- Cookie Consent Banner -->
+    <div id="cookie-banner"
+        style="display: none; position: fixed; bottom: 0; left: 0; right: 0; background: #222; border-top: 1px solid #444; padding: 20px; z-index: 2000; box-shadow: 0 -4px 10px rgba(0,0,0,0.5);">
+        <div
+            style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: space-between;">
+            <div style="flex: 1; min-width: 300px;">
+                <h4 style="margin: 0 0 5px 0; color: #fff;">Cookie & Privacy Settings</h4>
+                <p style="margin: 0; color: #aaa; font-size: 0.9em;">
+                    We use <strong>LocalStorage</strong> to save your signal chain so you don't lose your work.
+                    We also collect anonymous usage data (clicks & popular devices) to improve the tool.
+                    No personal identifiable information (PII) is stored.
+                </p>
+            </div>
+            <div style="display: flex; gap: 10px;">
+                <button id="cookie-decline"
+                    style="padding: 8px 16px; background: transparent; border: 1px solid #666; color: #ccc; border-radius: 5px; cursor: pointer;">Decline
+                    Tracking</button>
+                <button id="cookie-accept"
+                    style="padding: 8px 16px; background: var(--primary-color); border: none; color: #000; font-weight: bold; border-radius: 5px; cursor: pointer;">Accept
+                    & Continue</button>
+            </div>
+        </div>
     </div>
 
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>

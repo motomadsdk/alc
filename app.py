@@ -1,7 +1,8 @@
 import os
 import csv
 import re
-from flask import Flask, render_template, jsonify, send_from_directory
+import datetime
+from flask import Flask, render_template, jsonify, send_from_directory, request
 
 app = Flask(__name__)
 
@@ -121,6 +122,30 @@ def get_devices_from_csv():
         print(f"Error parsing CSV: {e}")
         return []
 
+    # --- Popularity Sorting Logic ---
+    popularity = {}
+    log_file = os.path.join(os.path.dirname(__file__), 'traffic_log.csv')
+    if os.path.exists(log_file):
+        try:
+            with open(log_file, mode='r', encoding='utf-8') as f:
+                reader = csv.reader(f)
+                next(reader, None) # Skip header
+                for row in reader:
+                    if len(row) >= 3:
+                        dev_name = row[2] # Device Name is at index 2
+                        popularity[dev_name] = popularity.get(dev_name, 0) + 1
+        except Exception as e:
+            print(f"Error reading traffic log: {e}")
+
+    # Sort devices: 
+    # 1. Popularity (descending)
+    # 2. Name (ascending) - for stability
+    def get_sort_key(d):
+        score = popularity.get(d['name'], 0)
+        return (-score, d['name'])
+
+    devices.sort(key=get_sort_key)
+
     return devices
 
 @app.route('/')
@@ -140,6 +165,54 @@ def get_data():
 @app.route('/images/<path:filename>')
 def serve_image(filename):
     return send_from_directory(IMAGE_FOLDER, filename)
+
+@app.route('/api/sources')
+def get_sources():
+    sources = {}
+    csv_path = os.path.join(os.path.dirname(__file__), 'sources.csv')
+    if os.path.exists(csv_path):
+        try:
+            with open(csv_path, mode='r', encoding='utf-8') as f:
+                reader = csv.reader(f)
+                header = next(reader, None) # Skip header
+                for row in reader:
+                    if len(row) >= 2:
+                        source_name = row[0].strip()
+                        url = row[1].strip()
+                        if source_name and url:
+                            sources[source_name] = url
+        except Exception as e:
+            print(f"Error reading sources.csv: {e}")
+    return jsonify(sources)
+
+@app.route('/api/track', methods=['POST'])
+def track_event():
+    try:
+        data = request.json
+        event_name = data.get('event', 'unknown')
+        device_name = data.get('device', 'unknown')
+        brand = data.get('brand', 'unknown')
+        user_id = data.get('user_id', 'anonymous') # NEW: Capture User ID
+        timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        
+        log_file = os.path.join(os.path.dirname(__file__), 'traffic_log.csv')
+        file_exists = os.path.exists(log_file)
+        
+        with open(log_file, mode='a', encoding='utf-8', newline='') as f:
+            writer = csv.writer(f)
+            # Check header to see if we need to update schema or just append
+            # For simplicity, if file exists but has old header, we might have mismatch issues.
+            # Ideally we'd migrate, but appending a column to NEW rows is "okay" for CSV readers usually.
+            if not file_exists:
+                writer.writerow(['Timestamp', 'Event', 'Device', 'Brand', 'UserID'])
+            
+            # Write row
+            writer.writerow([timestamp, event_name, device_name, brand, user_id])
+            
+        return jsonify({"status": "success"})
+    except Exception as e:
+        print(f"Tracking error: {e}")
+        return jsonify({"status": "error", "message": str(e)}), 500
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)

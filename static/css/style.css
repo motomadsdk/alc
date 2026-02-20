@@ -12,6 +12,67 @@
     --font-heading: 'Outfit', sans-serif;
     --font-body: 'Inter', sans-serif;
     --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+
+    /* Protocol Colors */
+    --color-analog: #22c55e;
+    --color-aes3: #3b82f6;
+    --color-dante: #E31C23;
+    /* Custom Red/Orange */
+    --color-avb: #facc15;
+}
+
+/* Toast Notifications */
+#toast-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1000;
+}
+
+.toast {
+    background-color: var(--surface-hover);
+    color: var(--text-primary);
+    padding: 12px 20px;
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    animation: toastIn 0.3s ease-out forwards;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 250px;
+}
+
+.toast.success {
+    border-left-color: #22c55e;
+}
+
+.toast.info {
+    border-left-color: var(--primary-color);
+}
+
+@keyframes toastIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes toastOut {
+    to {
+        opacity: 0;
+        transform: translateY(20px);
+    }
 }
 
 * {
@@ -249,30 +310,26 @@ main {
 /* Protocol Badge Colors */
 .badge.analog {
     background-color: rgba(34, 197, 94, 0.15);
-    /* Green #22c55e */
-    color: #22c55e;
-    border: 1px solid rgba(34, 197, 94, 0.3);
+    color: var(--color-analog);
+    border: 1px solid var(--color-analog);
 }
 
 .badge.aes3 {
     background-color: rgba(59, 130, 246, 0.15);
-    /* Blue #3b82f6 */
-    color: #3b82f6;
-    border: 1px solid rgba(59, 130, 246, 0.3);
+    color: var(--color-aes3);
+    border: 1px solid var(--color-aes3);
 }
 
 .badge.dante {
-    background-color: rgba(249, 115, 22, 0.15);
-    /* Orange #f97316 */
-    color: #f97316;
-    border: 1px solid rgba(249, 115, 22, 0.3);
+    background-color: rgba(227, 28, 35, 0.15);
+    color: var(--color-dante);
+    border: 1px solid var(--color-dante);
 }
 
 .badge.avb {
-    background-color: rgba(6, 182, 212, 0.15);
-    /* Cyan #06b6d4 */
-    color: #06b6d4;
-    border: 1px solid rgba(6, 182, 212, 0.3);
+    background-color: rgba(250, 204, 21, 0.15);
+    color: var(--color-avb);
+    border: 1px solid var(--color-avb);
 }
 
 .badge.default {
@@ -591,16 +648,43 @@ main {
         font-family: 'Outfit', sans-serif;
     }
 
-    /* Hide Irrelevant Elements */
     .device-library,
     .search-bar,
     .btn-primary,
     .btn-secondary,
     .remove-btn,
-    .app-container>header,
     .chain-fallback,
-    .empty-state {
+    .empty-state,
+    header p,
+    .toggle-container,
+    #toast-container {
         display: none !important;
+    }
+
+    header {
+        display: block !important;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .logo-container {
+        justify-content: center;
+    }
+
+    .main-logo {
+        display: none !important;
+    }
+
+    .app-footer {
+        display: flex !important;
+        opacity: 1;
+        margin-top: 50px;
+        page-break-inside: avoid;
+    }
+
+    .footer-logo {
+        max-width: 120px;
+        filter: none !important;
     }
 
     main {
@@ -766,55 +850,55 @@ main {
 
     /* Connector Colors */
     .connector-analog {
-        color: #22c55e;
+        color: var(--color-analog);
     }
 
     .connector-analog:after {
-        background-color: #22c55e;
+        background-color: var(--color-analog);
     }
 
     .connector-analog .protocol-label {
-        color: #22c55e;
-        border-color: #22c55e;
+        color: var(--color-analog);
+        border-color: var(--color-analog);
     }
 
     .connector-aes3 {
-        color: #3b82f6;
+        color: var(--color-aes3);
     }
 
     .connector-aes3:after {
-        background-color: #3b82f6;
+        background-color: var(--color-aes3);
     }
 
     .connector-aes3 .protocol-label {
-        color: #3b82f6;
-        border-color: #3b82f6;
+        color: var(--color-aes3);
+        border-color: var(--color-aes3);
     }
 
     .connector-dante {
-        color: #f97316;
+        color: var(--color-dante);
     }
 
     .connector-dante:after {
-        background-color: #f97316;
+        background-color: var(--color-dante);
     }
 
     .connector-dante .protocol-label {
-        color: #f97316;
-        border-color: #f97316;
+        color: var(--color-dante);
+        border-color: var(--color-dante);
     }
 
     .connector-avb {
-        color: #06b6d4;
+        color: var(--color-avb);
     }
 
     .connector-avb:after {
-        background-color: #06b6d4;
+        background-color: var(--color-avb);
     }
 
     .connector-avb .protocol-label {
-        color: #06b6d4;
-        border-color: #06b6d4;
+        color: var(--color-avb);
+        border-color: var(--color-avb);
     }
 
     /* Footer */
@@ -830,6 +914,16 @@ main {
         color: #000;
         font-weight: 800;
     }
+}
+
+.device-source.link {
+    color: var(--secondary-color);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.device-source.link:hover {
+    color: #fff;
 }
 
 /* --- Mobile Responsive Styles --- */
@@ -944,4 +1038,51 @@ main {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+/* Logos */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.main-logo {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    filter: invert(1) brightness(200%);
+    /* White on dark */
+    transition: transform 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+}
+
+.main-logo:hover {
+    transform: scale(1.05);
+    filter: invert(1) brightness(200%) drop-shadow(0 0 10px rgba(255, 255, 255, 0.6));
+}
+
+.app-footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    /* More space */
+    opacity: 0.9;
+    /* Slightly more visible */
+    transition: opacity 0.3s ease;
+}
+
+.footer-logo {
+    max-width: 180px;
+    /* Increased from 150px */
+    height: auto;
+    filter: invert(1) brightness(200%);
+    opacity: 0.8;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.footer-logo:hover {
+    opacity: 1;
+    transform: translateY(-2px);
 }

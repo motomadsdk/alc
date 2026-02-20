@@ -5373,4 +5373,9 @@ Wisycom MPR50-IEM (Standard),AES67,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Produ
 Wisycom MPR50-IEM (Standard),AES67,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),AES67,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),AES67,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
+Riedel Bolero Beltpack,AES67,AES67,48kHz,48kHz,"0,50ms",chatgpt
+Riedel Bolero Antenna,AES67,AES67,48kHz,48kHz,"0,30ms",chatgpt
+Riedel Artist Matrix,AES67,AES67,48kHz,48kHz,"0,50ms",chatgpt
+AES67 Network (typical),AES67,AES67,48kHz,48kHz,"0,50ms",chatgpt
+AES67 Network (low latency),AES67,AES67,48kHz,48kHz,"0,25ms",chatgpt
 Wisycom MTK982 (MPR50) (Analog FM),Analog,Analog,-,-,"1,08ms",(user provided / measured)

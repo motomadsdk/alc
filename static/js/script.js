@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
+
+
     const deviceListEl = document.getElementById('device-list');
     const signalChainEl = document.getElementById('signal-chain');
     const totalLatencyEl = document.getElementById('total-latency');
@@ -6,31 +8,66 @@ document.addEventListener('DOMContentLoaded', () => {
     const clearBtn = document.getElementById('clear-chain');
     const exportBtn = document.getElementById('export-pdf');
     const brandFilter = document.getElementById('brand-filter');
+    const sortSelect = document.getElementById('sort-select');
     const showSourceCheckbox = document.getElementById('show-source');
 
     let allDevices = [];
     let currentChain = [];
 
-    // ... (fetch logic remains same, skipping for brevity in replacement if not needed, but here I need to replace block) ... 
-    // Actually, let's keep it simple and just do targeted replacements.
-
-    // 1. Add const
-    // 2. Update renderDeviceLibrary
-    // 3. Add listener
-
-    // I will use multiple ReplaceFileContent calls or a single one if contiguous. They are not contiguous.
-    // I will use multi_replace_file_content.
+    // ... (rest of init code) ...
 
 
-    // Fetch data from API
-    fetch('/api/data')
-        .then(response => response.json())
-        .then(data => {
-            allDevices = data;
-            populateBrandFilter(allDevices);
-            renderDeviceLibrary(allDevices);
-        })
-        .catch(error => console.error('Error fetching data:', error));
+
+
+    // Load chain from LocalStorage on startup
+    const savedChain = localStorage.getItem('alc_chain');
+    if (savedChain) {
+        try {
+            currentChain = JSON.parse(savedChain);
+            // Ensure uniqueIds are unique if copying causing issues, but load should be fine
+        } catch (e) {
+            console.error("Failed to load saved chain", e);
+        }
+    }
+
+    // Fetch data and sources
+    let sourceMappings = {};
+
+    Promise.all([
+        fetch('/api/data').then(res => res.json()),
+        fetch('/api/sources').then(res => res.json())
+    ]).then(([data, sources]) => {
+        allDevices = data;
+        sourceMappings = sources || {};
+        populateBrandFilter(allDevices);
+        renderDeviceLibrary(allDevices);
+        renderChain();
+    }).catch(error => console.error('Error fetching data:', error));
+
+    // Toast Notification System
+    const toastContainer = document.createElement('div');
+    toastContainer.id = 'toast-container';
+    document.body.appendChild(toastContainer);
+
+    function showToast(message, type = 'info') {
+        const toast = document.createElement('div');
+        toast.className = `toast ${type}`;
+        toast.textContent = message;
+
+        toastContainer.appendChild(toast);
+
+        // Remove after 3 seconds
+        setTimeout(() => {
+            toast.style.animation = 'toastOut 0.3s ease-in forwards';
+            toast.addEventListener('animationend', () => {
+                toast.remove();
+            });
+        }, 3000);
+    }
+
+    function saveChain() {
+        localStorage.setItem('alc_chain', JSON.stringify(currentChain));
+    }
 
     function populateBrandFilter(devices) {
         const brands = new Set(devices.map(d => d.brand).filter(b => b !== "Unknown"));
@@ -123,6 +160,21 @@ document.addEventListener('DOMContentLoaded', () => {
             const displayLimit = 100;
             const limitedDevices = processedDevices.slice(0, displayLimit);
 
+            // Protocol Code Mapping for Background Images
+            function getProtocolCode(type) {
+                if (!type) return 'unknown';
+                const t = type.toLowerCase();
+                if (t.includes('analog')) return 'ana';
+                if (t.includes('aes3')) return 'aes';
+                if (t.includes('dante')) return 'dante';
+                if (t.includes('avb')) return 'avb';
+                if (t.includes('aes67')) return 'aes67';
+                if (t.includes('optocore')) return 'opto';
+                if (t.includes('madi')) return 'madi';
+                if (t.includes('digital')) return 'dig';
+                return 'unknown';
+            }
+
             limitedDevices.forEach(device => {
                 const card = document.createElement('div');
                 card.className = 'device-card';
@@ -135,6 +187,11 @@ document.addEventListener('DOMContentLoaded', () => {
                         card.classList.add('recommended'); // Highlight valid next steps
                     }
                 }
+
+                // Background Image Logic
+                const inCode = getProtocolCode(device.inputType);
+                const outCode = getProtocolCode(device.raw_data.output_type);
+                const bgImage = `url('/static/images/${inCode}_to_${outCode}.svg')`;
 
                 // Allow adding any device (user freedom)
                 card.addEventListener('click', () => addToChain(device));
@@ -156,8 +213,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 const srBadge = srText ? `<span class="badge state sr">${srText}</span>` : '';
 
+                // Source Link Logic
+                let sourceDisplay = '';
+                if (showSourceCheckbox.checked && device.source) {
+                    const url = sourceMappings[device.source];
+                    if (url) {
+                        sourceDisplay = `<a href="${url}" target="_blank" class="device-source link" title="${device.source} - Click to open documentation" onclick="event.stopPropagation()">${device.source} 🔗</a>`;
+                    } else {
+                        sourceDisplay = `<div class="device-source" title="${device.source}">${device.source}</div>`;
+                    }
+                }
+
                 card.innerHTML = `
-                    <div class="card-media">
+                    <div class="card-media" style="background-image: ${bgImage}; background-size: cover; background-position: center;">
                         <img src="/static/images/${device.image}" alt="${device.name}" onload="this.style.opacity=1" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
                          <div class="fallback-icon">
                             <svg viewBox="0 0 24 24" width="48" height="48" stroke="currentColor" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><circle cx="12" cy="12" r="3"></circle><line x1="12" y1="9" x2="12" y2="15"></line><line x1="9" y1="12" x2="15" y2="12"></line></svg>
@@ -168,7 +236,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="device-title-container">
                             <div class="device-part">${device.name}</div>
                         </div>
-                        ${showSourceCheckbox.checked ? `<div class="device-source" title="${device.source}">${device.source}</div>` : ''}
+                        ${sourceDisplay}
                         <div class="device-badges">
                             ${inputBadge}
                             ${outputBadge}
@@ -188,16 +256,79 @@ document.addEventListener('DOMContentLoaded', () => {
     function addToChain(device) {
         const chainItem = { ...device, uniqueId: Date.now() + Math.random() };
         currentChain.push(chainItem);
+        saveChain(); // Save
         renderChain();
-        renderDeviceLibrary(allDevices);
+        renderChain();
+        filterDevices(); // Re-filter to update validity/recommended status
+        showToast(`Added: ${device.name}`, 'success');
+
+        // Track Event (if allowed)
+        if (getConsentStatus() === 'accepted') {
+            fetch('/api/track', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    event: 'add_to_chain',
+                    device: device.name,
+                    brand: device.brand,
+                    user_id: getUserID()
+                })
+            }).catch(err => console.warn("Tracking failed", err));
+        }
     }
 
     // Remove from Chain
     function removeFromChain(uniqueId) {
         currentChain = currentChain.filter(item => item.uniqueId !== uniqueId);
+        saveChain(); // Save
         renderChain();
-        renderDeviceLibrary(allDevices);
+        filterDevices(); // Re-filter to update validity/recommended status
     }
+
+    // --- Analytics & Consent ---
+    function generateUUID() {
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+            var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+            return v.toString(16);
+        });
+    }
+
+    function getUserID() {
+        let uid = localStorage.getItem('alc_user_id');
+        if (!uid) {
+            uid = generateUUID();
+            localStorage.setItem('alc_user_id', uid);
+        }
+        return uid;
+    }
+
+    function getConsentStatus() {
+        return localStorage.getItem('alc_consent');
+    }
+
+    function initCookieBanner() {
+        const status = getConsentStatus();
+        const banner = document.getElementById('cookie-banner');
+
+        if (!status) {
+            banner.style.display = 'block';
+        }
+
+        document.getElementById('cookie-accept').addEventListener('click', () => {
+            localStorage.setItem('alc_consent', 'accepted');
+            banner.style.display = 'none';
+            showToast("Preferences saved. Thank you!", "success");
+        });
+
+        document.getElementById('cookie-decline').addEventListener('click', () => {
+            localStorage.setItem('alc_consent', 'declined');
+            banner.style.display = 'none';
+            showToast("Preferences saved. Analytics disabled.", "info");
+        });
+    }
+
+    // Initialize Banner
+    initCookieBanner();
 
     // Render Chain
     function renderChain() {
@@ -235,7 +366,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const protocolClass = getProtocolClass(protocolName);
 
                 arrow.classList.add('connector-' + protocolClass);
-                arrow.innerHTML = `<span class="arrow-symbol">↓</span><span class="protocol-label">${protocolName}</span>`;
+                arrow.innerHTML = `<span class="arrow-symbol">→</span><span class="protocol-label">${protocolName}</span>`;
 
                 signalChainEl.appendChild(arrow);
             }
@@ -309,11 +440,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Unified Filter Function
+    // Unified Filter & Sort Function
     function filterDevices() {
         const searchTerm = searchInput.value.toLowerCase();
         const selectedBrand = brandFilter.value;
+        const sortType = sortSelect ? sortSelect.value : 'popularity';
 
-        const filtered = allDevices.filter(d => {
+        // 1. Filter
+        let filtered = allDevices.filter(d => {
             const matchesSearch = d.name.toLowerCase().includes(searchTerm) ||
                 (d.raw_data.input_type && d.raw_data.input_type.toLowerCase().includes(searchTerm)) ||
                 (d.raw_data.output_type && d.raw_data.output_type.toLowerCase().includes(searchTerm));
@@ -323,22 +457,40 @@ document.addEventListener('DOMContentLoaded', () => {
             return matchesSearch && matchesBrand;
         });
 
+        // 2. Sort
+        filtered.sort((a, b) => {
+            if (sortType === 'name_asc') return a.name.localeCompare(b.name);
+            if (sortType === 'name_desc') return b.name.localeCompare(a.name);
+            if (sortType === 'latency_asc') return a.latency - b.latency;
+            if (sortType === 'latency_desc') return b.latency - a.latency;
+            // Default: Popularity (Server order preserved)
+            return 0;
+        });
+
         renderDeviceLibrary(filtered);
     }
 
     // Event Listeners
     searchInput.addEventListener('input', filterDevices);
     brandFilter.addEventListener('change', filterDevices);
-    showSourceCheckbox.addEventListener('change', filterDevices);
+    if (sortSelect) sortSelect.addEventListener('change', filterDevices);
+
+    if (showSourceCheckbox) {
+        showSourceCheckbox.addEventListener('change', () => {
+            filterDevices();
+        });
+    }
 
     // Clear Chain
     clearBtn.addEventListener('click', () => {
-        currentChain = [];
-        renderChain();
-        renderDeviceLibrary(allDevices);
+        if (confirm("Are you sure you want to clear the entire chain?")) {
+            currentChain = [];
+            saveChain(); // Save
+            renderChain();
+            renderDeviceLibrary(allDevices);
+            showToast('Chain Cleared', 'info');
+        }
     });
-
-
 
     // Export PDF
     exportBtn.addEventListener('click', () => {
