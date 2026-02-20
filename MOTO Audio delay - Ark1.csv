@@ -570,17 +570,13 @@ Focusrite RedNet A16R MkII,AES67,AES67,96kHz,96kHz,"1,5ms",Focusrite RedNet A16R
 L-Acoustics LA12X,Analog,Analog,-,-,"3,84ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X,AES3,Analog,48kHz,-,"3,84ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X,AES3,Analog,96kHz,-,"3,84ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X,Dante,Analog,48kHz,-,"3,84ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X,Dante,Analog,96kHz,-,"3,84ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X,AES67,Analog,48kHz,-,"3,84ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X,AES67,Analog,96kHz,-,"3,84ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA7.16i,Analog,Analog,-,-,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i,AES3,Analog,48kHz,-,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i,AES3,Analog,96kHz,-,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i,Dante,Analog,48kHz,-,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i,Dante,Analog,96kHz,-,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i,AES67,Analog,48kHz,-,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i,AES67,Analog,96kHz,-,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
+L-Acoustics LA12X,AVB,Analog,48kHz,-,"3,84ms",L-Acoustics LA12X Technical Datasheet
+L-Acoustics LA12X,AVB,Analog,96kHz,-,"3,84ms",L-Acoustics LA12X Technical Datasheet
+L-Acoustics LA7.16i,Analog,Analog,-,-,"3,84ms",L-Acoustics LA7.16i Technical Datasheet
+L-Acoustics LA7.16i,AES3,Analog,48kHz,-,"3,84ms",L-Acoustics LA7.16i Technical Datasheet
+L-Acoustics LA7.16i,AES3,Analog,96kHz,-,"3,84ms",L-Acoustics LA7.16i Technical Datasheet
+L-Acoustics LA7.16i,AVB,Analog,48kHz,-,"3,84ms",L-Acoustics LA7.16i Technical Datasheet
+L-Acoustics LA7.16i,AVB,Analog,96kHz,-,"3,84ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics P1,Analog,AES3,-,96kHz,"0,995ms",(moto measured)
 L-Acoustics P1,AES3,Analog,96kHz,-,"1,045ms",(moto measured)
 RME ADI-2 Pro FS,Analog,Analog,-,-,"0,57ms",RME ADI-2 Pro FS Manual
@@ -660,19 +656,19 @@ Sennheiser EW-DX (Standard),Analog,Dante,-,48kHz,"2,4ms",Sennheiser EW-DX Spec S
 Sennheiser EW-DX (Standard),Analog,Dante,-,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
 Sennheiser EW-DX (Standard),Analog,AES67,-,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
 Sennheiser EW-DX (Standard),Analog,AES67,-,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet
-Shure AD4D (ADX1),Analog,Analog,-,-,"2,0ms",(moto measured)
-Shure AD4D (ADX1) (Axient digital),Analog,AES3,-,96kHz,"2,0ms",(moto measured)
+Shure AD4D (ADX1),Analog,Analog,-,-,"2,27ms",(moto measured)
+Shure AD4D (ADX1) (Axient digital),Analog,AES3,-,96kHz,"2,25ms",(moto measured)
 Shure ADTQ (ADXR) (Analog FM),Analog,Analog,-,-,"1,27ms",(moto measured)
 Shure ADTQ (ADXR) (Narrow band),Analog,Analog,-,-,"3,1ms",(moto measured)
 Shure ADTQ (ADXR) (Wide band),Analog,Analog,-,-,"3,1ms",(moto measured)
 Shure ADTQ (P10R+ Legacy mode) (Analog FM),Analog,Analog,-,-,"0,98ms",(moto measured)
-Shure Axient Digital AD4D/AD4Q (High Density),Analog,Analog,-,-,"2,45ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),Analog,AES3,-,48kHz,"2,45ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),Analog,AES3,-,96kHz,"2,45ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),Analog,Dante,-,48kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),Analog,Dante,-,96kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),Analog,AES67,-,48kHz,"2,95ms",Shure Axient Digital Spec Sheet
-Shure Axient Digital AD4D/AD4Q (High Density),Analog,AES67,-,96kHz,"2,95ms",Shure Axient Digital Spec Sheet
+Shure Axient Digital AD4D/AD4Q (High Density),Analog,Analog,-,-,"2,9ms",Shure Axient Digital Spec Sheet
+Shure Axient Digital AD4D/AD4Q (High Density),Analog,AES3,-,48kHz,"2,9ms",Shure Axient Digital Spec Sheet
+Shure Axient Digital AD4D/AD4Q (High Density),Analog,AES3,-,96kHz,"2,9ms",Shure Axient Digital Spec Sheet
+Shure Axient Digital AD4D/AD4Q (High Density),Analog,Dante,-,48kHz,"2,9ms",Shure Axient Digital Spec Sheet
+Shure Axient Digital AD4D/AD4Q (High Density),Analog,Dante,-,96kHz,"2,9ms",Shure Axient Digital Spec Sheet
+Shure Axient Digital AD4D/AD4Q (High Density),Analog,AES67,-,48kHz,"2,9ms",Shure Axient Digital Spec Sheet
+Shure Axient Digital AD4D/AD4Q (High Density),Analog,AES67,-,96kHz,"2,9ms",Shure Axient Digital Spec Sheet
 Shure Axient Digital AD4D/AD4Q (Standard),Analog,Analog,-,-,"2,0ms",Shure Axient Digital Spec Sheet
 Shure Axient Digital AD4D/AD4Q (Standard),Analog,AES3,-,48kHz,"2,0ms",Shure Axient Digital Spec Sheet
 Shure Axient Digital AD4D/AD4Q (Standard),Analog,AES3,-,96kHz,"2,0ms",Shure Axient Digital Spec Sheet
@@ -681,13 +677,13 @@ Shure Axient Digital AD4D/AD4Q (Standard),Analog,Dante,-,96kHz,"2,0ms",Shure Axi
 Shure Axient Digital AD4D/AD4Q (Standard),Analog,AES67,-,48kHz,"2,0ms",Shure Axient Digital Spec Sheet
 Shure Axient Digital AD4D/AD4Q (Standard),Analog,AES67,-,96kHz,"2,0ms",Shure Axient Digital Spec Sheet
 Shure PSM1000 P10T (P10R+) (Analog FM),Analog,Analog,-,-,"0,44ms",(moto measured)
-Shure ULX-D (High Density),Analog,Analog,-,-,"2,45ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),Analog,AES3,-,48kHz,"2,45ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),Analog,AES3,-,96kHz,"2,45ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),Analog,Dante,-,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),Analog,Dante,-,96kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),Analog,AES67,-,48kHz,"2,95ms",Shure ULX-D Spec Sheet
-Shure ULX-D (High Density),Analog,AES67,-,96kHz,"2,95ms",Shure ULX-D Spec Sheet
+Shure ULX-D (High Density),Analog,Analog,-,-,"2,9ms",Shure ULX-D Spec Sheet
+Shure ULX-D (High Density),Analog,AES3,-,48kHz,"2,9ms",Shure ULX-D Spec Sheet
+Shure ULX-D (High Density),Analog,AES3,-,96kHz,"2,9ms",Shure ULX-D Spec Sheet
+Shure ULX-D (High Density),Analog,Dante,-,48kHz,"2,9ms",Shure ULX-D Spec Sheet
+Shure ULX-D (High Density),Analog,Dante,-,96kHz,"2,9ms",Shure ULX-D Spec Sheet
+Shure ULX-D (High Density),Analog,AES67,-,48kHz,"2,9ms",Shure ULX-D Spec Sheet
+Shure ULX-D (High Density),Analog,AES67,-,96kHz,"2,9ms",Shure ULX-D Spec Sheet
 Shure ULX-D (Standard),Analog,Analog,-,-,"2,45ms",Shure ULX-D Spec Sheet
 Shure ULX-D (Standard),Analog,AES3,-,48kHz,"2,45ms",Shure ULX-D Spec Sheet
 Shure ULX-D (Standard),Analog,AES3,-,96kHz,"2,45ms",Shure ULX-D Spec Sheet
@@ -699,20 +695,20 @@ Soniflex RB-ADDA,Analog,AES3,-,96kHz,"0,105ms",(moto measured)
 Soniflex RB-ADDA,AES3,Analog,96kHz,-,"0,105ms",(moto measured)
 Soniflex RB-ADDA,Analog,AES3,-,48kHz,"0,24ms",(moto measured)
 Soniflex RB-ADDA,AES3,Analog,48kHz,-,"0,24ms",(moto measured)
-Sound Devices Astral ARX32 (Long Range),Analog,Analog,-,-,"4,4ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),Analog,AES3,-,48kHz,"4,4ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),Analog,AES3,-,96kHz,"4,4ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),Analog,Dante,-,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),Analog,Dante,-,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),Analog,AES67,-,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Long Range),Analog,AES67,-,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),Analog,Analog,-,-,"4,4ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),Analog,AES3,-,48kHz,"4,4ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),Analog,AES3,-,96kHz,"4,4ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),Analog,Dante,-,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),Analog,Dante,-,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),Analog,AES67,-,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sound Devices Astral ARX32 (Standard),Analog,AES67,-,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
+Sound Devices Astral ARX32 (Long Range),Analog,Analog,-,-,"6,85ms",(moto measured)
+Sound Devices Astral ARX32 (Long Range),Analog,AES3,-,48kHz,"6,85ms",(moto measured)
+Sound Devices Astral ARX32 (Long Range),Analog,AES3,-,96kHz,"6,85ms",(moto measured)
+Sound Devices Astral ARX32 (Long Range),Analog,Dante,-,48kHz,"6,85ms",(moto measured)
+Sound Devices Astral ARX32 (Long Range),Analog,Dante,-,96kHz,"6,85ms",(moto measured)
+Sound Devices Astral ARX32 (Long Range),Analog,AES67,-,48kHz,"6,85ms",(moto measured)
+Sound Devices Astral ARX32 (Long Range),Analog,AES67,-,96kHz,"6,85ms",(moto measured)
+Sound Devices Astral ARX32 (Standard),Analog,Analog,-,-,"2,92ms",(moto measured)
+Sound Devices Astral ARX32 (Standard),Analog,AES3,-,48kHz,"2,92ms",(moto measured)
+Sound Devices Astral ARX32 (Standard),Analog,AES3,-,96kHz,"2,92ms",(moto measured)
+Sound Devices Astral ARX32 (Standard),Analog,Dante,-,48kHz,"2,92ms",(moto measured)
+Sound Devices Astral ARX32 (Standard),Analog,Dante,-,96kHz,"2,92ms",(moto measured)
+Sound Devices Astral ARX32 (Standard),Analog,AES67,-,48kHz,"2,92ms",(moto measured)
+Sound Devices Astral ARX32 (Standard),Analog,AES67,-,96kHz,"2,92ms",(moto measured)
 Sound Devices Astral ARX32 (Astral TX) (Long Range),Analog,Analog,-,-,"6,85ms",(moto measured)
 Sound Devices Astral ARX32 (Astral TX) (Long Range),Analog,AES3,-,96kHz,"6,815ms",(moto measured)
 Sound Devices Astral ARX32 (Astral TX) (Standard),Analog,Analog,-,-,"2,92ms",(moto measured)
@@ -740,8 +736,8 @@ Wisycom MPR50-IEM (Standard),Analog,Dante,-,48kHz,"0,9ms",Wisycom MPR50 Product 
 Wisycom MPR50-IEM (Standard),Analog,Dante,-,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),Analog,AES67,-,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),Analog,AES67,-,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Riedel Bolero Beltpack,AES67,AES67,48kHz,48kHz,"0,50ms",chatgpt
-Riedel Bolero Antenna,AES67,AES67,48kHz,48kHz,"0,30ms",chatgpt
-Riedel Artist Matrix,AES67,AES67,48kHz,48kHz,"0,50ms",chatgpt
+Riedel Bolero Beltpack,AES67,AES67,48kHz,48kHz,"35,00ms",Riedel Bolero Documentation
+Riedel Bolero Antenna,AES67,AES67,48kHz,48kHz,"0,30ms",Riedel Bolero Documentation
+Riedel Artist Matrix,AES67,AES67,48kHz,48kHz,"35,00ms",Riedel Artist Documentation
 AES67 Network (typical),AES67,AES67,48kHz,48kHz,"0,50ms",chatgpt
 Wisycom MTK982 (MPR50) (Analog FM),Analog,Analog,-,-,"1,08ms",(moto measured)
