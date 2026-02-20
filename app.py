@@ -310,5 +310,12 @@ def track_event():
         print(f"Tracking error: {e}")
         return jsonify({"status": "error", "message": str(e)}), 500
 
+@app.route('/health')
+def health_check():
+    return jsonify({"status": "healthy", "timestamp": datetime.datetime.now().isoformat()}), 200
+
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    # Use PORT environment variable for deployment (Render, Heroku, etc.)
+    port = int(os.environ.get('PORT', 5000))
+    # Bind to 0.0.0.0 to be accessible from outside the container
+    app.run(debug=True, host='0.0.0.0', port=port)
