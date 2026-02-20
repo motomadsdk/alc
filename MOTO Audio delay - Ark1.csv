@@ -760,100 +760,40 @@ DiGiCo S21 (Optocore),Optocore,Dante,96kHz,96kHz,"1,9ms",DiGiCo Console Datashee
 DiGiCo S21 (Optocore),Optocore,Optocore,96kHz,96kHz,"1,4ms",DiGiCo Console Datasheet
 DiGiCo SD‑Rack,Analog,Analog,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Rack,Analog,AES3,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Rack,Analog,Dante,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Rack,Analog,Optocore,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Rack,AES3,Analog,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Rack,AES3,AES3,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Rack,AES3,Dante,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Rack,AES3,Optocore,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Rack,Dante,Analog,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Rack,Dante,AES3,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Rack,Dante,Dante,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Rack,Dante,Optocore,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Rack,Optocore,Analog,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Rack,Optocore,AES3,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Rack,Optocore,Dante,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Rack,Optocore,Optocore,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Rack,Analog,Analog,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Rack,Analog,AES3,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Rack,Analog,Dante,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Rack,Analog,Optocore,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Rack,AES3,Analog,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Rack,AES3,AES3,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Rack,AES3,Dante,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Rack,AES3,Optocore,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Rack,Dante,Analog,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Rack,Dante,AES3,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Rack,Dante,Dante,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Rack,Dante,Optocore,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Rack,Optocore,Analog,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Rack,Optocore,AES3,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Rack,Optocore,Dante,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Rack,Optocore,Optocore,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Mini Rack,Analog,Analog,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Mini Rack,Analog,AES3,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Mini Rack,Analog,Dante,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Mini Rack,Analog,Optocore,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Mini Rack,AES3,Analog,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Mini Rack,AES3,AES3,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Mini Rack,AES3,Dante,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Mini Rack,AES3,Optocore,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Mini Rack,Dante,Analog,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Mini Rack,Dante,AES3,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Mini Rack,Dante,Dante,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Mini Rack,Dante,Optocore,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Mini Rack,Optocore,Analog,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Mini Rack,Optocore,AES3,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Mini Rack,Optocore,Dante,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Mini Rack,Optocore,Optocore,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Mini Rack,Analog,Analog,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Mini Rack,Analog,AES3,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Mini Rack,Analog,Dante,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Mini Rack,Analog,Optocore,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Mini Rack,AES3,Analog,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Mini Rack,AES3,AES3,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Mini Rack,AES3,Dante,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Mini Rack,AES3,Optocore,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Mini Rack,Dante,Analog,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Mini Rack,Dante,AES3,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Mini Rack,Dante,Dante,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Mini Rack,Dante,Optocore,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Mini Rack,Optocore,Analog,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Mini Rack,Optocore,AES3,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Mini Rack,Optocore,Dante,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Mini Rack,Optocore,Optocore,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Nano Rack,Analog,Analog,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Nano Rack,Analog,AES3,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Nano Rack,Analog,Dante,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Nano Rack,Analog,Optocore,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Nano Rack,AES3,Analog,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Nano Rack,AES3,AES3,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Nano Rack,AES3,Dante,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Nano Rack,AES3,Optocore,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Nano Rack,Dante,Analog,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Nano Rack,Dante,AES3,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Nano Rack,Dante,Dante,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Nano Rack,Dante,Optocore,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Nano Rack,Optocore,Analog,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Nano Rack,Optocore,AES3,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Nano Rack,Optocore,Dante,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Nano Rack,Optocore,Optocore,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Nano Rack,Analog,Analog,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Nano Rack,Analog,AES3,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Nano Rack,Analog,Dante,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Nano Rack,Analog,Optocore,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Nano Rack,AES3,Analog,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Nano Rack,AES3,AES3,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Nano Rack,AES3,Dante,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Nano Rack,AES3,Optocore,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Nano Rack,Dante,Analog,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Nano Rack,Dante,AES3,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Nano Rack,Dante,Dante,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Nano Rack,Dante,Optocore,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Nano Rack,Optocore,Analog,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
 DiGiCo SD‑Nano Rack,Optocore,AES3,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Nano Rack,Optocore,Dante,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet
-DiGiCo SD‑Nano Rack,Optocore,Optocore,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet
 DiGiCo DMI‑KLANG,Digital,Digital,48kHz,48kHz,"0,25ms",DiGiCo KLANG Module Datasheet
 DiGiCo DMI‑KLANG,Digital,Digital,96kHz,96kHz,"0,25ms",DiGiCo KLANG Module Datasheet
 d&b D80 (High Density),Analog,Analog,-,-,"0,3ms",d&b D80 Technical Documentation
@@ -865,78 +805,12 @@ d&b D80 (High Density),Analog,Analog,48kHz,96kHz,"0,3ms",d&b D80 Technical Docum
 d&b D80 (High Density),Analog,Analog,96kHz,-,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (High Density),Analog,Analog,96kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (High Density),Analog,Analog,96kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Analog,AES3,-,48kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Analog,AES3,-,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Analog,AES3,48kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Analog,AES3,48kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Analog,AES3,96kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Analog,AES3,96kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Analog,Dante,-,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Analog,Dante,-,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Analog,Dante,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Analog,Dante,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Analog,Dante,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Analog,Dante,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Analog,AES67,-,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Analog,AES67,-,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Analog,AES67,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Analog,AES67,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Analog,AES67,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Analog,AES67,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
 d&b D80 (High Density),AES3,Analog,48kHz,-,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (High Density),AES3,Analog,48kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (High Density),AES3,Analog,48kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (High Density),AES3,Analog,96kHz,-,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (High Density),AES3,Analog,96kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (High Density),AES3,Analog,96kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES3,AES3,48kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES3,AES3,48kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES3,AES3,96kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES3,AES3,96kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES3,Dante,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES3,Dante,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES3,Dante,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES3,Dante,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES3,AES67,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES3,AES67,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES3,AES67,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES3,AES67,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Dante,Analog,48kHz,-,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Dante,Analog,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Dante,Analog,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Dante,Analog,96kHz,-,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Dante,Analog,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Dante,Analog,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Dante,AES3,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Dante,AES3,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Dante,AES3,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Dante,AES3,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Dante,Dante,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Dante,Dante,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Dante,Dante,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Dante,Dante,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Dante,AES67,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Dante,AES67,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Dante,AES67,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),Dante,AES67,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES67,Analog,48kHz,-,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES67,Analog,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES67,Analog,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES67,Analog,96kHz,-,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES67,Analog,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES67,Analog,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES67,AES3,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES67,AES3,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES67,AES3,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES67,AES3,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES67,Dante,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES67,Dante,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES67,Dante,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES67,Dante,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES67,AES67,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES67,AES67,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES67,AES67,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (High Density),AES67,AES67,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
 d&b D80 (Long Range),Analog,Analog,-,-,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Long Range),Analog,Analog,-,48kHz,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Long Range),Analog,Analog,-,96kHz,"0,3ms",d&b D80 Technical Documentation
@@ -946,78 +820,12 @@ d&b D80 (Long Range),Analog,Analog,48kHz,96kHz,"0,3ms",d&b D80 Technical Documen
 d&b D80 (Long Range),Analog,Analog,96kHz,-,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Long Range),Analog,Analog,96kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Long Range),Analog,Analog,96kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Analog,AES3,-,48kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Analog,AES3,-,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Analog,AES3,48kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Analog,AES3,48kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Analog,AES3,96kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Analog,AES3,96kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Analog,Dante,-,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Analog,Dante,-,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Analog,Dante,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Analog,Dante,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Analog,Dante,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Analog,Dante,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Analog,AES67,-,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Analog,AES67,-,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Analog,AES67,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Analog,AES67,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Analog,AES67,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Analog,AES67,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
 d&b D80 (Long Range),AES3,Analog,48kHz,-,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Long Range),AES3,Analog,48kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Long Range),AES3,Analog,48kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Long Range),AES3,Analog,96kHz,-,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Long Range),AES3,Analog,96kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Long Range),AES3,Analog,96kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES3,AES3,48kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES3,AES3,48kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES3,AES3,96kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES3,AES3,96kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES3,Dante,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES3,Dante,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES3,Dante,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES3,Dante,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES3,AES67,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES3,AES67,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES3,AES67,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES3,AES67,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Dante,Analog,48kHz,-,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Dante,Analog,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Dante,Analog,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Dante,Analog,96kHz,-,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Dante,Analog,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Dante,Analog,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Dante,AES3,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Dante,AES3,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Dante,AES3,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Dante,AES3,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Dante,Dante,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Dante,Dante,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Dante,Dante,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Dante,Dante,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Dante,AES67,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Dante,AES67,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Dante,AES67,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),Dante,AES67,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES67,Analog,48kHz,-,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES67,Analog,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES67,Analog,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES67,Analog,96kHz,-,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES67,Analog,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES67,Analog,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES67,AES3,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES67,AES3,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES67,AES3,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES67,AES3,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES67,Dante,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES67,Dante,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES67,Dante,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES67,Dante,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES67,AES67,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES67,AES67,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES67,AES67,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Long Range),AES67,AES67,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
 d&b D80 (Low Latency),Analog,Analog,-,-,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Low Latency),Analog,Analog,-,48kHz,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Low Latency),Analog,Analog,-,96kHz,"0,3ms",d&b D80 Technical Documentation
@@ -1027,78 +835,12 @@ d&b D80 (Low Latency),Analog,Analog,48kHz,96kHz,"0,3ms",d&b D80 Technical Docume
 d&b D80 (Low Latency),Analog,Analog,96kHz,-,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Low Latency),Analog,Analog,96kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Low Latency),Analog,Analog,96kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Analog,AES3,-,48kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Analog,AES3,-,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Analog,AES3,48kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Analog,AES3,48kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Analog,AES3,96kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Analog,AES3,96kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Analog,Dante,-,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Analog,Dante,-,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Analog,Dante,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Analog,Dante,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Analog,Dante,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Analog,Dante,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Analog,AES67,-,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Analog,AES67,-,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Analog,AES67,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Analog,AES67,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Analog,AES67,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Analog,AES67,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
 d&b D80 (Low Latency),AES3,Analog,48kHz,-,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Low Latency),AES3,Analog,48kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Low Latency),AES3,Analog,48kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Low Latency),AES3,Analog,96kHz,-,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Low Latency),AES3,Analog,96kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Low Latency),AES3,Analog,96kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES3,AES3,48kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES3,AES3,48kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES3,AES3,96kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES3,AES3,96kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES3,Dante,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES3,Dante,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES3,Dante,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES3,Dante,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES3,AES67,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES3,AES67,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES3,AES67,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES3,AES67,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Dante,Analog,48kHz,-,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Dante,Analog,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Dante,Analog,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Dante,Analog,96kHz,-,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Dante,Analog,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Dante,Analog,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Dante,AES3,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Dante,AES3,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Dante,AES3,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Dante,AES3,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Dante,Dante,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Dante,Dante,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Dante,Dante,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Dante,Dante,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Dante,AES67,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Dante,AES67,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Dante,AES67,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),Dante,AES67,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES67,Analog,48kHz,-,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES67,Analog,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES67,Analog,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES67,Analog,96kHz,-,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES67,Analog,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES67,Analog,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES67,AES3,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES67,AES3,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES67,AES3,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES67,AES3,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES67,Dante,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES67,Dante,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES67,Dante,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES67,Dante,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES67,AES67,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES67,AES67,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES67,AES67,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Low Latency),AES67,AES67,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
 d&b D80 (Pass-thru),Analog,Analog,-,-,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Pass-thru),Analog,Analog,-,48kHz,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Pass-thru),Analog,Analog,-,96kHz,"0,3ms",d&b D80 Technical Documentation
@@ -1108,78 +850,12 @@ d&b D80 (Pass-thru),Analog,Analog,48kHz,96kHz,"0,3ms",d&b D80 Technical Document
 d&b D80 (Pass-thru),Analog,Analog,96kHz,-,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Pass-thru),Analog,Analog,96kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Pass-thru),Analog,Analog,96kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Analog,AES3,-,48kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Analog,AES3,-,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Analog,AES3,48kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Analog,AES3,48kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Analog,AES3,96kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Analog,AES3,96kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Analog,Dante,-,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Analog,Dante,-,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Analog,Dante,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Analog,Dante,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Analog,Dante,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Analog,Dante,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Analog,AES67,-,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Analog,AES67,-,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Analog,AES67,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Analog,AES67,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Analog,AES67,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Analog,AES67,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
 d&b D80 (Pass-thru),AES3,Analog,48kHz,-,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Pass-thru),AES3,Analog,48kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Pass-thru),AES3,Analog,48kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Pass-thru),AES3,Analog,96kHz,-,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Pass-thru),AES3,Analog,96kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Pass-thru),AES3,Analog,96kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES3,AES3,48kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES3,AES3,48kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES3,AES3,96kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES3,AES3,96kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES3,Dante,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES3,Dante,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES3,Dante,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES3,Dante,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES3,AES67,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES3,AES67,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES3,AES67,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES3,AES67,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Dante,Analog,48kHz,-,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Dante,Analog,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Dante,Analog,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Dante,Analog,96kHz,-,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Dante,Analog,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Dante,Analog,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Dante,AES3,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Dante,AES3,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Dante,AES3,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Dante,AES3,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Dante,Dante,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Dante,Dante,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Dante,Dante,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Dante,Dante,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Dante,AES67,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Dante,AES67,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Dante,AES67,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),Dante,AES67,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES67,Analog,48kHz,-,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES67,Analog,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES67,Analog,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES67,Analog,96kHz,-,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES67,Analog,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES67,Analog,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES67,AES3,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES67,AES3,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES67,AES3,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES67,AES3,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES67,Dante,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES67,Dante,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES67,Dante,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES67,Dante,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES67,AES67,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES67,AES67,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES67,AES67,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Pass-thru),AES67,AES67,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
 d&b D80 (Standard),Analog,Analog,-,-,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Standard),Analog,Analog,-,48kHz,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Standard),Analog,Analog,-,96kHz,"0,3ms",d&b D80 Technical Documentation
@@ -1189,78 +865,12 @@ d&b D80 (Standard),Analog,Analog,48kHz,96kHz,"0,3ms",d&b D80 Technical Documenta
 d&b D80 (Standard),Analog,Analog,96kHz,-,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Standard),Analog,Analog,96kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Standard),Analog,Analog,96kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Analog,AES3,-,48kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Analog,AES3,-,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Analog,AES3,48kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Analog,AES3,48kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Analog,AES3,96kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Analog,AES3,96kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Analog,Dante,-,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Analog,Dante,-,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Analog,Dante,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Analog,Dante,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Analog,Dante,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Analog,Dante,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Analog,AES67,-,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Analog,AES67,-,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Analog,AES67,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Analog,AES67,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Analog,AES67,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Analog,AES67,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
 d&b D80 (Standard),AES3,Analog,48kHz,-,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Standard),AES3,Analog,48kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Standard),AES3,Analog,48kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Standard),AES3,Analog,96kHz,-,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Standard),AES3,Analog,96kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
 d&b D80 (Standard),AES3,Analog,96kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES3,AES3,48kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES3,AES3,48kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES3,AES3,96kHz,48kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES3,AES3,96kHz,96kHz,"0,3ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES3,Dante,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES3,Dante,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES3,Dante,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES3,Dante,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES3,AES67,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES3,AES67,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES3,AES67,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES3,AES67,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Dante,Analog,48kHz,-,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Dante,Analog,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Dante,Analog,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Dante,Analog,96kHz,-,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Dante,Analog,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Dante,Analog,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Dante,AES3,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Dante,AES3,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Dante,AES3,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Dante,AES3,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Dante,Dante,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Dante,Dante,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Dante,Dante,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Dante,Dante,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Dante,AES67,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Dante,AES67,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Dante,AES67,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),Dante,AES67,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES67,Analog,48kHz,-,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES67,Analog,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES67,Analog,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES67,Analog,96kHz,-,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES67,Analog,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES67,Analog,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES67,AES3,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES67,AES3,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES67,AES3,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES67,AES3,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES67,Dante,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES67,Dante,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES67,Dante,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES67,Dante,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES67,AES67,48kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES67,AES67,48kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES67,AES67,96kHz,48kHz,"0,8ms",d&b D80 Technical Documentation
-d&b D80 (Standard),AES67,AES67,96kHz,96kHz,"0,8ms",d&b D80 Technical Documentation
 Dante Receiver Buffer (0.25ms setting) (High Density),Dante,Dante,48kHz,48kHz,"0,25ms",Audinate Dante Controller Documentation
 Dante Receiver Buffer (0.25ms setting) (High Density),Dante,Dante,96kHz,96kHz,"0,25ms",Audinate Dante Controller Documentation
 Dante Receiver Buffer (0.25ms setting) (Long Range),Dante,Dante,48kHz,48kHz,"0,25ms",Audinate Dante Controller Documentation
@@ -1715,78 +1325,12 @@ L-Acoustics LA12X (High Density),Analog,Analog,48kHz,96kHz,"2,3ms",L-Acoustics L
 L-Acoustics LA12X (High Density),Analog,Analog,96kHz,-,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (High Density),Analog,Analog,96kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (High Density),Analog,Analog,96kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Analog,AES3,-,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Analog,AES3,-,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Analog,AES3,48kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Analog,AES3,48kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Analog,AES3,96kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Analog,AES3,96kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Analog,Dante,-,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Analog,Dante,-,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Analog,Dante,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Analog,Dante,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Analog,Dante,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Analog,Dante,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Analog,AES67,-,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Analog,AES67,-,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Analog,AES67,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Analog,AES67,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Analog,AES67,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Analog,AES67,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (High Density),AES3,Analog,48kHz,-,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (High Density),AES3,Analog,48kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (High Density),AES3,Analog,48kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (High Density),AES3,Analog,96kHz,-,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (High Density),AES3,Analog,96kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (High Density),AES3,Analog,96kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES3,AES3,48kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES3,AES3,48kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES3,AES3,96kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES3,AES3,96kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES3,Dante,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES3,Dante,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES3,Dante,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES3,Dante,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES3,AES67,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES3,AES67,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES3,AES67,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES3,AES67,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Dante,Analog,48kHz,-,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Dante,Analog,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Dante,Analog,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Dante,Analog,96kHz,-,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Dante,Analog,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Dante,Analog,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Dante,AES3,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Dante,AES3,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Dante,AES3,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Dante,AES3,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Dante,Dante,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Dante,Dante,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Dante,Dante,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Dante,Dante,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Dante,AES67,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Dante,AES67,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Dante,AES67,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),Dante,AES67,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES67,Analog,48kHz,-,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES67,Analog,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES67,Analog,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES67,Analog,96kHz,-,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES67,Analog,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES67,Analog,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES67,AES3,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES67,AES3,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES67,AES3,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES67,AES3,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES67,Dante,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES67,Dante,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES67,Dante,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES67,Dante,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES67,AES67,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES67,AES67,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES67,AES67,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (High Density),AES67,AES67,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Long Range),Analog,Analog,-,-,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Long Range),Analog,Analog,-,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Long Range),Analog,Analog,-,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
@@ -1796,78 +1340,12 @@ L-Acoustics LA12X (Long Range),Analog,Analog,48kHz,96kHz,"2,3ms",L-Acoustics LA1
 L-Acoustics LA12X (Long Range),Analog,Analog,96kHz,-,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Long Range),Analog,Analog,96kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Long Range),Analog,Analog,96kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Analog,AES3,-,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Analog,AES3,-,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Analog,AES3,48kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Analog,AES3,48kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Analog,AES3,96kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Analog,AES3,96kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Analog,Dante,-,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Analog,Dante,-,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Analog,Dante,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Analog,Dante,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Analog,Dante,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Analog,Dante,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Analog,AES67,-,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Analog,AES67,-,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Analog,AES67,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Analog,AES67,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Analog,AES67,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Analog,AES67,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Long Range),AES3,Analog,48kHz,-,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Long Range),AES3,Analog,48kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Long Range),AES3,Analog,48kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Long Range),AES3,Analog,96kHz,-,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Long Range),AES3,Analog,96kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Long Range),AES3,Analog,96kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES3,AES3,48kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES3,AES3,48kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES3,AES3,96kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES3,AES3,96kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES3,Dante,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES3,Dante,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES3,Dante,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES3,Dante,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES3,AES67,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES3,AES67,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES3,AES67,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES3,AES67,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Dante,Analog,48kHz,-,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Dante,Analog,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Dante,Analog,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Dante,Analog,96kHz,-,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Dante,Analog,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Dante,Analog,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Dante,AES3,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Dante,AES3,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Dante,AES3,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Dante,AES3,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Dante,Dante,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Dante,Dante,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Dante,Dante,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Dante,Dante,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Dante,AES67,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Dante,AES67,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Dante,AES67,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),Dante,AES67,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES67,Analog,48kHz,-,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES67,Analog,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES67,Analog,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES67,Analog,96kHz,-,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES67,Analog,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES67,Analog,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES67,AES3,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES67,AES3,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES67,AES3,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES67,AES3,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES67,Dante,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES67,Dante,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES67,Dante,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES67,Dante,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES67,AES67,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES67,AES67,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES67,AES67,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Long Range),AES67,AES67,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Low Latency),Analog,Analog,-,-,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Low Latency),Analog,Analog,-,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Low Latency),Analog,Analog,-,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
@@ -1877,78 +1355,12 @@ L-Acoustics LA12X (Low Latency),Analog,Analog,48kHz,96kHz,"2,3ms",L-Acoustics LA
 L-Acoustics LA12X (Low Latency),Analog,Analog,96kHz,-,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Low Latency),Analog,Analog,96kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Low Latency),Analog,Analog,96kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Analog,AES3,-,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Analog,AES3,-,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Analog,AES3,48kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Analog,AES3,48kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Analog,AES3,96kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Analog,AES3,96kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Analog,Dante,-,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Analog,Dante,-,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Analog,Dante,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Analog,Dante,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Analog,Dante,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Analog,Dante,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Analog,AES67,-,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Analog,AES67,-,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Analog,AES67,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Analog,AES67,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Analog,AES67,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Analog,AES67,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Low Latency),AES3,Analog,48kHz,-,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Low Latency),AES3,Analog,48kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Low Latency),AES3,Analog,48kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Low Latency),AES3,Analog,96kHz,-,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Low Latency),AES3,Analog,96kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Low Latency),AES3,Analog,96kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES3,AES3,48kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES3,AES3,48kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES3,AES3,96kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES3,AES3,96kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES3,Dante,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES3,Dante,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES3,Dante,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES3,Dante,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES3,AES67,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES3,AES67,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES3,AES67,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES3,AES67,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Dante,Analog,48kHz,-,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Dante,Analog,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Dante,Analog,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Dante,Analog,96kHz,-,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Dante,Analog,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Dante,Analog,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Dante,AES3,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Dante,AES3,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Dante,AES3,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Dante,AES3,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Dante,Dante,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Dante,Dante,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Dante,Dante,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Dante,Dante,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Dante,AES67,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Dante,AES67,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Dante,AES67,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),Dante,AES67,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES67,Analog,48kHz,-,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES67,Analog,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES67,Analog,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES67,Analog,96kHz,-,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES67,Analog,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES67,Analog,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES67,AES3,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES67,AES3,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES67,AES3,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES67,AES3,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES67,Dante,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES67,Dante,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES67,Dante,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES67,Dante,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES67,AES67,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES67,AES67,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES67,AES67,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Low Latency),AES67,AES67,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Pass-thru),Analog,Analog,-,-,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Pass-thru),Analog,Analog,-,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Pass-thru),Analog,Analog,-,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
@@ -1958,78 +1370,12 @@ L-Acoustics LA12X (Pass-thru),Analog,Analog,48kHz,96kHz,"2,3ms",L-Acoustics LA12
 L-Acoustics LA12X (Pass-thru),Analog,Analog,96kHz,-,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Pass-thru),Analog,Analog,96kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Pass-thru),Analog,Analog,96kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Analog,AES3,-,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Analog,AES3,-,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Analog,AES3,48kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Analog,AES3,48kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Analog,AES3,96kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Analog,AES3,96kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Analog,Dante,-,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Analog,Dante,-,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Analog,Dante,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Analog,Dante,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Analog,Dante,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Analog,Dante,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Analog,AES67,-,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Analog,AES67,-,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Analog,AES67,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Analog,AES67,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Analog,AES67,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Analog,AES67,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Pass-thru),AES3,Analog,48kHz,-,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Pass-thru),AES3,Analog,48kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Pass-thru),AES3,Analog,48kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Pass-thru),AES3,Analog,96kHz,-,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Pass-thru),AES3,Analog,96kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Pass-thru),AES3,Analog,96kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES3,AES3,48kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES3,AES3,48kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES3,AES3,96kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES3,AES3,96kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES3,Dante,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES3,Dante,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES3,Dante,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES3,Dante,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES3,AES67,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES3,AES67,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES3,AES67,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES3,AES67,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Dante,Analog,48kHz,-,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Dante,Analog,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Dante,Analog,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Dante,Analog,96kHz,-,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Dante,Analog,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Dante,Analog,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Dante,AES3,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Dante,AES3,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Dante,AES3,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Dante,AES3,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Dante,Dante,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Dante,Dante,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Dante,Dante,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Dante,Dante,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Dante,AES67,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Dante,AES67,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Dante,AES67,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),Dante,AES67,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES67,Analog,48kHz,-,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES67,Analog,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES67,Analog,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES67,Analog,96kHz,-,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES67,Analog,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES67,Analog,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES67,AES3,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES67,AES3,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES67,AES3,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES67,AES3,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES67,Dante,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES67,Dante,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES67,Dante,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES67,Dante,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES67,AES67,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES67,AES67,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES67,AES67,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Pass-thru),AES67,AES67,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Standard),Analog,Analog,-,-,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Standard),Analog,Analog,-,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Standard),Analog,Analog,-,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
@@ -2039,78 +1385,12 @@ L-Acoustics LA12X (Standard),Analog,Analog,48kHz,96kHz,"2,3ms",L-Acoustics LA12X
 L-Acoustics LA12X (Standard),Analog,Analog,96kHz,-,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Standard),Analog,Analog,96kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Standard),Analog,Analog,96kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Analog,AES3,-,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Analog,AES3,-,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Analog,AES3,48kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Analog,AES3,48kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Analog,AES3,96kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Analog,AES3,96kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Analog,Dante,-,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Analog,Dante,-,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Analog,Dante,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Analog,Dante,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Analog,Dante,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Analog,Dante,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Analog,AES67,-,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Analog,AES67,-,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Analog,AES67,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Analog,AES67,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Analog,AES67,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Analog,AES67,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Standard),AES3,Analog,48kHz,-,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Standard),AES3,Analog,48kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Standard),AES3,Analog,48kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Standard),AES3,Analog,96kHz,-,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Standard),AES3,Analog,96kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA12X (Standard),AES3,Analog,96kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES3,AES3,48kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES3,AES3,48kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES3,AES3,96kHz,48kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES3,AES3,96kHz,96kHz,"2,3ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES3,Dante,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES3,Dante,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES3,Dante,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES3,Dante,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES3,AES67,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES3,AES67,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES3,AES67,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES3,AES67,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Dante,Analog,48kHz,-,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Dante,Analog,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Dante,Analog,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Dante,Analog,96kHz,-,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Dante,Analog,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Dante,Analog,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Dante,AES3,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Dante,AES3,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Dante,AES3,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Dante,AES3,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Dante,Dante,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Dante,Dante,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Dante,Dante,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Dante,Dante,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Dante,AES67,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Dante,AES67,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Dante,AES67,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),Dante,AES67,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES67,Analog,48kHz,-,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES67,Analog,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES67,Analog,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES67,Analog,96kHz,-,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES67,Analog,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES67,Analog,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES67,AES3,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES67,AES3,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES67,AES3,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES67,AES3,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES67,Dante,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES67,Dante,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES67,Dante,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES67,Dante,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES67,AES67,48kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES67,AES67,48kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES67,AES67,96kHz,48kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
-L-Acoustics LA12X (Standard),AES67,AES67,96kHz,96kHz,"2,8ms",L-Acoustics LA12X Technical Datasheet
 L-Acoustics LA7.16i (High Density),Analog,Analog,-,-,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (High Density),Analog,Analog,-,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (High Density),Analog,Analog,-,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
@@ -2120,78 +1400,12 @@ L-Acoustics LA7.16i (High Density),Analog,Analog,48kHz,96kHz,"2,51ms",L-Acoustic
 L-Acoustics LA7.16i (High Density),Analog,Analog,96kHz,-,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (High Density),Analog,Analog,96kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (High Density),Analog,Analog,96kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Analog,AES3,-,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Analog,AES3,-,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Analog,AES3,48kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Analog,AES3,48kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Analog,AES3,96kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Analog,AES3,96kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Analog,Dante,-,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Analog,Dante,-,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Analog,Dante,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Analog,Dante,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Analog,Dante,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Analog,Dante,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Analog,AES67,-,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Analog,AES67,-,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Analog,AES67,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Analog,AES67,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Analog,AES67,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Analog,AES67,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (High Density),AES3,Analog,48kHz,-,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (High Density),AES3,Analog,48kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (High Density),AES3,Analog,48kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (High Density),AES3,Analog,96kHz,-,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (High Density),AES3,Analog,96kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (High Density),AES3,Analog,96kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES3,AES3,48kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES3,AES3,48kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES3,AES3,96kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES3,AES3,96kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES3,Dante,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES3,Dante,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES3,Dante,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES3,Dante,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES3,AES67,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES3,AES67,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES3,AES67,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES3,AES67,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Dante,Analog,48kHz,-,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Dante,Analog,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Dante,Analog,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Dante,Analog,96kHz,-,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Dante,Analog,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Dante,Analog,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Dante,AES3,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Dante,AES3,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Dante,AES3,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Dante,AES3,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Dante,Dante,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Dante,Dante,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Dante,Dante,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Dante,Dante,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Dante,AES67,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Dante,AES67,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Dante,AES67,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),Dante,AES67,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES67,Analog,48kHz,-,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES67,Analog,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES67,Analog,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES67,Analog,96kHz,-,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES67,Analog,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES67,Analog,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES67,AES3,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES67,AES3,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES67,AES3,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES67,AES3,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES67,Dante,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES67,Dante,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES67,Dante,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES67,Dante,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES67,AES67,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES67,AES67,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES67,AES67,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (High Density),AES67,AES67,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Long Range),Analog,Analog,-,-,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Long Range),Analog,Analog,-,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Long Range),Analog,Analog,-,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
@@ -2201,78 +1415,12 @@ L-Acoustics LA7.16i (Long Range),Analog,Analog,48kHz,96kHz,"2,51ms",L-Acoustics 
 L-Acoustics LA7.16i (Long Range),Analog,Analog,96kHz,-,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Long Range),Analog,Analog,96kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Long Range),Analog,Analog,96kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Analog,AES3,-,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Analog,AES3,-,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Analog,AES3,48kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Analog,AES3,48kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Analog,AES3,96kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Analog,AES3,96kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Analog,Dante,-,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Analog,Dante,-,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Analog,Dante,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Analog,Dante,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Analog,Dante,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Analog,Dante,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Analog,AES67,-,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Analog,AES67,-,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Analog,AES67,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Analog,AES67,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Analog,AES67,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Analog,AES67,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Long Range),AES3,Analog,48kHz,-,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Long Range),AES3,Analog,48kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Long Range),AES3,Analog,48kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Long Range),AES3,Analog,96kHz,-,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Long Range),AES3,Analog,96kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Long Range),AES3,Analog,96kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES3,AES3,48kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES3,AES3,48kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES3,AES3,96kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES3,AES3,96kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES3,Dante,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES3,Dante,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES3,Dante,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES3,Dante,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES3,AES67,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES3,AES67,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES3,AES67,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES3,AES67,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Dante,Analog,48kHz,-,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Dante,Analog,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Dante,Analog,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Dante,Analog,96kHz,-,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Dante,Analog,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Dante,Analog,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Dante,AES3,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Dante,AES3,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Dante,AES3,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Dante,AES3,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Dante,Dante,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Dante,Dante,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Dante,Dante,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Dante,Dante,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Dante,AES67,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Dante,AES67,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Dante,AES67,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),Dante,AES67,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES67,Analog,48kHz,-,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES67,Analog,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES67,Analog,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES67,Analog,96kHz,-,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES67,Analog,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES67,Analog,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES67,AES3,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES67,AES3,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES67,AES3,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES67,AES3,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES67,Dante,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES67,Dante,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES67,Dante,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES67,Dante,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES67,AES67,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES67,AES67,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES67,AES67,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Long Range),AES67,AES67,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Low Latency),Analog,Analog,-,-,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Low Latency),Analog,Analog,-,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Low Latency),Analog,Analog,-,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
@@ -2282,78 +1430,12 @@ L-Acoustics LA7.16i (Low Latency),Analog,Analog,48kHz,96kHz,"2,51ms",L-Acoustics
 L-Acoustics LA7.16i (Low Latency),Analog,Analog,96kHz,-,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Low Latency),Analog,Analog,96kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Low Latency),Analog,Analog,96kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Analog,AES3,-,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Analog,AES3,-,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Analog,AES3,48kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Analog,AES3,48kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Analog,AES3,96kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Analog,AES3,96kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Analog,Dante,-,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Analog,Dante,-,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Analog,Dante,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Analog,Dante,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Analog,Dante,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Analog,Dante,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Analog,AES67,-,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Analog,AES67,-,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Analog,AES67,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Analog,AES67,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Analog,AES67,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Analog,AES67,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Low Latency),AES3,Analog,48kHz,-,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Low Latency),AES3,Analog,48kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Low Latency),AES3,Analog,48kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Low Latency),AES3,Analog,96kHz,-,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Low Latency),AES3,Analog,96kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Low Latency),AES3,Analog,96kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES3,AES3,48kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES3,AES3,48kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES3,AES3,96kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES3,AES3,96kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES3,Dante,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES3,Dante,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES3,Dante,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES3,Dante,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES3,AES67,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES3,AES67,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES3,AES67,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES3,AES67,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Dante,Analog,48kHz,-,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Dante,Analog,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Dante,Analog,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Dante,Analog,96kHz,-,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Dante,Analog,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Dante,Analog,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Dante,AES3,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Dante,AES3,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Dante,AES3,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Dante,AES3,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Dante,Dante,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Dante,Dante,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Dante,Dante,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Dante,Dante,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Dante,AES67,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Dante,AES67,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Dante,AES67,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),Dante,AES67,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES67,Analog,48kHz,-,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES67,Analog,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES67,Analog,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES67,Analog,96kHz,-,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES67,Analog,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES67,Analog,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES67,AES3,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES67,AES3,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES67,AES3,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES67,AES3,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES67,Dante,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES67,Dante,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES67,Dante,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES67,Dante,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES67,AES67,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES67,AES67,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES67,AES67,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Low Latency),AES67,AES67,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Pass-thru),Analog,Analog,-,-,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Pass-thru),Analog,Analog,-,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Pass-thru),Analog,Analog,-,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
@@ -2363,78 +1445,12 @@ L-Acoustics LA7.16i (Pass-thru),Analog,Analog,48kHz,96kHz,"2,51ms",L-Acoustics L
 L-Acoustics LA7.16i (Pass-thru),Analog,Analog,96kHz,-,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Pass-thru),Analog,Analog,96kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Pass-thru),Analog,Analog,96kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Analog,AES3,-,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Analog,AES3,-,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Analog,AES3,48kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Analog,AES3,48kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Analog,AES3,96kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Analog,AES3,96kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Analog,Dante,-,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Analog,Dante,-,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Analog,Dante,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Analog,Dante,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Analog,Dante,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Analog,Dante,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Analog,AES67,-,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Analog,AES67,-,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Analog,AES67,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Analog,AES67,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Analog,AES67,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Analog,AES67,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Pass-thru),AES3,Analog,48kHz,-,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Pass-thru),AES3,Analog,48kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Pass-thru),AES3,Analog,48kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Pass-thru),AES3,Analog,96kHz,-,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Pass-thru),AES3,Analog,96kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Pass-thru),AES3,Analog,96kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES3,AES3,48kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES3,AES3,48kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES3,AES3,96kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES3,AES3,96kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES3,Dante,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES3,Dante,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES3,Dante,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES3,Dante,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES3,AES67,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES3,AES67,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES3,AES67,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES3,AES67,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Dante,Analog,48kHz,-,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Dante,Analog,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Dante,Analog,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Dante,Analog,96kHz,-,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Dante,Analog,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Dante,Analog,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Dante,AES3,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Dante,AES3,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Dante,AES3,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Dante,AES3,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Dante,Dante,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Dante,Dante,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Dante,Dante,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Dante,Dante,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Dante,AES67,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Dante,AES67,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Dante,AES67,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),Dante,AES67,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES67,Analog,48kHz,-,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES67,Analog,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES67,Analog,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES67,Analog,96kHz,-,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES67,Analog,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES67,Analog,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES67,AES3,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES67,AES3,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES67,AES3,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES67,AES3,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES67,Dante,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES67,Dante,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES67,Dante,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES67,Dante,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES67,AES67,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES67,AES67,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES67,AES67,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Pass-thru),AES67,AES67,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Standard),Analog,Analog,-,-,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Standard),Analog,Analog,-,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Standard),Analog,Analog,-,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
@@ -2444,78 +1460,12 @@ L-Acoustics LA7.16i (Standard),Analog,Analog,48kHz,96kHz,"2,51ms",L-Acoustics LA
 L-Acoustics LA7.16i (Standard),Analog,Analog,96kHz,-,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Standard),Analog,Analog,96kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Standard),Analog,Analog,96kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Analog,AES3,-,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Analog,AES3,-,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Analog,AES3,48kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Analog,AES3,48kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Analog,AES3,96kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Analog,AES3,96kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Analog,Dante,-,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Analog,Dante,-,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Analog,Dante,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Analog,Dante,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Analog,Dante,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Analog,Dante,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Analog,AES67,-,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Analog,AES67,-,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Analog,AES67,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Analog,AES67,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Analog,AES67,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Analog,AES67,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Standard),AES3,Analog,48kHz,-,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Standard),AES3,Analog,48kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Standard),AES3,Analog,48kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Standard),AES3,Analog,96kHz,-,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Standard),AES3,Analog,96kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics LA7.16i (Standard),AES3,Analog,96kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES3,AES3,48kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES3,AES3,48kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES3,AES3,96kHz,48kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES3,AES3,96kHz,96kHz,"2,51ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES3,Dante,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES3,Dante,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES3,Dante,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES3,Dante,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES3,AES67,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES3,AES67,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES3,AES67,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES3,AES67,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Dante,Analog,48kHz,-,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Dante,Analog,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Dante,Analog,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Dante,Analog,96kHz,-,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Dante,Analog,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Dante,Analog,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Dante,AES3,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Dante,AES3,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Dante,AES3,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Dante,AES3,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Dante,Dante,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Dante,Dante,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Dante,Dante,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Dante,Dante,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Dante,AES67,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Dante,AES67,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Dante,AES67,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),Dante,AES67,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES67,Analog,48kHz,-,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES67,Analog,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES67,Analog,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES67,Analog,96kHz,-,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES67,Analog,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES67,Analog,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES67,AES3,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES67,AES3,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES67,AES3,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES67,AES3,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES67,Dante,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES67,Dante,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES67,Dante,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES67,Dante,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES67,AES67,48kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES67,AES67,48kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES67,AES67,96kHz,48kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
-L-Acoustics LA7.16i (Standard),AES67,AES67,96kHz,96kHz,"3,01ms",L-Acoustics LA7.16i Technical Datasheet
 L-Acoustics P1,Analog,AES3,-,96kHz,"0,995ms",(user provided / measured)
 L-Acoustics P1,AES3,Analog,96kHz,-,"1,045ms",(user provided / measured)
 RME ADI-2 Pro FS (High Density),Analog,Analog,-,-,"0,57ms",RME ADI-2 Pro FS Manual
@@ -2533,18 +1483,6 @@ RME ADI-2 Pro FS (High Density),Analog,AES3,48kHz,48kHz,"0,57ms",RME ADI-2 Pro F
 RME ADI-2 Pro FS (High Density),Analog,AES3,48kHz,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (High Density),Analog,AES3,96kHz,48kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (High Density),Analog,AES3,96kHz,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Analog,Dante,-,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Analog,Dante,-,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Analog,Dante,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Analog,Dante,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Analog,Dante,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Analog,Dante,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Analog,AES67,-,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Analog,AES67,-,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Analog,AES67,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Analog,AES67,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Analog,AES67,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Analog,AES67,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (High Density),AES3,Analog,48kHz,-,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (High Density),AES3,Analog,48kHz,48kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (High Density),AES3,Analog,48kHz,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
@@ -2555,50 +1493,6 @@ RME ADI-2 Pro FS (High Density),AES3,AES3,48kHz,48kHz,"0,57ms",RME ADI-2 Pro FS 
 RME ADI-2 Pro FS (High Density),AES3,AES3,48kHz,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (High Density),AES3,AES3,96kHz,48kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (High Density),AES3,AES3,96kHz,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),AES3,Dante,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),AES3,Dante,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),AES3,Dante,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),AES3,Dante,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),AES3,AES67,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),AES3,AES67,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),AES3,AES67,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),AES3,AES67,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Dante,Analog,48kHz,-,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Dante,Analog,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Dante,Analog,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Dante,Analog,96kHz,-,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Dante,Analog,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Dante,Analog,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Dante,AES3,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Dante,AES3,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Dante,AES3,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Dante,AES3,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Dante,Dante,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Dante,Dante,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Dante,Dante,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Dante,Dante,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Dante,AES67,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Dante,AES67,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Dante,AES67,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),Dante,AES67,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),AES67,Analog,48kHz,-,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),AES67,Analog,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),AES67,Analog,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),AES67,Analog,96kHz,-,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),AES67,Analog,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),AES67,Analog,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),AES67,AES3,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),AES67,AES3,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),AES67,AES3,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),AES67,AES3,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),AES67,Dante,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),AES67,Dante,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),AES67,Dante,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),AES67,Dante,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),AES67,AES67,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),AES67,AES67,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),AES67,AES67,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (High Density),AES67,AES67,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Long Range),Analog,Analog,-,-,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Long Range),Analog,Analog,-,48kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Long Range),Analog,Analog,-,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
@@ -2614,18 +1508,6 @@ RME ADI-2 Pro FS (Long Range),Analog,AES3,48kHz,48kHz,"0,57ms",RME ADI-2 Pro FS 
 RME ADI-2 Pro FS (Long Range),Analog,AES3,48kHz,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Long Range),Analog,AES3,96kHz,48kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Long Range),Analog,AES3,96kHz,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Analog,Dante,-,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Analog,Dante,-,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Analog,Dante,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Analog,Dante,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Analog,Dante,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Analog,Dante,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Analog,AES67,-,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Analog,AES67,-,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Analog,AES67,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Analog,AES67,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Analog,AES67,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Analog,AES67,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Long Range),AES3,Analog,48kHz,-,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Long Range),AES3,Analog,48kHz,48kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Long Range),AES3,Analog,48kHz,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
@@ -2636,50 +1518,6 @@ RME ADI-2 Pro FS (Long Range),AES3,AES3,48kHz,48kHz,"0,57ms",RME ADI-2 Pro FS Ma
 RME ADI-2 Pro FS (Long Range),AES3,AES3,48kHz,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Long Range),AES3,AES3,96kHz,48kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Long Range),AES3,AES3,96kHz,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),AES3,Dante,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),AES3,Dante,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),AES3,Dante,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),AES3,Dante,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),AES3,AES67,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),AES3,AES67,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),AES3,AES67,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),AES3,AES67,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Dante,Analog,48kHz,-,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Dante,Analog,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Dante,Analog,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Dante,Analog,96kHz,-,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Dante,Analog,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Dante,Analog,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Dante,AES3,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Dante,AES3,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Dante,AES3,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Dante,AES3,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Dante,Dante,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Dante,Dante,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Dante,Dante,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Dante,Dante,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Dante,AES67,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Dante,AES67,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Dante,AES67,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),Dante,AES67,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),AES67,Analog,48kHz,-,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),AES67,Analog,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),AES67,Analog,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),AES67,Analog,96kHz,-,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),AES67,Analog,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),AES67,Analog,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),AES67,AES3,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),AES67,AES3,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),AES67,AES3,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),AES67,AES3,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),AES67,Dante,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),AES67,Dante,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),AES67,Dante,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),AES67,Dante,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),AES67,AES67,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),AES67,AES67,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),AES67,AES67,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Long Range),AES67,AES67,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Low Latency),Analog,Analog,-,-,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Low Latency),Analog,Analog,-,48kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Low Latency),Analog,Analog,-,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
@@ -2695,18 +1533,6 @@ RME ADI-2 Pro FS (Low Latency),Analog,AES3,48kHz,48kHz,"0,57ms",RME ADI-2 Pro FS
 RME ADI-2 Pro FS (Low Latency),Analog,AES3,48kHz,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Low Latency),Analog,AES3,96kHz,48kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Low Latency),Analog,AES3,96kHz,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Analog,Dante,-,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Analog,Dante,-,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Analog,Dante,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Analog,Dante,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Analog,Dante,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Analog,Dante,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Analog,AES67,-,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Analog,AES67,-,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Analog,AES67,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Analog,AES67,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Analog,AES67,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Analog,AES67,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Low Latency),AES3,Analog,48kHz,-,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Low Latency),AES3,Analog,48kHz,48kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Low Latency),AES3,Analog,48kHz,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
@@ -2717,50 +1543,6 @@ RME ADI-2 Pro FS (Low Latency),AES3,AES3,48kHz,48kHz,"0,57ms",RME ADI-2 Pro FS M
 RME ADI-2 Pro FS (Low Latency),AES3,AES3,48kHz,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Low Latency),AES3,AES3,96kHz,48kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Low Latency),AES3,AES3,96kHz,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),AES3,Dante,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),AES3,Dante,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),AES3,Dante,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),AES3,Dante,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),AES3,AES67,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),AES3,AES67,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),AES3,AES67,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),AES3,AES67,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Dante,Analog,48kHz,-,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Dante,Analog,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Dante,Analog,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Dante,Analog,96kHz,-,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Dante,Analog,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Dante,Analog,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Dante,AES3,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Dante,AES3,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Dante,AES3,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Dante,AES3,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Dante,Dante,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Dante,Dante,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Dante,Dante,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Dante,Dante,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Dante,AES67,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Dante,AES67,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Dante,AES67,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),Dante,AES67,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),AES67,Analog,48kHz,-,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),AES67,Analog,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),AES67,Analog,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),AES67,Analog,96kHz,-,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),AES67,Analog,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),AES67,Analog,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),AES67,AES3,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),AES67,AES3,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),AES67,AES3,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),AES67,AES3,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),AES67,Dante,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),AES67,Dante,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),AES67,Dante,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),AES67,Dante,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),AES67,AES67,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),AES67,AES67,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),AES67,AES67,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Low Latency),AES67,AES67,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Pass-thru),Analog,Analog,-,-,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Pass-thru),Analog,Analog,-,48kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Pass-thru),Analog,Analog,-,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
@@ -2776,18 +1558,6 @@ RME ADI-2 Pro FS (Pass-thru),Analog,AES3,48kHz,48kHz,"0,57ms",RME ADI-2 Pro FS M
 RME ADI-2 Pro FS (Pass-thru),Analog,AES3,48kHz,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Pass-thru),Analog,AES3,96kHz,48kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Pass-thru),Analog,AES3,96kHz,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Analog,Dante,-,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Analog,Dante,-,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Analog,Dante,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Analog,Dante,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Analog,Dante,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Analog,Dante,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Analog,AES67,-,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Analog,AES67,-,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Analog,AES67,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Analog,AES67,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Analog,AES67,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Analog,AES67,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Pass-thru),AES3,Analog,48kHz,-,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Pass-thru),AES3,Analog,48kHz,48kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Pass-thru),AES3,Analog,48kHz,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
@@ -2798,50 +1568,6 @@ RME ADI-2 Pro FS (Pass-thru),AES3,AES3,48kHz,48kHz,"0,57ms",RME ADI-2 Pro FS Man
 RME ADI-2 Pro FS (Pass-thru),AES3,AES3,48kHz,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Pass-thru),AES3,AES3,96kHz,48kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Pass-thru),AES3,AES3,96kHz,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),AES3,Dante,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),AES3,Dante,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),AES3,Dante,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),AES3,Dante,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),AES3,AES67,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),AES3,AES67,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),AES3,AES67,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),AES3,AES67,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Dante,Analog,48kHz,-,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Dante,Analog,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Dante,Analog,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Dante,Analog,96kHz,-,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Dante,Analog,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Dante,Analog,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Dante,AES3,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Dante,AES3,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Dante,AES3,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Dante,AES3,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Dante,Dante,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Dante,Dante,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Dante,Dante,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Dante,Dante,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Dante,AES67,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Dante,AES67,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Dante,AES67,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),Dante,AES67,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),AES67,Analog,48kHz,-,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),AES67,Analog,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),AES67,Analog,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),AES67,Analog,96kHz,-,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),AES67,Analog,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),AES67,Analog,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),AES67,AES3,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),AES67,AES3,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),AES67,AES3,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),AES67,AES3,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),AES67,Dante,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),AES67,Dante,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),AES67,Dante,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),AES67,Dante,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),AES67,AES67,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),AES67,AES67,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),AES67,AES67,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Pass-thru),AES67,AES67,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Standard),Analog,Analog,-,-,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Standard),Analog,Analog,-,48kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Standard),Analog,Analog,-,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
@@ -2857,18 +1583,6 @@ RME ADI-2 Pro FS (Standard),Analog,AES3,48kHz,48kHz,"0,57ms",RME ADI-2 Pro FS Ma
 RME ADI-2 Pro FS (Standard),Analog,AES3,48kHz,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Standard),Analog,AES3,96kHz,48kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Standard),Analog,AES3,96kHz,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Analog,Dante,-,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Analog,Dante,-,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Analog,Dante,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Analog,Dante,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Analog,Dante,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Analog,Dante,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Analog,AES67,-,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Analog,AES67,-,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Analog,AES67,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Analog,AES67,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Analog,AES67,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Analog,AES67,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Standard),AES3,Analog,48kHz,-,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Standard),AES3,Analog,48kHz,48kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Standard),AES3,Analog,48kHz,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
@@ -2879,50 +1593,6 @@ RME ADI-2 Pro FS (Standard),AES3,AES3,48kHz,48kHz,"0,57ms",RME ADI-2 Pro FS Manu
 RME ADI-2 Pro FS (Standard),AES3,AES3,48kHz,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Standard),AES3,AES3,96kHz,48kHz,"0,57ms",RME ADI-2 Pro FS Manual
 RME ADI-2 Pro FS (Standard),AES3,AES3,96kHz,96kHz,"0,57ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),AES3,Dante,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),AES3,Dante,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),AES3,Dante,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),AES3,Dante,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),AES3,AES67,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),AES3,AES67,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),AES3,AES67,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),AES3,AES67,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Dante,Analog,48kHz,-,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Dante,Analog,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Dante,Analog,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Dante,Analog,96kHz,-,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Dante,Analog,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Dante,Analog,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Dante,AES3,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Dante,AES3,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Dante,AES3,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Dante,AES3,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Dante,Dante,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Dante,Dante,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Dante,Dante,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Dante,Dante,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Dante,AES67,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Dante,AES67,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Dante,AES67,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),Dante,AES67,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),AES67,Analog,48kHz,-,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),AES67,Analog,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),AES67,Analog,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),AES67,Analog,96kHz,-,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),AES67,Analog,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),AES67,Analog,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),AES67,AES3,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),AES67,AES3,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),AES67,AES3,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),AES67,AES3,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),AES67,Dante,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),AES67,Dante,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),AES67,Dante,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),AES67,Dante,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),AES67,AES67,48kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),AES67,AES67,48kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),AES67,AES67,96kHz,48kHz,"1,07ms",RME ADI-2 Pro FS Manual
-RME ADI-2 Pro FS (Standard),AES67,AES67,96kHz,96kHz,"1,07ms",RME ADI-2 Pro FS Manual
 Sennheiser Digital 6000 (High Density),Analog,Analog,-,-,"3,0ms",Sennheiser Digital 6000 Spec Sheet
 Sennheiser Digital 6000 (High Density),Analog,Analog,-,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
 Sennheiser Digital 6000 (High Density),Analog,Analog,-,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet
@@ -4959,15 +3629,15 @@ Sound Devices Astral ARX32 (Standard),AES67,AES67,48kHz,48kHz,"4,9ms",Sound Devi
 Sound Devices Astral ARX32 (Standard),AES67,AES67,48kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
 Sound Devices Astral ARX32 (Standard),AES67,AES67,96kHz,48kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
 Sound Devices Astral ARX32 (Standard),AES67,AES67,96kHz,96kHz,"4,9ms",Sound Devices Astral ARX32 User Guide
-Sounds Devices Astral ARX32 (Astral TX) (Long range),Analog,Analog,-,-,"6,85ms",(user provided / measured)
-Sounds Devices Astral ARX32 (Astral TX) (Long range),Analog,AES3,-,96kHz,"6,815ms",(user provided / measured)
-Sounds Devices Astral ARX32 (Astral TX) (Standard),Analog,Analog,-,-,"2,92ms",(user provided / measured)
-Sounds Devices Astral ARX32 (Astral TX) (Standard),Analog,AES3,-,96kHz,"2,855ms",(user provided / measured)
-Sounds Devices Astral ARX32 (Astral TX) (T&M),Analog,Analog,-,-,"6,98ms",(user provided / measured)
-Sounds Devices Astral ARX32 (Astral TX) (T&M),Analog,AES3,-,96kHz,"6,895ms",(user provided / measured)
-Sounds Devices Astral ARX32 (Astral TX) Long range,Analog,AES3,-,96kHz,"6,815ms",(user provided / measured)
-Sounds Devices Astral ARX32 (Astral TX) Standard,Analog,AES3,-,96kHz,"2,855ms",(user provided / measured)
-Sounds Devices Astral ARX32 (Astral TX) T&M,Analog,AES3,-,96kHz,"6,895ms",(user provided / measured)
+Sound Devices Astral ARX32 (Astral TX) (Long Range),Analog,Analog,-,-,"6,85ms",(user provided / measured)
+Sound Devices Astral ARX32 (Astral TX) (Long Range),Analog,AES3,-,96kHz,"6,815ms",(user provided / measured)
+Sound Devices Astral ARX32 (Astral TX) (Standard),Analog,Analog,-,-,"2,92ms",(user provided / measured)
+Sound Devices Astral ARX32 (Astral TX) (Standard),Analog,AES3,-,96kHz,"2,855ms",(user provided / measured)
+Sound Devices Astral ARX32 (Astral TX) (T&M),Analog,Analog,-,-,"6,98ms",(user provided / measured)
+Sound Devices Astral ARX32 (Astral TX) (T&M),Analog,AES3,-,96kHz,"6,895ms",(user provided / measured)
+Sound Devices Astral ARX32 (Astral TX) Long range,Analog,AES3,-,96kHz,"6,815ms",(user provided / measured)
+Sound Devices Astral ARX32 (Astral TX) Standard,Analog,AES3,-,96kHz,"2,855ms",(user provided / measured)
+Sound Devices Astral ARX32 (Astral TX) T&M,Analog,AES3,-,96kHz,"6,895ms",(user provided / measured)
 Wisycom MPR50-IEM (High Density),Analog,Analog,-,-,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (High Density),Analog,Analog,-,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (High Density),Analog,Analog,-,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
@@ -4977,78 +3647,24 @@ Wisycom MPR50-IEM (High Density),Analog,Analog,48kHz,96kHz,"0,9ms",Wisycom MPR50
 Wisycom MPR50-IEM (High Density),Analog,Analog,96kHz,-,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (High Density),Analog,Analog,96kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (High Density),Analog,Analog,96kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Analog,AES3,-,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Analog,AES3,-,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Analog,AES3,48kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Analog,AES3,48kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Analog,AES3,96kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Analog,AES3,96kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Analog,Dante,-,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Analog,Dante,-,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Analog,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Analog,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Analog,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Analog,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Analog,AES67,-,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Analog,AES67,-,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Analog,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Analog,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Analog,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Analog,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (High Density),AES3,Analog,48kHz,-,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (High Density),AES3,Analog,48kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (High Density),AES3,Analog,48kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (High Density),AES3,Analog,96kHz,-,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (High Density),AES3,Analog,96kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (High Density),AES3,Analog,96kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES3,AES3,48kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES3,AES3,48kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES3,AES3,96kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES3,AES3,96kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES3,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES3,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES3,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES3,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES3,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES3,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES3,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES3,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (High Density),Dante,Analog,48kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (High Density),Dante,Analog,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (High Density),Dante,Analog,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (High Density),Dante,Analog,96kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (High Density),Dante,Analog,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (High Density),Dante,Analog,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Dante,AES3,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Dante,AES3,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Dante,AES3,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Dante,AES3,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Dante,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Dante,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Dante,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Dante,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Dante,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Dante,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Dante,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),Dante,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (High Density),AES67,Analog,48kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (High Density),AES67,Analog,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (High Density),AES67,Analog,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (High Density),AES67,Analog,96kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (High Density),AES67,Analog,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (High Density),AES67,Analog,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES67,AES3,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES67,AES3,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES67,AES3,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES67,AES3,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES67,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES67,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES67,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES67,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES67,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES67,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES67,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (High Density),AES67,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),Analog,Analog,-,-,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),Analog,Analog,-,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),Analog,Analog,-,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
@@ -5058,78 +3674,24 @@ Wisycom MPR50-IEM (Long Range),Analog,Analog,48kHz,96kHz,"0,9ms",Wisycom MPR50 P
 Wisycom MPR50-IEM (Long Range),Analog,Analog,96kHz,-,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),Analog,Analog,96kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),Analog,Analog,96kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Analog,AES3,-,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Analog,AES3,-,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Analog,AES3,48kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Analog,AES3,48kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Analog,AES3,96kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Analog,AES3,96kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Analog,Dante,-,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Analog,Dante,-,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Analog,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Analog,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Analog,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Analog,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Analog,AES67,-,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Analog,AES67,-,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Analog,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Analog,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Analog,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Analog,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),AES3,Analog,48kHz,-,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),AES3,Analog,48kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),AES3,Analog,48kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),AES3,Analog,96kHz,-,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),AES3,Analog,96kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),AES3,Analog,96kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES3,AES3,48kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES3,AES3,48kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES3,AES3,96kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES3,AES3,96kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES3,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES3,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES3,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES3,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES3,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES3,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES3,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES3,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),Dante,Analog,48kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),Dante,Analog,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),Dante,Analog,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),Dante,Analog,96kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),Dante,Analog,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),Dante,Analog,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Dante,AES3,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Dante,AES3,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Dante,AES3,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Dante,AES3,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Dante,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Dante,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Dante,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Dante,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Dante,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Dante,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Dante,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),Dante,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),AES67,Analog,48kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),AES67,Analog,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),AES67,Analog,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),AES67,Analog,96kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),AES67,Analog,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Long Range),AES67,Analog,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES67,AES3,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES67,AES3,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES67,AES3,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES67,AES3,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES67,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES67,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES67,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES67,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES67,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES67,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES67,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Long Range),AES67,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Low Latency),Analog,Analog,-,-,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Low Latency),Analog,Analog,-,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Low Latency),Analog,Analog,-,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
@@ -5139,78 +3701,24 @@ Wisycom MPR50-IEM (Low Latency),Analog,Analog,48kHz,96kHz,"0,9ms",Wisycom MPR50 
 Wisycom MPR50-IEM (Low Latency),Analog,Analog,96kHz,-,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Low Latency),Analog,Analog,96kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Low Latency),Analog,Analog,96kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Analog,AES3,-,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Analog,AES3,-,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Analog,AES3,48kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Analog,AES3,48kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Analog,AES3,96kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Analog,AES3,96kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Analog,Dante,-,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Analog,Dante,-,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Analog,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Analog,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Analog,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Analog,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Analog,AES67,-,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Analog,AES67,-,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Analog,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Analog,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Analog,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Analog,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Low Latency),AES3,Analog,48kHz,-,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Low Latency),AES3,Analog,48kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Low Latency),AES3,Analog,48kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Low Latency),AES3,Analog,96kHz,-,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Low Latency),AES3,Analog,96kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Low Latency),AES3,Analog,96kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),AES3,AES3,48kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),AES3,AES3,48kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),AES3,AES3,96kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),AES3,AES3,96kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),AES3,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),AES3,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),AES3,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),AES3,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),AES3,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),AES3,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),AES3,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),AES3,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Low Latency),Dante,Analog,48kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Low Latency),Dante,Analog,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Low Latency),Dante,Analog,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Low Latency),Dante,Analog,96kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Low Latency),Dante,Analog,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Low Latency),Dante,Analog,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Dante,AES3,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Dante,AES3,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Dante,AES3,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Dante,AES3,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Dante,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Dante,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Dante,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Dante,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Dante,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Dante,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Dante,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),Dante,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Low Latency),AES67,Analog,48kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Low Latency),AES67,Analog,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Low Latency),AES67,Analog,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Low Latency),AES67,Analog,96kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Low Latency),AES67,Analog,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Low Latency),AES67,Analog,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),AES67,AES3,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),AES67,AES3,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),AES67,AES3,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),AES67,AES3,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),AES67,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),AES67,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),AES67,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),AES67,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),AES67,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),AES67,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),AES67,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Low Latency),AES67,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Pass-thru),Analog,Analog,-,-,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Pass-thru),Analog,Analog,-,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Pass-thru),Analog,Analog,-,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
@@ -5220,78 +3728,24 @@ Wisycom MPR50-IEM (Pass-thru),Analog,Analog,48kHz,96kHz,"0,9ms",Wisycom MPR50 Pr
 Wisycom MPR50-IEM (Pass-thru),Analog,Analog,96kHz,-,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Pass-thru),Analog,Analog,96kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Pass-thru),Analog,Analog,96kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Analog,AES3,-,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Analog,AES3,-,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Analog,AES3,48kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Analog,AES3,48kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Analog,AES3,96kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Analog,AES3,96kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Analog,Dante,-,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Analog,Dante,-,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Analog,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Analog,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Analog,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Analog,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Analog,AES67,-,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Analog,AES67,-,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Analog,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Analog,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Analog,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Analog,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Pass-thru),AES3,Analog,48kHz,-,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Pass-thru),AES3,Analog,48kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Pass-thru),AES3,Analog,48kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Pass-thru),AES3,Analog,96kHz,-,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Pass-thru),AES3,Analog,96kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Pass-thru),AES3,Analog,96kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),AES3,AES3,48kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),AES3,AES3,48kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),AES3,AES3,96kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),AES3,AES3,96kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),AES3,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),AES3,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),AES3,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),AES3,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),AES3,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),AES3,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),AES3,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),AES3,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Pass-thru),Dante,Analog,48kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Pass-thru),Dante,Analog,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Pass-thru),Dante,Analog,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Pass-thru),Dante,Analog,96kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Pass-thru),Dante,Analog,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Pass-thru),Dante,Analog,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Dante,AES3,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Dante,AES3,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Dante,AES3,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Dante,AES3,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Dante,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Dante,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Dante,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Dante,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Dante,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Dante,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Dante,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),Dante,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Pass-thru),AES67,Analog,48kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Pass-thru),AES67,Analog,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Pass-thru),AES67,Analog,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Pass-thru),AES67,Analog,96kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Pass-thru),AES67,Analog,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Pass-thru),AES67,Analog,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),AES67,AES3,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),AES67,AES3,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),AES67,AES3,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),AES67,AES3,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),AES67,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),AES67,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),AES67,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),AES67,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),AES67,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),AES67,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),AES67,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Pass-thru),AES67,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),Analog,Analog,-,-,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),Analog,Analog,-,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),Analog,Analog,-,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
@@ -5301,78 +3755,24 @@ Wisycom MPR50-IEM (Standard),Analog,Analog,48kHz,96kHz,"0,9ms",Wisycom MPR50 Pro
 Wisycom MPR50-IEM (Standard),Analog,Analog,96kHz,-,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),Analog,Analog,96kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),Analog,Analog,96kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Analog,AES3,-,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Analog,AES3,-,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Analog,AES3,48kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Analog,AES3,48kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Analog,AES3,96kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Analog,AES3,96kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Analog,Dante,-,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Analog,Dante,-,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Analog,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Analog,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Analog,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Analog,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Analog,AES67,-,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Analog,AES67,-,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Analog,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Analog,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Analog,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Analog,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),AES3,Analog,48kHz,-,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),AES3,Analog,48kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),AES3,Analog,48kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),AES3,Analog,96kHz,-,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),AES3,Analog,96kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),AES3,Analog,96kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES3,AES3,48kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES3,AES3,48kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES3,AES3,96kHz,48kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES3,AES3,96kHz,96kHz,"0,9ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES3,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES3,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES3,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES3,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES3,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES3,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES3,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES3,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),Dante,Analog,48kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),Dante,Analog,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),Dante,Analog,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),Dante,Analog,96kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),Dante,Analog,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),Dante,Analog,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Dante,AES3,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Dante,AES3,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Dante,AES3,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Dante,AES3,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Dante,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Dante,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Dante,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Dante,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Dante,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Dante,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Dante,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),Dante,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),AES67,Analog,48kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),AES67,Analog,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),AES67,Analog,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),AES67,Analog,96kHz,-,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),AES67,Analog,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Wisycom MPR50-IEM (Standard),AES67,Analog,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES67,AES3,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES67,AES3,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES67,AES3,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES67,AES3,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES67,Dante,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES67,Dante,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES67,Dante,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES67,Dante,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES67,AES67,48kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES67,AES67,48kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES67,AES67,96kHz,48kHz,"1,4ms",Wisycom MPR50 Product Documentation
-Wisycom MPR50-IEM (Standard),AES67,AES67,96kHz,96kHz,"1,4ms",Wisycom MPR50 Product Documentation
 Riedel Bolero Beltpack,AES67,AES67,48kHz,48kHz,"0,50ms",chatgpt
 Riedel Bolero Antenna,AES67,AES67,48kHz,48kHz,"0,30ms",chatgpt
 Riedel Artist Matrix,AES67,AES67,48kHz,48kHz,"0,50ms",chatgpt
