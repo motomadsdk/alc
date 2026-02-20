@@ -196,6 +196,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Allow adding any device (user freedom)
                 card.addEventListener('click', () => addToChain(device));
 
+                const getProtocolClass = (type) => {
+                    if (!type) return 'default';
+                    const t = type.toLowerCase();
+                    if (t.includes('analog')) return 'analog';
+                    if (t.includes('aes3') || t.includes('aes')) return 'aes3';
+                    if (t.includes('dante')) return 'dante';
+                    if (t.includes('avb')) return 'avb';
+                    if (t.includes('aes67')) return 'aes67';
+                    if (t.includes('optocore')) return 'optocore';
+                    if (t.includes('madi')) return 'madi';
+                    if (t.includes('digital')) return 'digital';
+                    return 'default';
+                };
+
                 const inClass = getProtocolClass(device.inputType);
                 const outClass = getProtocolClass(device.raw_data.output_type);
 
@@ -353,7 +367,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (t.includes('dante')) return 'dante';
             if (t.includes('avb')) return 'avb';
             if (t.includes('aes67')) return 'aes67';
-            if (t.includes('optocore')) return 'opto'; // Mapped to .badge.optocore? No, code is opto, class should be optocore
+            if (t.includes('optocore')) return 'optocore';
             if (t.includes('madi')) return 'madi';
             if (t.includes('digital')) return 'digital';
             return 'default';
