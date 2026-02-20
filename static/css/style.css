@@ -13,21 +13,25 @@
     --font-body: 'Inter', sans-serif;
     --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 
-    /* Protocol Colors */
-    --color-analog: #22c55e;
-    --color-aes3: #3b82f6;
+    /* Protocol Colors – Pro Audio Standard */
+    --color-analog: #08ee0088;
+    /* Greenish/Greyish - user customized */
+    --color-aes3: #8024b9;
+    /* Purple – AES/EBU standard */
     --color-dante: #E31C23;
-    /* Custom Red/Orange */
-    --color-avb: #facc15;
+    /* Official Dante red */
+    --color-avb: #0077C8;
+    /* AVB blue */
+
     /* New Protocols */
-    --color-aes67: #8b5cf6;
-    /* Violet */
-    --color-optocore: #ec4899;
-    /* Pink */
-    --color-madi: #14b8a6;
-    /* Teal */
-    --color-digital: #64748b;
-    /* Slate */
+    --color-aes67: #00A86B;
+    /* Green – AoIP interoperability */
+    --color-optocore: #00AEEF;
+    /* Official Optocore cyan */
+    --color-madi: #F59E0B;
+    /* Amber/orange – MADI */
+    --color-digital: #475569;
+    /* Slate grey – generic digital */
 }
 
 /* Toast Notifications */

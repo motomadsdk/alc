@@ -14,6 +14,21 @@ document.addEventListener('DOMContentLoaded', () => {
     let allDevices = [];
     let currentChain = [];
 
+    // Protocol Code Mapping for Background Images
+    function getProtocolCode(type) {
+        if (!type) return 'unknown';
+        const t = type.toLowerCase();
+        if (t.includes('analog')) return 'ana';
+        if (t.includes('aes3')) return 'aes';
+        if (t.includes('dante')) return 'dante';
+        if (t.includes('avb')) return 'avb';
+        if (t.includes('aes67')) return 'aes67';
+        if (t.includes('optocore')) return 'opto';
+        if (t.includes('madi')) return 'madi';
+        if (t.includes('digital')) return 'dig';
+        return 'unknown';
+    }
+
     // ... (rest of init code) ...
 
 
@@ -29,6 +44,23 @@ document.addEventListener('DOMContentLoaded', () => {
             console.error("Failed to load saved chain", e);
         }
     }
+
+
+
+    // Helper to get protocol class for CSS
+    const getProtocolClass = (type) => {
+        if (!type) return 'default';
+        const t = type.toLowerCase();
+        if (t.includes('analog')) return 'analog';
+        if (t.includes('aes3') || t.includes('aes')) return 'aes3';
+        if (t.includes('dante')) return 'dante';
+        if (t.includes('avb')) return 'avb';
+        if (t.includes('aes67')) return 'aes67';
+        if (t.includes('optocore')) return 'optocore';
+        if (t.includes('madi')) return 'madi';
+        if (t.includes('digital')) return 'digital';
+        return 'default';
+    };
 
     // Fetch data and sources
     let sourceMappings = {};
@@ -98,17 +130,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         try {
-            // Helper to get protocol class
-            const getProtocolClass = (type) => {
-                if (!type) return 'default';
-                const t = type.toLowerCase();
-                if (t.includes('analog')) return 'analog';
-                if (t.includes('aes3') || t.includes('aes')) return 'aes3';
-                if (t.includes('dante')) return 'dante';
-                if (t.includes('avb')) return 'avb';
-                return 'default';
-            };
-
             // Determine last output type in chain
             let lastOutput = null;
             let lastSR = '-';
@@ -160,21 +181,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const displayLimit = 100;
             const limitedDevices = processedDevices.slice(0, displayLimit);
 
-            // Protocol Code Mapping for Background Images
-            function getProtocolCode(type) {
-                if (!type) return 'unknown';
-                const t = type.toLowerCase();
-                if (t.includes('analog')) return 'ana';
-                if (t.includes('aes3')) return 'aes';
-                if (t.includes('dante')) return 'dante';
-                if (t.includes('avb')) return 'avb';
-                if (t.includes('aes67')) return 'aes67';
-                if (t.includes('optocore')) return 'opto';
-                if (t.includes('madi')) return 'madi';
-                if (t.includes('digital')) return 'dig';
-                return 'unknown';
-            }
-
             limitedDevices.forEach(device => {
                 const card = document.createElement('div');
                 card.className = 'device-card';
@@ -195,20 +201,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 // Allow adding any device (user freedom)
                 card.addEventListener('click', () => addToChain(device));
-
-                const getProtocolClass = (type) => {
-                    if (!type) return 'default';
-                    const t = type.toLowerCase();
-                    if (t.includes('analog')) return 'analog';
-                    if (t.includes('aes3') || t.includes('aes')) return 'aes3';
-                    if (t.includes('dante')) return 'dante';
-                    if (t.includes('avb')) return 'avb';
-                    if (t.includes('aes67')) return 'aes67';
-                    if (t.includes('optocore')) return 'optocore';
-                    if (t.includes('madi')) return 'madi';
-                    if (t.includes('digital')) return 'digital';
-                    return 'default';
-                };
 
                 const inClass = getProtocolClass(device.inputType);
                 const outClass = getProtocolClass(device.raw_data.output_type);
@@ -358,20 +350,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // Helper for chain items
-        // Helper for chain items
-        const getProtocolClass = (type) => {
-            if (!type) return 'default';
-            const t = type.toLowerCase();
-            if (t.includes('analog')) return 'analog';
-            if (t.includes('aes3') || t.includes('aes')) return 'aes3';
-            if (t.includes('dante')) return 'dante';
-            if (t.includes('avb')) return 'avb';
-            if (t.includes('aes67')) return 'aes67';
-            if (t.includes('optocore')) return 'optocore';
-            if (t.includes('madi')) return 'madi';
-            if (t.includes('digital')) return 'digital';
-            return 'default';
-        };
+        // (getProtocolClass is now global)
 
         currentChain.forEach((item, index) => {
             // Add arrow if not first item

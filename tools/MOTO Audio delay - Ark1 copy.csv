@@ -1,0 +1,38 @@
+Device Name,Input Type,Output Type,Sample Rate,Latency
+Shure AD4D (ADX1),Analog,Analog,-,"2,27ms"
+Shure ADTQ (ADXR) (Analog FM),Analog,Analog,-,"1,27ms"
+Shure ADTQ (P10R+ Legacy mode) (Analog FM),Analog,Analog,-,"0,98ms"
+Shure ADTQ (ADXR) (Narrow band),Analog,Analog,-,"3,10ms"
+Shure ADTQ (ADXR) (Wide band),Analog,Analog,-,"3,10ms"
+Shure PSM1000 P10T (P10R+) (Analog FM),Analog,Analog,-,"0,44ms"
+Wisycom MTK982 (MPR50) (Analog FM),Analog,Analog,-,"1,08ms"
+
+Sounds Devices Astral ARX32 (Astral TX) (Standard),Analog,Analog,-,"2,92ms"
+Sounds Devices Astral ARX32 (Astral TX) (Long range),Analog,Analog,-,"6,85ms"
+Sounds Devices Astral ARX32 (Astral TX) (T&M),Analog,Analog,,"6,98ms"
+
+Soniflex RB-ADDA,Analog,AES3,96kHz,0.105ms
+Soniflex RB-ADDA,AES3,Analog,96kHz,0.105ms
+L-Acoustics P1,Analog,AES3,96kHz,0.995ms
+L-Acoustics P1,AES3,Analog,96kHz,1.045ms
+
+Soniflex RB-ADDA,Analog,AES3,96kHz,"0,105ms"
+Soniflex RB-ADDA,AES3,Analog,96kHz,"0,105ms"
+
+Soniflex RB-ADDA,Analog,AES3,48kHz,"0,24ms"
+Soniflex RB-ADDA,AES3,Analog,48kHz,"0,24ms"
+
+L-Acoustics P1,Analog,AES3,96kHz,"0,995ms"
+L-Acoustics P1,AES3,Analog,96kHz,"1,045ms"
+
+Sounds Devices Astral ARX32 (Astral TX) Standard,Analog,AES3,96kHz,"2,855ms"
+Sounds Devices Astral ARX32 (Astral TX) Long range,Analog,AES3,96kHz,"6,815ms"
+Sounds Devices Astral ARX32 (Astral TX) T&M,Analog,AES3,96kHz,"6,895ms"
+
+Shure AD4D (ADX1) (Axient digital),Analog,AES3,96kHz,"2,145ms"
+
+Allen & Heath CDM48 (Dante128x128) (96kHz),Analog,AES3,96kHz,"1,48ms"
+Allen & Heath CDM48 (Dante128x128) (96kHz),AES3,Analog,96kHz,"1,48ms"
+Sounds Devices Astral ARX32 (Astral TX) (Standard),Analog,AES3,96kHz,"2,855ms"
+Sounds Devices Astral ARX32 (Astral TX) (Long range),Analog,AES3,96kHz,"6,815ms"
+Sounds Devices Astral ARX32 (Astral TX) (T&M),Analog,AES3,96kHz,"6,895ms"

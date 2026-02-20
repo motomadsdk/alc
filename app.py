@@ -8,7 +8,31 @@ app = Flask(__name__)
 
 # Configuration
 CSV_FILE = 'MOTO Audio delay - Ark1.csv'
-IMAGE_FOLDER = os.path.join('static', 'images')
+
+# Detect image folder (root /images or static/images)
+IMAGE_FOLDER = 'images' if os.path.exists('images') else os.path.join('static', 'images')
+
+# Image Cache (filename -> relative path)
+IMAGE_CACHE = {}
+
+def scan_images():
+    """
+    Recursively scans the image folder and builds a map of {filename: relative_path}.
+    This allows images to be organized in subfolders and even in a root /images folder.
+    """
+    global IMAGE_CACHE
+    IMAGE_CACHE = {} 
+    
+    if not os.path.exists(IMAGE_FOLDER):
+        print(f"Warning: Image folder '{IMAGE_FOLDER}' not found.")
+        return
+
+    for root, _, files in os.walk(IMAGE_FOLDER):
+        for file in files:
+            if file.lower().endswith(('.png', '.jpg', '.jpeg', '.svg')):
+                full_path = os.path.join(root, file)
+                rel_path = os.path.relpath(full_path, IMAGE_FOLDER).replace('\\', '/')
+                IMAGE_CACHE[file.lower()] = rel_path
 
 def parse_time(time_str):
     """
@@ -58,15 +82,22 @@ def find_best_image_match(device_name):
     candidates.append(sanitize(short_name))
     
     # Check if files exist
+    # Check if files exist via Recursive Cache
+    # Ensure cache is populated
+    if not IMAGE_CACHE:
+        scan_images()
+
     for candidate in candidates:
         # Check both .png and .jpg
-        for ext in ['.png', '.jpg', '.jpeg']:
-            filename = f"{candidate}{ext}"
-            full_path = os.path.join(IMAGE_FOLDER, filename)
-            if os.path.exists(full_path):
-                return filename
+        for ext in ['.png', '.jpg', '.jpeg', '.svg']:
+            # Construct the filename we are looking for
+            target_filename = f"{candidate}{ext}".lower()
+            
+            # Check if this filename exists in our recursive cache
+            if target_filename in IMAGE_CACHE:
+                return IMAGE_CACHE[target_filename]
                 
-    # Fallback: Return the legacy generated name even if it doesn't exist (so UI shows broken link/alt text)
+    # Fallback: Return the legacy generated name (flat) if not found
     return f"{sanitize(short_name)}.png"
 
 def get_devices_from_csv():
