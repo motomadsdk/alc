@@ -93,6 +93,7 @@ def get_devices_from_csv():
                 input_sr = row[3].strip()
                 output_sr = row[4].strip()
                 time_str = row[5].strip()
+                source = row[6].strip() if len(row) > 6 else "-"
                 
                 # Image filename lookup
                 image_filename = find_best_image_match(name)
@@ -103,6 +104,7 @@ def get_devices_from_csv():
                     'latency': parse_time(time_str),
                     'display_time': time_str,
                     'image': image_filename,
+                    'source': source,
                     'raw_data': {
                         'input_type': input_type,
                         'output_type': output_type,

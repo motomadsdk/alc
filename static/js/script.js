@@ -22,6 +22,18 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderDeviceLibrary(devices) {
         deviceListEl.innerHTML = '';
 
+        // Optional: Add a message if too many results
+        if (devices.length > 100) {
+            const warning = document.createElement('div');
+            warning.className = 'limit-warning';
+            warning.style.gridColumn = '1 / -1';
+            warning.style.padding = '10px';
+            warning.style.color = '#888';
+            warning.style.textAlign = 'center';
+            warning.innerText = `Showing top 100 of ${devices.length} devices. Use search to find specific models.`;
+            deviceListEl.appendChild(warning);
+        }
+
         try {
             // Helper to get protocol class
             const getProtocolClass = (type) => {
@@ -81,7 +93,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
             }
 
-            processedDevices.forEach(device => {
+            // Limit to top 100 to prevent DOM freeze
+            const displayLimit = 100;
+            const limitedDevices = processedDevices.slice(0, displayLimit);
+
+            limitedDevices.forEach(device => {
                 const card = document.createElement('div');
                 card.className = 'device-card';
 
