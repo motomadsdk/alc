@@ -19,6 +19,15 @@
     --color-dante: #E31C23;
     /* Custom Red/Orange */
     --color-avb: #facc15;
+    /* New Protocols */
+    --color-aes67: #8b5cf6;
+    /* Violet */
+    --color-optocore: #ec4899;
+    /* Pink */
+    --color-madi: #14b8a6;
+    /* Teal */
+    --color-digital: #64748b;
+    /* Slate */
 }
 
 /* Toast Notifications */
@@ -330,6 +339,30 @@ main {
     background-color: rgba(250, 204, 21, 0.15);
     color: var(--color-avb);
     border: 1px solid var(--color-avb);
+}
+
+.badge.aes67 {
+    background-color: rgba(139, 92, 246, 0.15);
+    color: var(--color-aes67);
+    border: 1px solid var(--color-aes67);
+}
+
+.badge.optocore {
+    background-color: rgba(236, 72, 153, 0.15);
+    color: var(--color-optocore);
+    border: 1px solid var(--color-optocore);
+}
+
+.badge.madi {
+    background-color: rgba(20, 184, 166, 0.15);
+    color: var(--color-madi);
+    border: 1px solid var(--color-madi);
+}
+
+.badge.digital {
+    background-color: rgba(100, 116, 139, 0.15);
+    color: var(--color-digital);
+    border: 1px solid var(--color-digital);
 }
 
 .badge.default {
@@ -760,6 +793,8 @@ main {
         background: white;
         border: none;
         border-radius: 0;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
     }
 
     .chain-icon img {
@@ -899,6 +934,58 @@ main {
     .connector-avb .protocol-label {
         color: var(--color-avb);
         border-color: var(--color-avb);
+    }
+
+    .connector-aes67 {
+        color: var(--color-aes67);
+    }
+
+    .connector-aes67:after {
+        background-color: var(--color-aes67);
+    }
+
+    .connector-aes67 .protocol-label {
+        color: var(--color-aes67);
+        border-color: var(--color-aes67);
+    }
+
+    .connector-optocore {
+        color: var(--color-optocore);
+    }
+
+    .connector-optocore:after {
+        background-color: var(--color-optocore);
+    }
+
+    .connector-optocore .protocol-label {
+        color: var(--color-optocore);
+        border-color: var(--color-optocore);
+    }
+
+    .connector-madi {
+        color: var(--color-madi);
+    }
+
+    .connector-madi:after {
+        background-color: var(--color-madi);
+    }
+
+    .connector-madi .protocol-label {
+        color: var(--color-madi);
+        border-color: var(--color-madi);
+    }
+
+    .connector-digital {
+        color: var(--color-digital);
+    }
+
+    .connector-digital:after {
+        background-color: var(--color-digital);
+    }
+
+    .connector-digital .protocol-label {
+        color: var(--color-digital);
+        border-color: var(--color-digital);
     }
 
     /* Footer */

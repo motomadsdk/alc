@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Background Image Logic
                 const inCode = getProtocolCode(device.inputType);
                 const outCode = getProtocolCode(device.raw_data.output_type);
-                const bgImage = `url('/static/images/${inCode}_to_${outCode}.svg')`;
+                const bgImage = `url('/static/images/${inCode}_to_${outCode}.png')`;
 
                 // Allow adding any device (user freedom)
                 card.addEventListener('click', () => addToChain(device));
@@ -344,6 +344,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // Helper for chain items
+        // Helper for chain items
         const getProtocolClass = (type) => {
             if (!type) return 'default';
             const t = type.toLowerCase();
@@ -351,6 +352,10 @@ document.addEventListener('DOMContentLoaded', () => {
             if (t.includes('aes3') || t.includes('aes')) return 'aes3';
             if (t.includes('dante')) return 'dante';
             if (t.includes('avb')) return 'avb';
+            if (t.includes('aes67')) return 'aes67';
+            if (t.includes('optocore')) return 'opto'; // Mapped to .badge.optocore? No, code is opto, class should be optocore
+            if (t.includes('madi')) return 'madi';
+            if (t.includes('digital')) return 'digital';
             return 'default';
         };
 
@@ -404,7 +409,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             itemEl.innerHTML = `
                 <div class="chain-item-info">
-                   <div class="chain-icon">
+                   <div class="chain-icon" style="background-image: url('/static/images/${getProtocolCode(item.raw_data.input_type)}_to_${getProtocolCode(item.raw_data.output_type)}.png'); background-size: cover; background-position: center;">
                         <img src="/static/images/${item.image}" onload="this.style.opacity=1" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
                         <div class="chain-fallback">
                             <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><circle cx="12" cy="12" r="3"></circle></svg>
