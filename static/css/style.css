@@ -1341,7 +1341,7 @@ main {
     }
 
     .main-logo {
-        max-width: 140px;
+        max-width: 120px;
         margin: 0 auto;
     }
 }
@@ -1365,7 +1365,7 @@ main {
 }
 
 .main-logo {
-    max-width: 300px;
+    max-width: 200px;
     height: auto;
     display: block;
     filter: invert(1) brightness(200%);
