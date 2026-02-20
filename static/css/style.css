@@ -289,8 +289,8 @@ main {
 
 /* Device Card States */
 .device-card.dimmed {
-    opacity: 0.3;
-    pointer-events: none;
+    opacity: 0.5;
+    /* pointer-events: none; REMOVED to allow selection */
     filter: grayscale(0.8);
     transform: scale(0.98);
     transition: all 0.3s ease;
@@ -428,10 +428,25 @@ main {
 }
 
 /* --- Arrow Connector between items --- */
-.chain-arrow {
+.chain-arrow-connector {
     text-align: center;
     color: #444;
     font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Hide detailed print elements on screen */
+.chain-arrow-connector .arrow-symbol,
+.chain-arrow-connector .protocol-label {
+    display: none;
+}
+
+/* Show simple arrow on screen */
+.chain-arrow-connector:after {
+    content: '↓';
+    display: block;
 }
 
 /* --- Footer --- */
@@ -553,34 +568,18 @@ main {
     border-radius: 20px;
     text-decoration: none;
     font-weight: 600;
-    transition: transform 0.2s, background-color 0.2s;
-    display: inline-block;
+    transform: translateY(-2px);
+    background-color: #a370f7;
 }
 
-transform: translateY(-2px);
-background-color: #a370f7;
-}
-
-/* --- Print / PDF Export Styles --- */
+/* --- Print / PDF Export Styles (Flowchart Layout) --- */
 @media print {
-
-    /* HIDE SIDEBAR AND IRRELEVANT ELEMENTS */
-    .device-library,
-    .search-bar,
-    .btn-primary,
-    .btn-secondary,
-    .remove-btn,
-    .app-container>header p,
-    .app-container>header div,
-    header,
-    /* Hide the main header to create a custom one */
-    .chain-fallback,
-    /* Hide fallback icons if images load */
-    .empty-state {
-        display: none !important;
+    @page {
+        size: landscape;
+        margin: 1cm;
     }
 
-    /* FULL PAGE LAYOUT */
+    /* Reset Body */
     body,
     .app-container {
         height: auto;
@@ -588,143 +587,258 @@ background-color: #a370f7;
         margin: 0;
         padding: 0;
         background-color: white;
-        overflow: visible;
         display: block;
+        font-family: 'Outfit', sans-serif;
+    }
+
+    /* Hide Irrelevant Elements */
+    .device-library,
+    .search-bar,
+    .btn-primary,
+    .btn-secondary,
+    .remove-btn,
+    .app-container>header,
+    .chain-fallback,
+    .empty-state {
+        display: none !important;
     }
 
     main {
+        padding: 0;
         display: block;
-        width: 100%;
-        margin: 0;
-        padding: 20px;
     }
 
-    /* SIGNAL CHAIN CONTAINER - FULL WIDTH, CLEAN */
+    /* Signal Chain Container */
     .signal-chain-container {
         box-shadow: none;
-        background-color: white;
+        background: white;
         width: 100% !important;
-        max-width: 100% !important;
-        flex: none;
-        display: block;
         border: none;
     }
 
+    /* Header */
     .chain-header {
-        border-bottom: 2px solid #000;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    /* Custom Print Header */
-    .chain-header:before {
-        content: "MOTO Audio Latency Calculator - Report";
+        border-bottom: 3px solid #000;
+        margin-bottom: 30px;
+        padding-bottom: 10px;
         display: block;
-        font-family: var(--font-heading);
-        font-size: 24px;
-        font-weight: bold;
-        color: black;
         text-align: center;
-        margin-bottom: 10px;
     }
 
-    .chain-list {
-        overflow: visible;
-        padding: 0;
+    .chain-header:before {
+        content: "Signal Flow Report";
         display: block;
+        font-size: 28px;
+        font-weight: 800;
+        color: #000;
+        text-transform: uppercase;
+        letter-spacing: 2px;
     }
 
-    /* CHAIN ITEMS - COMPACT AND CLEAN */
-    .chain-item {
-        background-color: white;
-        border: 1px solid #ccc;
-        color: black;
-        margin-bottom: 15px;
-        page-break-inside: avoid;
-        box-shadow: none;
-        padding: 10px;
-        /* Force flex to keep layout */
+    /* Flowchart Layout */
+    .chain-list {
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0;
+        align-items: flex-start;
+        padding: 20px 0;
+        justify-content: center;
+    }
+
+    /* Flowchart Node (Item) */
+    .chain-item {
+        background: #fff;
+        border: 2px solid #000;
+        border-radius: 12px;
+        width: 180px;
+        margin: 10px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
         align-items: center;
+        text-align: center;
+        box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.1);
+        position: relative;
+        page-break-inside: avoid;
     }
 
     .chain-item-info {
-        flex: 1;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    /* Image in Node */
+    .chain-icon {
+        width: 120px;
+        height: 100px;
+        background: white;
+        border: none;
+        border-radius: 0;
+    }
+
+    .chain-icon img {
+        object-fit: contain;
     }
 
     .chain-item-name {
-        font-size: 14px;
-        color: black;
+        font-size: 12px;
+        font-weight: 700;
+        color: #000;
+        line-height: 1.2;
+        margin-bottom: 5px;
+        height: 30px;
+        overflow: hidden;
+    }
+
+    .chain-meta {
+        flex-direction: column;
+        gap: 4px;
+        width: 100%;
     }
 
     .chain-item-latency {
         color: #000;
         font-weight: bold;
+        font-size: 14px;
+        background: #eee;
+        padding: 2px 8px;
+        border-radius: 4px;
     }
 
-    .chain-arrow {
-        color: #000;
-        margin: 5px 0;
-        text-align: center;
-    }
-
+    /* Connectors (Arrows) */
     .chain-arrow-connector {
-        text-align: center;
-        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 180px;
+        /* Match roughly card height */
+        position: relative;
         margin: 10px 0;
+    }
+
+    /* The Connector Line */
+    .chain-arrow-connector:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        /* Thickness */
+        background-color: #999;
+        transform: translateY(-50%);
+        z-index: 0;
+    }
+
+    /* Arrow Head */
+    .chain-arrow-connector .arrow-symbol {
+        display: none;
+        /* Hide standard arrow char */
+    }
+
+    .chain-arrow-connector:before {
+        content: '►';
+        position: absolute;
+        right: -5px;
+        top: 50%;
+        transform: translateY(-53%);
+        font-size: 20px;
+        color: inherit;
+        /* Inherits from protocol color */
+        z-index: 1;
+    }
+
+    .protocol-label {
+        position: absolute;
+        top: 35%;
+        font-size: 10px;
         font-weight: bold;
+        background: white;
+        padding: 2px 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        text-transform: uppercase;
+        z-index: 2;
     }
 
-    /* BADGES - FORCE COLORS FOR PRINT */
-    .badge {
-        border: 1px solid #000;
-        color: black !important;
-        /* Use light backgrounds for high contrast printing */
+    /* Connector Colors */
+    .connector-analog {
+        color: #22c55e;
     }
 
-    .badge.analog {
-        background-color: #e6fffa !important;
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
+    .connector-analog:after {
+        background-color: #22c55e;
     }
 
-    .badge.aes3 {
-        background-color: #ebf8ff !important;
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
+    .connector-analog .protocol-label {
+        color: #22c55e;
+        border-color: #22c55e;
     }
 
-    .badge.dante {
-        background-color: #fffaf0 !important;
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
+    .connector-aes3 {
+        color: #3b82f6;
     }
 
-    .badge.avb {
-        background-color: #e0f2f1 !important;
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
+    .connector-aes3:after {
+        background-color: #3b82f6;
     }
 
-    /* FOOTER - CLEAN */
+    .connector-aes3 .protocol-label {
+        color: #3b82f6;
+        border-color: #3b82f6;
+    }
+
+    .connector-dante {
+        color: #f97316;
+    }
+
+    .connector-dante:after {
+        background-color: #f97316;
+    }
+
+    .connector-dante .protocol-label {
+        color: #f97316;
+        border-color: #f97316;
+    }
+
+    .connector-avb {
+        color: #06b6d4;
+    }
+
+    .connector-avb:after {
+        background-color: #06b6d4;
+    }
+
+    .connector-avb .protocol-label {
+        color: #06b6d4;
+        border-color: #06b6d4;
+    }
+
+    /* Footer */
     .result-footer {
-        margin-top: 30px;
-        background-color: white;
-        border-top: 2px solid #000;
-        color: black;
-        padding: 20px 0;
-        justify-content: flex-end;
-    }
-
-    .total-label {
-        font-size: 18px;
-        color: black;
-        margin-right: 15px;
+        margin-top: 40px;
+        border-top: 3px solid #000;
+        padding-top: 20px;
+        justify-content: center;
     }
 
     .total-value {
-        font-size: 24px;
-        color: black;
-        text-shadow: none;
+        font-size: 32px;
+        color: #000;
+        font-weight: 800;
     }
+}
+
+/* Device Source Text */
+.device-source {
+    font-size: 0.75rem;
+    color: #888;
+    margin-top: 5px;
+    font-style: italic;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

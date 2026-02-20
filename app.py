@@ -98,9 +98,13 @@ def get_devices_from_csv():
                 # Image filename lookup
                 image_filename = find_best_image_match(name)
                 
+                # Extract Brand (first word of name)
+                brand = name.split(' ')[0].strip() if name else "Unknown"
+
                 devices.append({
                     'id': len(devices),
                     'name': name,
+                    'brand': brand,
                     'latency': parse_time(time_str),
                     'display_time': time_str,
                     'image': image_filename,

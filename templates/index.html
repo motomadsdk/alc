@@ -19,9 +19,7 @@
             <p>Build your signal chain to calculate total latency<br>Match <strong>Output</strong> to
                 <strong>Input</strong> and <strong>Sample Rate</strong>
             </p>
-            <div style="margin-top: 15px;">
-                <a href="/table" class="btn-primary" style="font-size: 0.9rem; padding: 8px 16px;">View Data Table</a>
-            </div>
+
         </header>
 
         <!-- Main Content -->
@@ -30,7 +28,17 @@
             <section class="device-library">
                 <h2>Device Library</h2>
                 <div class="search-bar">
-                    <input type="text" id="search-input" placeholder="Search devices...">
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <input type="text" id="search-input" placeholder="Search devices..." style="flex: 1;">
+                        <select id="brand-filter"
+                            style="padding: 10px; border-radius: 8px; border: 1px solid #333; background: #1a1a1a; color: #fff;">
+                            <option value="">All Brands</option>
+                        </select>
+                        <label
+                            style="cursor: pointer; display: flex; align-items: center; user-select: none; color: #b0b0b0; font-size: 0.9em; white-space: nowrap;">
+                            <input type="checkbox" id="show-source" style="margin-right: 6px;"> Source
+                        </label>
+                    </div>
                 </div>
                 <div id="device-list" class="device-grid">
                     <!-- Devices will be injected here by JS -->

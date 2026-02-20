@@ -5,18 +5,44 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('search-input');
     const clearBtn = document.getElementById('clear-chain');
     const exportBtn = document.getElementById('export-pdf');
+    const brandFilter = document.getElementById('brand-filter');
+    const showSourceCheckbox = document.getElementById('show-source');
 
     let allDevices = [];
     let currentChain = [];
+
+    // ... (fetch logic remains same, skipping for brevity in replacement if not needed, but here I need to replace block) ... 
+    // Actually, let's keep it simple and just do targeted replacements.
+
+    // 1. Add const
+    // 2. Update renderDeviceLibrary
+    // 3. Add listener
+
+    // I will use multiple ReplaceFileContent calls or a single one if contiguous. They are not contiguous.
+    // I will use multi_replace_file_content.
+
 
     // Fetch data from API
     fetch('/api/data')
         .then(response => response.json())
         .then(data => {
             allDevices = data;
+            populateBrandFilter(allDevices);
             renderDeviceLibrary(allDevices);
         })
         .catch(error => console.error('Error fetching data:', error));
+
+    function populateBrandFilter(devices) {
+        const brands = new Set(devices.map(d => d.brand).filter(b => b !== "Unknown"));
+        const sortedBrands = Array.from(brands).sort();
+
+        sortedBrands.forEach(brand => {
+            const option = document.createElement('option');
+            option.value = brand;
+            option.textContent = brand;
+            brandFilter.appendChild(option);
+        });
+    }
 
     // Render Library
     function renderDeviceLibrary(devices) {
@@ -108,8 +134,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (currentChain.length > 0) {
                         card.classList.add('recommended'); // Highlight valid next steps
                     }
-                    card.onclick = () => addToChain(device);
                 }
+
+                // Allow adding any device (user freedom)
+                card.addEventListener('click', () => addToChain(device));
 
                 const inClass = getProtocolClass(device.inputType);
                 const outClass = getProtocolClass(device.raw_data.output_type);
@@ -140,6 +168,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="device-title-container">
                             <div class="device-part">${device.name}</div>
                         </div>
+                        ${showSourceCheckbox.checked ? `<div class="device-source" title="${device.source}">${device.source}</div>` : ''}
                         <div class="device-badges">
                             ${inputBadge}
                             ${outputBadge}
@@ -183,6 +212,17 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
+        // Helper for chain items
+        const getProtocolClass = (type) => {
+            if (!type) return 'default';
+            const t = type.toLowerCase();
+            if (t.includes('analog')) return 'analog';
+            if (t.includes('aes3') || t.includes('aes')) return 'aes3';
+            if (t.includes('dante')) return 'dante';
+            if (t.includes('avb')) return 'avb';
+            return 'default';
+        };
+
         currentChain.forEach((item, index) => {
             // Add arrow if not first item
             if (index > 0) {
@@ -191,8 +231,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 arrow.className = 'chain-arrow-connector';
 
                 // Show protocol on arrow
-                const protocolName = prev.raw_data.output_type;
-                arrow.innerHTML = `<span>↓ ${protocolName}</span>`;
+                const protocolName = prev.raw_data.output_type || 'default';
+                const protocolClass = getProtocolClass(protocolName);
+
+                arrow.classList.add('connector-' + protocolClass);
+                arrow.innerHTML = `<span class="arrow-symbol">↓</span><span class="protocol-label">${protocolName}</span>`;
 
                 signalChainEl.appendChild(arrow);
             }
@@ -207,17 +250,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     itemEl.classList.add('chain-error');
                 }
             }
-
-            // Helper for chain items too
-            const getProtocolClass = (type) => {
-                if (!type) return 'default';
-                const t = type.toLowerCase();
-                if (t.includes('analog')) return 'analog';
-                if (t.includes('aes3') || t.includes('aes')) return 'aes3';
-                if (t.includes('dante')) return 'dante';
-                if (t.includes('avb')) return 'avb';
-                return 'default';
-            };
 
             const inClass = getProtocolClass(item.raw_data.input_type);
             const outClass = getProtocolClass(item.raw_data.output_type);
@@ -276,16 +308,28 @@ document.addEventListener('DOMContentLoaded', () => {
         totalLatencyEl.textContent = total.toFixed(2) + ' ms';
     }
 
-    // Filter/Search
-    searchInput.addEventListener('input', (e) => {
-        const term = e.target.value.toLowerCase();
-        const filtered = allDevices.filter(d =>
-            d.name.toLowerCase().includes(term) ||
-            (d.raw_data.input_type && d.raw_data.input_type.toLowerCase().includes(term)) ||
-            (d.raw_data.output_type && d.raw_data.output_type.toLowerCase().includes(term))
-        );
+    // Unified Filter Function
+    function filterDevices() {
+        const searchTerm = searchInput.value.toLowerCase();
+        const selectedBrand = brandFilter.value;
+
+        const filtered = allDevices.filter(d => {
+            const matchesSearch = d.name.toLowerCase().includes(searchTerm) ||
+                (d.raw_data.input_type && d.raw_data.input_type.toLowerCase().includes(searchTerm)) ||
+                (d.raw_data.output_type && d.raw_data.output_type.toLowerCase().includes(searchTerm));
+
+            const matchesBrand = selectedBrand === "" || d.brand === selectedBrand;
+
+            return matchesSearch && matchesBrand;
+        });
+
         renderDeviceLibrary(filtered);
-    });
+    }
+
+    // Event Listeners
+    searchInput.addEventListener('input', filterDevices);
+    brandFilter.addEventListener('change', filterDevices);
+    showSourceCheckbox.addEventListener('change', filterDevices);
 
     // Clear Chain
     clearBtn.addEventListener('click', () => {
@@ -293,6 +337,8 @@ document.addEventListener('DOMContentLoaded', () => {
         renderChain();
         renderDeviceLibrary(allDevices);
     });
+
+
 
     // Export PDF
     exportBtn.addEventListener('click', () => {
