@@ -717,75 +717,94 @@ main {
 
 /* --- Footer --- */
 .result-footer {
-    padding: 24px;
-    background: rgba(30, 30, 30, 0.4);
+    padding: 32px;
+    background: rgba(25, 25, 25, 0.6);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     border-bottom-left-radius: var(--border-radius);
     border-bottom-right-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    transition: all 0.3s ease;
+}
+
+.result-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .audio-controls {
     display: flex;
-    gap: 10px;
+    gap: 12px;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 4px;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .btn-audio.ref {
-    background: rgba(255, 255, 255, 0.05);
-    color: #aaa;
-    border-color: rgba(255, 255, 255, 0.1);
-    padding: 6px 10px;
+    background: rgba(255, 255, 255, 0.03);
+    color: #888;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 6px 12px;
 }
 
 .btn-audio.ref:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.08);
     color: #fff;
     border-color: rgba(255, 255, 255, 0.2);
 }
 
 .btn-audio {
-    background: rgba(3, 218, 198, 0.1);
+    background: rgba(3, 218, 198, 0.05);
     color: var(--secondary-color);
-    border: 1px solid rgba(3, 218, 198, 0.3);
-    padding: 6px 14px;
+    border: 1px solid rgba(3, 218, 198, 0.2);
+    padding: 6px 16px;
     border-radius: 20px;
-    font-size: 0.85em;
+    font-size: 0.8rem;
     font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
     cursor: pointer;
     display: flex;
     align-items: center;
     gap: 8px;
-    transition: all 0.3s ease;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-audio:hover {
-    background: rgba(3, 218, 198, 0.2);
+    background: rgba(3, 218, 198, 0.15);
     border-color: var(--secondary-color);
     transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(3, 218, 198, 0.15);
-}
-
-.btn-audio svg {
-    transition: transform 0.3s ease;
+    box-shadow: 0 4px 15px rgba(3, 218, 198, 0.1);
 }
 
 .btn-audio:active {
-    transform: translateY(0);
-}
-
-.btn-audio:disabled {
-    opacity: 0.5;
-    cursor: not_allowed;
+    transform: translateY(0) scale(0.98);
 }
 
 .total-label {
     color: var(--text-secondary);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    opacity: 0.8;
 }
 
 .total-value {
     font-family: var(--font-heading);
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     color: var(--secondary-color);
-    text-shadow: 0 0 10px rgba(3, 218, 198, 0.4);
+    text-shadow: 0 0 15px rgba(3, 218, 198, 0.3), 0 0 30px rgba(3, 218, 198, 0.1);
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-top: 4px;
 }
 
 /* Chain Item Updates */
