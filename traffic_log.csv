@@ -450,3 +450,12 @@ Timestamp,Event,Device,Brand
 2026-02-21 03:42:33,add_to_chain,DiGiCo SD‑Rack,DiGiCo,b7cac77a-b96c-4ce3-a1fa-ba2c6aa7c981
 2026-02-21 03:42:41,add_to_chain,DiGiCo Quantum 112,DiGiCo,b7cac77a-b96c-4ce3-a1fa-ba2c6aa7c981
 2026-02-21 03:42:43,add_to_chain,Allen & Heath dLive MixRack,Allen,b7cac77a-b96c-4ce3-a1fa-ba2c6aa7c981
+2026-02-21 03:47:07,add_to_chain,Shure AD4D (ADX1),Shure,b7cac77a-b96c-4ce3-a1fa-ba2c6aa7c981
+2026-02-21 03:47:07,add_to_chain,DiGiCo SD‑Rack,DiGiCo,b7cac77a-b96c-4ce3-a1fa-ba2c6aa7c981
+2026-02-21 03:47:18,add_to_chain,Shure AD4D (ADX1),Shure,b7cac77a-b96c-4ce3-a1fa-ba2c6aa7c981
+2026-02-21 03:47:23,add_to_chain,Shure AD4D (ADX1),Shure,b7cac77a-b96c-4ce3-a1fa-ba2c6aa7c981
+2026-02-21 03:47:24,add_to_chain,DiGiCo SD‑Rack,DiGiCo,b7cac77a-b96c-4ce3-a1fa-ba2c6aa7c981
+2026-02-21 03:47:25,add_to_chain,DiGiCo SD‑Rack,DiGiCo,b7cac77a-b96c-4ce3-a1fa-ba2c6aa7c981
+2026-02-21 03:47:42,add_to_chain,Allen & Heath dLive MixRack,Allen,b7cac77a-b96c-4ce3-a1fa-ba2c6aa7c981
+2026-02-21 03:48:07,add_to_chain,Allen & Heath CDM48 (Dante128x128) (96kHz),Allen,b7cac77a-b96c-4ce3-a1fa-ba2c6aa7c981
+2026-02-21 03:48:11,add_to_chain,DiGiCo Quantum 112,DiGiCo,b7cac77a-b96c-4ce3-a1fa-ba2c6aa7c981

@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const showSourceCheckbox = document.getElementById('show-source');
     const hearLatencyBtn = document.getElementById('hear-latency');
     const hearRefBtn = document.getElementById('hear-ref');
+    const exportJpgBtn = document.getElementById('export-jpg');
 
     let allDevices = [];
     let currentChain = [];
@@ -1156,6 +1157,7 @@ document.addEventListener('DOMContentLoaded', () => {
             isTopologyView = !isTopologyView;
             toggleTopologyBtn.textContent = isTopologyView ? 'Live Builder' : 'Overview Map';
             toggleTopologyBtn.classList.toggle('active', isTopologyView);
+            if (exportJpgBtn) exportJpgBtn.style.display = isTopologyView ? 'inline-block' : 'none';
             renderChain();
         });
     }
@@ -1183,4 +1185,41 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         window.print();
     });
+
+    if (exportJpgBtn) {
+        exportJpgBtn.addEventListener('click', () => {
+            if (currentChain.length === 0) {
+                showToast("Signal chain is empty", "warning");
+                return;
+            }
+
+            const target = document.getElementById('signal-chain');
+            if (!target) return;
+
+            showToast("Generating Image...", "info");
+
+            // Temporary styles for better capture if needed
+            const originalBackground = target.style.background;
+            target.style.background = '#121212'; // Ensure dark background
+
+            html2canvas(target, {
+                backgroundColor: '#121212',
+                scale: 2, // Higher quality
+                logging: false,
+                useCORS: true
+            }).then(canvas => {
+                target.style.background = originalBackground;
+
+                const link = document.createElement('a');
+                link.download = `MOTO-Signal-Flow-Overview-${new Date().getTime()}.jpg`;
+                link.href = canvas.toDataURL('image/jpeg', 0.9);
+                link.click();
+
+                showToast("Overview Map exported", "success");
+            }).catch(err => {
+                console.error("Export failed", err);
+                showToast("Export failed", "error");
+            });
+        });
+    }
 });
