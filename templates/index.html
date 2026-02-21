@@ -138,9 +138,33 @@
                 <div class="app-footer">
                     <img src="{{ url_for('static', filename='images/logo_buttom.svg') }}" alt="MOTO"
                         class="footer-logo">
+                    <div class="footer-legal">
+                        <a href="#" id="open-disclaimer" class="legal-link">Accuracy Disclaimer</a>
+                    </div>
                 </div>
             </section>
         </main>
+    </div>
+
+    <!-- Accuracy Disclaimer Modal -->
+    <div id="disclaimer-modal" class="modal-overlay">
+        <div class="modal-card">
+            <div class="modal-header">
+                <h2>Accuracy Disclaimer</h2>
+                <button class="close-modal" id="close-disclaimer">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>The latency values provided by this tool are for <strong>informational purposes only</strong>. While
+                    we strive for accuracy, measurements may vary based on hardware configurations, firmware versions,
+                    and environmental factors.</p>
+                <p>MOTO Audio Latency Calculator and its developers assume no liability for errors, omissions, or any
+                    damages resulting from the use of this information. Always verify critical timing offsets with
+                    physical measurements in your specific setup.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-primary" id="disclaimer-ack">I Understand</button>
+            </div>
+        </div>
     </div>
 
     <!-- Cookie Consent Banner -->

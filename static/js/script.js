@@ -14,6 +14,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const hearRefBtn = document.getElementById('hear-ref');
     const exportJpgBtn = document.getElementById('export-jpg');
 
+    // Disclaimer Modal Elements
+    const disclaimerModal = document.getElementById('disclaimer-modal');
+    const openDisclaimerBtn = document.getElementById('open-disclaimer');
+    const closeDisclaimerBtn = document.getElementById('close-disclaimer');
+    const ackDisclaimerBtn = document.getElementById('disclaimer-ack');
+
     let allDevices = [];
     let currentChain = [];
     let isTopologyView = false; // Toggle state for Overview Map
@@ -254,10 +260,11 @@ document.addEventListener('DOMContentLoaded', () => {
             contextHeader.className = 'library-context-header';
 
             if (lastOutput) {
+                const protoClass = getProtocolClass(lastOutput);
                 contextHeader.innerHTML = `
                     <div style="font-size: 0.8rem; color: #888;">Next Step Requirements:</div>
-                    <div class="context-tag matched">${lastOutput}</div>
-                    ${lastSR !== '-' ? `<div class="context-tag matched">${lastSR}</div>` : ''}
+                    <div class="context-tag matched ${protoClass}">${lastOutput}</div>
+                    ${lastSR !== '-' ? `<div class="context-tag matched ${protoClass}">${lastSR}</div>` : ''}
                     <div style="font-size: 0.7rem; color: #666; font-style: italic;">(Library is filtered to show matches first)</div>
                 `;
             } else {
@@ -405,9 +412,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Add to Chain
     function addToChain(device, branchPath = null) {
+        const netCfg = device.network_config || { interfaces: [{ name: 'IP', protocol: '-', ip_type: '-' }] };
+        const interfaces = netCfg.interfaces || [];
         const chainItem = {
             ...device,
             uniqueId: Date.now() + Math.random(),
+            nickname: "",
+            ips: new Array(interfaces.length).fill(""),
+            ipLabels: interfaces.map(inf => inf.name),
+            ipProtocols: interfaces.map(inf => inf.protocol), // Store protocols too
+            ipTypes: interfaces.map(inf => inf.ip_type),     // Store types too
             type: 'device'
         };
 
@@ -805,9 +819,35 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    function updateDeviceIP(uniqueId, index, ip) {
+        const item = findNodeInChain(currentChain, uniqueId);
+        if (item) {
+            if (!item.ips) item.ips = [""];
+            if (index < item.ips.length) {
+                item.ips[index] = ip;
+                saveChain();
+            }
+        }
+    }
+
+    function updateDeviceIPLabel(uniqueId, index, label) {
+        const item = findNodeInChain(currentChain, uniqueId);
+        if (item) {
+            if (!item.ipLabels) item.ipLabels = ["IP"];
+            if (index < item.ipLabels.length) {
+                item.ipLabels[index] = label;
+                saveChain();
+            }
+        }
+    }
+
     function createDeviceElement(item, isMini = false) {
         const itemEl = document.createElement('div');
         itemEl.className = 'chain-item' + (isMini ? ' mini' : '');
+
+        // Fallback for old data or mini items
+        if (!item.ips) item.ips = [""];
+        if (!item.ipLabels) item.ipLabels = ["IP"];
 
         itemEl.innerHTML = `
             <div class="chain-item-info">
@@ -831,6 +871,43 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </div>
             </div>
+            
+            ${!isMini ? `
+            <div class="chain-item-network">
+                <button class="network-toggle-btn" title="Show Network Config">
+                    <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none" class="network-icon"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg>
+                    Network Info
+                </button>
+                <div class="network-dropdown" style="display: none;">
+                    <div class="ip-grid">
+                        ${item.ips.map((ip, idx) => `
+                            <div class="ip-entry">
+                                <div class="ip-label-wrap">
+                                    <input type="text" class="ip-label-input" data-index="${idx}" value="${item.ipLabels[idx]}" placeholder="Label...">
+                                    <div class="ip-meta">
+                                        ${item.ipProtocols?.[idx] && item.ipProtocols[idx] !== '-' ? `<span class="ip-protocol">${item.ipProtocols[idx]}</span>` : ''}
+                                        ${item.ipTypes?.[idx] && item.ipTypes[idx] !== '-' ? `<span class="ip-type">${item.ipTypes[idx]}</span>` : ''}
+                                    </div>
+                                </div>
+                                <input type="text" class="ip-input" data-index="${idx}" value="${ip}" placeholder="0.0.0.0">
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            </div>
+            ` : ''}
+
+            <!-- Print-only network info -->
+            <div class="print-network-info">
+                <div class="print-ip-list">
+                    ${(item.ips || []).map((ip, idx) => ip ? `
+                        <div class="print-ip-item">
+                            <strong>${item.ipLabels[idx]}${item.ipProtocols?.[idx] && item.ipProtocols[idx] !== '-' ? ` (${item.ipProtocols[idx]})` : ''}:</strong> ${ip}
+                        </div>
+                    ` : '').join('')}
+                </div>
+            </div>
+
             <div class="chain-item-actions">
                 ${!isMini ? `
                 <button class="split-btn" title="Split Path Here">
@@ -841,9 +918,35 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
 
         itemEl.querySelector('.chain-item-nickname').onchange = (e) => updateDeviceNickname(item.uniqueId, e.target.value);
+
         if (!isMini) {
             itemEl.querySelector('.split-btn').onclick = () => splitPathAt(item.uniqueId);
+
+            // Network Toggle
+            const netToggle = itemEl.querySelector('.network-toggle-btn');
+            const netDropdown = itemEl.querySelector('.network-dropdown');
+            netToggle.onclick = () => {
+                const isHidden = netDropdown.style.display === 'none';
+                netDropdown.style.display = isHidden ? 'block' : 'none';
+                netToggle.classList.toggle('active', isHidden);
+            };
+
+            // IP Inputs & Label Inputs
+            itemEl.querySelectorAll('.ip-input').forEach(input => {
+                input.onchange = (e) => {
+                    const idx = parseInt(e.target.dataset.index);
+                    updateDeviceIP(item.uniqueId, idx, e.target.value);
+                };
+            });
+
+            itemEl.querySelectorAll('.ip-label-input').forEach(input => {
+                input.onchange = (e) => {
+                    const idx = parseInt(e.target.dataset.index);
+                    updateDeviceIPLabel(item.uniqueId, idx, e.target.value);
+                };
+            });
         }
+
         itemEl.querySelector('.remove-btn').onclick = () => removeFromChain(item.uniqueId);
 
         return itemEl;
@@ -1222,4 +1325,26 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     }
+
+    // Disclaimer Modal Logic
+    if (openDisclaimerBtn && disclaimerModal) {
+        openDisclaimerBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            disclaimerModal.classList.add('active');
+        });
+    }
+
+    const closeDisclaimer = () => {
+        if (disclaimerModal) disclaimerModal.classList.remove('active');
+    };
+
+    if (closeDisclaimerBtn) closeDisclaimerBtn.addEventListener('click', closeDisclaimer);
+    if (ackDisclaimerBtn) ackDisclaimerBtn.addEventListener('click', closeDisclaimer);
+
+    // Close on outside click
+    window.addEventListener('click', (e) => {
+        if (e.target === disclaimerModal) {
+            closeDisclaimer();
+        }
+    });
 });

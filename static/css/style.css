@@ -1518,6 +1518,8 @@ main {
     display: flex;
     flex-direction: column;
     gap: 2px;
+    padding-right: 80px;
+    /* Space for absolute actions */
 }
 
 .chain-item-nickname {
@@ -1592,9 +1594,24 @@ main {
 }
 
 .chain-item-actions {
+    position: absolute;
+    top: 8px;
+    right: 8px;
     display: flex;
     align-items: center;
     gap: 12px;
+    background: rgba(37, 37, 37, 0.5);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    padding: 4px;
+    border-radius: 6px;
+    z-index: 20;
+    transition: all 0.2s;
+}
+
+.chain-item-actions:hover {
+    background: rgba(45, 45, 45, 0.8);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .duplicate-btn {
@@ -1756,6 +1773,34 @@ main {
     color: #fff;
 }
 
+.context-tag.matched.aes3 {
+    background: var(--color-aes3);
+}
+
+.context-tag.matched.dante {
+    background: var(--color-dante);
+}
+
+.context-tag.matched.avb {
+    background: var(--color-avb);
+}
+
+.context-tag.matched.aes67 {
+    background: var(--color-aes67);
+}
+
+.context-tag.matched.optocore {
+    background: var(--color-optocore);
+}
+
+.context-tag.matched.madi {
+    background: var(--color-madi);
+}
+
+.context-tag.matched.digital {
+    background: var(--color-digital);
+}
+
 .chain-arrow-connector.connector-default .protocol-label {
     background: rgba(255, 255, 255, 0.1);
     color: #fff;
@@ -1914,7 +1959,169 @@ main {
 }
 
 /* --- Print / PDF Export Styles (Flowchart Layout) --- */
+/* IP / Network Management */
+.chain-item-network {
+    margin: 10px 15px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.network-toggle-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--text-secondary);
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.network-toggle-btn:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.network-toggle-btn.active {
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    background: rgba(3, 218, 198, 0.05);
+}
+
+.network-toggle-btn .network-icon {
+    transition: transform 0.3s;
+}
+
+.network-toggle-btn.active .network-icon {
+    transform: rotate(45deg);
+}
+
+.network-dropdown {
+    margin-top: 10px;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    animation: slideIn 0.3s ease-out;
+}
+
+.ip-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.ip-entry {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.ip-label-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.ip-label-input {
+    background: transparent;
+    border: none;
+    font-size: 0.65rem;
+    color: #666;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 2px 4px;
+    border-radius: 3px;
+    width: auto;
+    flex-grow: 1;
+    transition: all 0.2s;
+    cursor: text;
+}
+
+.ip-label-input:hover,
+.ip-label-input:focus {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-secondary);
+    outline: none;
+}
+
+.ip-meta {
+    display: flex;
+    gap: 4px;
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    opacity: 0.6;
+    white-space: nowrap;
+}
+
+.ip-protocol {
+    color: var(--accent-primary);
+    background: rgba(var(--accent-primary-rgb, 66, 133, 244), 0.1);
+    padding: 1px 4px;
+    border-radius: 2px;
+}
+
+.ip-type {
+    color: #999;
+}
+
+.ip-input {
+    background: #2a2a2a;
+    border: 1px solid #333;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-family: monospace;
+    width: 100%;
+}
+
+.ip-input:focus {
+    border-color: var(--secondary-color);
+    outline: none;
+    background: #333;
+}
+
+/* Print Section IPs */
+.print-network-info {
+    display: none;
+    /* Hidden on screen */
+}
+
 @media print {
+    .print-network-info {
+        display: block !important;
+        margin-top: 8px;
+        padding-top: 8px;
+        border-top: 1px solid #eee;
+        font-size: 0.8rem;
+    }
+
+    .print-ip-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .print-ip-item {
+        color: #555;
+    }
+
+    .print-ip-item strong {
+        color: #000;
+        margin-right: 4px;
+    }
+
+    .network-toggle-btn,
+    .network-dropdown {
+        display: none !important;
+    }
+
     @page {
         size: landscape;
         margin: 1cm;
@@ -2604,18 +2811,127 @@ main {
 
 .app-footer {
     display: flex;
+    flex-direction: column;
+    /* Stack logo and link */
+    align-items: center;
     justify-content: center;
     padding: 20px 0;
     margin-top: 40px;
-    /* More space */
     opacity: 0.9;
-    /* Slightly more visible */
     transition: opacity 0.3s ease;
 }
 
 .footer-logo {
     max-width: 180px;
-    /* Increased from 150px */
+    margin-bottom: 10px;
+}
+
+.footer-legal {
+    text-align: center;
+}
+
+.legal-link {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    text-decoration: none;
+    opacity: 0.6;
+    transition: opacity 0.2s, color 0.2s;
+    border-bottom: 1px solid transparent;
+}
+
+.legal-link:hover {
+    opacity: 1;
+    color: var(--primary-color);
+    border-bottom-color: var(--primary-color);
+}
+
+/* Accuracy Disclaimer Modal Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(8px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 3000;
+}
+
+.modal-overlay.active {
+    display: flex;
+}
+
+.modal-card {
+    background: #1a1a1a;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    width: 90%;
+    max-width: 500px;
+    padding: 30px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    transform: translateY(20px);
+    animation: modalSlideUp 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+
+@keyframes modalSlideUp {
+    to {
+        transform: translateY(0);
+    }
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding-bottom: 15px;
+}
+
+.modal-header h2 {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+.close-modal {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 1;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.2s;
+}
+
+.close-modal:hover {
+    opacity: 1;
+}
+
+.modal-body {
+    color: #ccc;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    font-size: 0.95rem;
+}
+
+.modal-body p {
+    margin-bottom: 15px;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-logo {
+    max-width: 180px;
+    margin-bottom: 10px;
     height: auto;
     filter: invert(1) brightness(200%);
     opacity: 0.8;

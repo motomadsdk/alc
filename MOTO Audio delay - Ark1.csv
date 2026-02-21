@@ -498,14 +498,42 @@ DiGiCo SD‑Nano Rack,Optocore,Dante,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter 
 DiGiCo SD‑Nano Rack,Optocore,Optocore,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
 DiGiCo DMI‑KLANG,Digital,Digital,48kHz,48kHz,"0,25ms",DiGiCo KLANG Module Datasheet,2,2
 DiGiCo DMI‑KLANG,Digital,Digital,96kHz,96kHz,"0,25ms",DiGiCo KLANG Module Datasheet,2,2
-DAD Core 256,AES3,AES3,96kHz,96kHz,0.052ms,DAD Core 256 routing matrix (5 samples),2,2
-DAD Core 256,AES67,AES3,96kHz,96kHz,0.052ms,DAD Core 256 routing matrix (5 samples),2,2
-DAD Core 256,Dante,AES3,96kHz,96kHz,0.052ms,DAD Core 256 routing matrix (5 samples),2,2
-DAD Core 256,MADI,AES3,96kHz,96kHz,0.052ms,DAD Core 256 routing matrix (5 samples),2,2
-DAD Core 256,AES3,Analog,96kHz,96kHz,0.094ms,DAD ThunderCore total interface latency,2,2
-DAD Core 256,AES67,Analog,96kHz,96kHz,0.094ms,DAD ThunderCore total interface latency,2,2
-DAD Core 256,Dante,Analog,96kHz,96kHz,0.094ms,DAD ThunderCore total interface latency,2,2
-DAD Core 256,DADlink,DADlink,96kHz,96kHz,0.0001ms,DADlink specification (<100ns),2,2
+DAD Core 256,AES3,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples),256,256
+DAD Core 256,AES3,Dante,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples),256,256
+DAD Core 256,AES3,AES67,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples),256,256
+DAD Core 256,AES3,MADI,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples),256,256
+DAD Core 256,Dante,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples),256,256
+DAD Core 256,Dante,AES67,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples),256,256
+DAD Core 256,Dante,MADI,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples),256,256
+DAD Core 256,AES67,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples),256,256
+DAD Core 256,AES67,Dante,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples),256,256
+DAD Core 256,AES67,MADI,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples),256,256
+DAD Core 256,MADI,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples),256,256
+DAD Core 256,MADI,Dante,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples),256,256
+DAD Core 256,MADI,AES67,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples),256,256
+DAD Core 256,Analog,AES3,96kHz,96kHz,0.70ms,DAD converter latency typical (AKM / FPGA architecture),8,256
+DAD Core 256,AES3,Analog,96kHz,96kHz,0.80ms,DAD converter latency typical (AKM / FPGA architecture),256,8
+DAD Core 256,Analog,Dante,96kHz,96kHz,0.70ms,DAD converter latency typical,8,256
+DAD Core 256,Dante,Analog,96kHz,96kHz,0.80ms,DAD converter latency typical,256,8
+DAD Core 256,Analog,AES67,96kHz,96kHz,0.70ms,DAD converter latency typical,8,256
+DAD Core 256,AES67,Analog,96kHz,96kHz,0.80ms,DAD converter latency typical,256,8
+DAD Core 256,Analog,MADI,96kHz,96kHz,0.70ms,DAD converter latency typical,8,256
+DAD Core 256,MADI,Analog,96kHz,96kHz,0.80ms,DAD converter latency typical,256,8
+DAD Core 256,DADlink,DADlink,96kHz,96kHz,0.0001ms,DADlink specification (<100ns),256,256
+DAD AX32,AES3,AES3,96kHz,96kHz,0.052ms,DAD FPGA routing latency (same ThunderCore architecture),256,256
+DAD AX32,Dante,AES3,96kHz,96kHz,0.052ms,DAD FPGA routing latency,256,256
+DAD AX32,AES67,AES3,96kHz,96kHz,0.052ms,DAD FPGA routing latency,256,256
+DAD AX32,Analog,AES3,96kHz,96kHz,0.70ms,DAD converter latency typical,32,256
+DAD AX32,AES3,Analog,96kHz,96kHz,0.80ms,DAD converter latency typical,256,32
+DAD AX32,Analog,Dante,96kHz,96kHz,0.70ms,DAD converter latency typical,32,256
+DAD AX32,Dante,Analog,96kHz,96kHz,0.80ms,DAD converter latency typical,256,32
+DAD DX32,AES3,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency,256,256
+DAD DX32,Dante,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency,256,256
+DAD DX32,AES67,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency,256,256
+DAD DX32,Analog,AES3,96kHz,96kHz,0.70ms,DAD converter latency typical,32,256
+DAD DX32,AES3,Analog,96kHz,96kHz,0.80ms,DAD converter latency typical,256,32
+DAD DX32,Analog,Dante,96kHz,96kHz,0.70ms,DAD converter latency typical,32,256
+DAD DX32,Dante,Analog,96kHz,96kHz,0.80ms,DAD converter latency typical,256,32
 d&b D80,Analog,Analog,-,-,"0,3ms",d&b D80 Technical Documentation,2,2
 d&b D80,AES3,Analog,48kHz,-,"0,3ms",d&b D80 Technical Documentation,2,2
 d&b D80,AES3,Analog,96kHz,-,"0,3ms",d&b D80 Technical Documentation,2,2
