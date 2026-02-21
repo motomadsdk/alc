@@ -20,8 +20,10 @@
                     class="main-logo">
             </div>
             <!-- <h1>MOTO Audio Latency Calculator</h1> removed in favor of logo -->
-            <p>Build your signal chain to calculate total latency<br>Match <strong>Output</strong> to
-                <strong>Input</strong> and <strong>Sample Rate</strong>
+            <p>Build your signal chain to calculate total latency<br>
+                Match <strong>Output</strong> to <strong>Input</strong> and <strong>Sample Rate</strong><br>
+                <span style="font-size: 0.7em; opacity: 0.7; letter-spacing: 1px; margin-top: 5px; display: block;">BETA
+                    VERSION: 0.1</span>
             </p>
 
         </header>
@@ -30,7 +32,15 @@
         <main>
             <!-- Left Panel: Device Library -->
             <section class="device-library">
-                <h2>Device Library</h2>
+                <div class="library-header-row">
+                    <h2>Device Library</h2>
+                    <button id="toggle-library" class="btn-toggle-icon" title="Minimize Library to show more chain">
+                        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2"
+                            fill="none">
+                            <path d="M18 15l-6-6-6 6" />
+                        </svg>
+                    </button>
+                </div>
                 <div class="search-bar">
                     <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
                         <input type="text" id="search-input" placeholder="Search devices..."
@@ -57,6 +67,7 @@
                         </label>
                     </div>
                 </div>
+                <div id="library-context-container"></div>
                 <div id="device-list" class="device-grid">
                     <!-- Devices will be injected here by JS -->
                 </div>
@@ -67,6 +78,8 @@
                 <div class="chain-header">
                     <h2>Signal Chain</h2>
                     <div class="chain-actions">
+                        <button id="toggle-topology" class="btn-secondary"
+                            title="Switch to Network Topology View">Overview Map</button>
                         <button id="export-pdf" class="btn-secondary" title="Save as PDF">Export PDF</button>
                         <button id="clear-chain" class="btn-secondary">Clear</button>
                     </div>

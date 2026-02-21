@@ -130,6 +130,8 @@ def get_devices_from_csv():
                 output_sr = row[4].strip()
                 time_str = row[5].strip()
                 source = row[6].strip() if len(row) > 6 else "-"
+                input_count = row[7].strip() if len(row) > 7 else "2"
+                output_count = row[8].strip() if len(row) > 8 else "2"
                 
                 # Image filename lookup
                 image_filename = find_best_image_match(name)
@@ -149,7 +151,9 @@ def get_devices_from_csv():
                         'input_type': input_type,
                         'output_type': output_type,
                         'input_sr': input_sr,
-                        'output_sr': output_sr
+                        'output_sr': output_sr,
+                        'input_count': input_count,
+                        'output_count': output_count
                     }
                 })
                 

@@ -1,0 +1,55 @@
+# Signal Chain Database Rules
+
+This document defines the rules for the Audio Latency Calculator database (CSV) and the connection logic within the Signal Chain Builder.
+
+## 1. CSV Schema (Database Structure)
+The mandatory column order for `MOTO Audio delay - Ark1.csv` is:
+
+`Device Name,Input Type,Output Type,Input Sample Rate,Output Sample Rate,Latency,Source,Input Count,Output Count`
+
+### Field Definitions:
+- **Device Name**: Full name including mode if specific (e.g., "Sound Devices Astral (Long Range)").
+- **Input Type**: Protocol entering the device (Analog, Dante, AES3, AVB, AES67, MADI, Optocore, Digital).
+- **Output Type**: Protocol exiting the device.
+- **Input Sample Rate**: The SR the device expects (e.g., "48kHz", "96kHz", or "-" for protocol-native/wildcard).
+- **Output Sample Rate**: The SR the device outputs.
+- **Latency**: Total processing time in milliseconds (ms).
+- **Source**: Reference for the data (e.g., manufacturer spec, "moto measured").
+- **Input Count**: Total number of physical/logical inputs available for this mode.
+- **Output Count**: Total number of physical/logical outputs available for this mode.
+
+---
+
+## 2. Connection Rules (Signal Chain Logic)
+
+To maintain a valid signal path, the following logic is enforced by the system:
+
+### A. Protocol Matching
+A device can only be connected to the next one if:
+**[Source Device] Output Type == [Target Device] Input Type**
+
+*Example:* 
+- A device with `Output Type: AES3` CANNOT connect to a device with `Input Type: Analog`.
+- A device with `Output Type: Analog` CAN connect to any device with `Input Type: Analog`.
+
+### B. Sample Rate Matching
+The system checks the Sample Rate (SR) context:
+**[Source Device] Output SR == [Target Device] Input SR**
+
+*Wildcards:*
+- If a device has `-` in its SR column, it is treated as "SR Agnostic" or "Internal SR" and will not block a connection based on SR mismatch.
+
+### C. Latency Calculation
+Total Latency = Σ (Latency of each device in the chain)
+- In branching paths (splits), each path calculates its own independent total latency from Start to Finish.
+
+### D. Port Selection & Multi-Output
+- If a device outputs multiple protocols (e.g., Analog + Dante), it must be listed as separate rows in the CSV OR defined as multiple ports in a Split Node.
+- The system currently prioritizes the primary Output Type defined for a focused path.
+
+---
+
+## 3. Maintenance Guidelines
+- **No Empty Rows**: Ensure there are no empty lines in the CSV.
+- **Consistent Capitalization**: Protocols should use standard naming (e.g., "Dante", not "dante").
+- **Measured Data**: Always prioritize "moto measured" values in the `Source` column for real-world accuracy.
