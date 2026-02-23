@@ -498,42 +498,42 @@ DiGiCo SD‑Nano Rack,Optocore,Dante,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter 
 DiGiCo SD‑Nano Rack,Optocore,Optocore,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
 DiGiCo DMI‑KLANG,Digital,Digital,48kHz,48kHz,"0,25ms",DiGiCo KLANG Module Datasheet,2,2
 DiGiCo DMI‑KLANG,Digital,Digital,96kHz,96kHz,"0,25ms",DiGiCo KLANG Module Datasheet,2,2
-DAD Core 256,AES3,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples),256,256
-DAD Core 256,AES3,Dante,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples),256,256
-DAD Core 256,AES3,AES67,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples),256,256
-DAD Core 256,AES3,MADI,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples),256,256
-DAD Core 256,Dante,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples),256,256
-DAD Core 256,Dante,AES67,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples),256,256
-DAD Core 256,Dante,MADI,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples),256,256
-DAD Core 256,AES67,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples),256,256
-DAD Core 256,AES67,Dante,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples),256,256
-DAD Core 256,AES67,MADI,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples),256,256
-DAD Core 256,MADI,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples),256,256
-DAD Core 256,MADI,Dante,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples),256,256
-DAD Core 256,MADI,AES67,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples),256,256
-DAD Core 256,Analog,AES3,96kHz,96kHz,0.70ms,DAD converter latency typical (AKM / FPGA architecture),8,256
-DAD Core 256,AES3,Analog,96kHz,96kHz,0.80ms,DAD converter latency typical (AKM / FPGA architecture),256,8
-DAD Core 256,Analog,Dante,96kHz,96kHz,0.70ms,DAD converter latency typical,8,256
-DAD Core 256,Dante,Analog,96kHz,96kHz,0.80ms,DAD converter latency typical,256,8
-DAD Core 256,Analog,AES67,96kHz,96kHz,0.70ms,DAD converter latency typical,8,256
-DAD Core 256,AES67,Analog,96kHz,96kHz,0.80ms,DAD converter latency typical,256,8
-DAD Core 256,Analog,MADI,96kHz,96kHz,0.70ms,DAD converter latency typical,8,256
-DAD Core 256,MADI,Analog,96kHz,96kHz,0.80ms,DAD converter latency typical,256,8
+DAD Core 256,AES3,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples @96kHz),256,256
+DAD Core 256,AES3,Dante,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples @96kHz),256,256
+DAD Core 256,AES3,AES67,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples @96kHz),256,256
+DAD Core 256,AES3,MADI,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples @96kHz),256,256
+DAD Core 256,Dante,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples @96kHz),256,256
+DAD Core 256,Dante,AES67,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples @96kHz),256,256
+DAD Core 256,Dante,MADI,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples @96kHz),256,256
+DAD Core 256,AES67,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples @96kHz),256,256
+DAD Core 256,AES67,Dante,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples @96kHz),256,256
+DAD Core 256,AES67,MADI,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples @96kHz),256,256
+DAD Core 256,MADI,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples @96kHz),256,256
+DAD Core 256,MADI,Dante,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples @96kHz),256,256
+DAD Core 256,MADI,AES67,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples @96kHz),256,256
+DAD Core 256,Analog,AES3,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,8,256
+DAD Core 256,AES3,Analog,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,256,8
+DAD Core 256,Analog,Dante,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,8,256
+DAD Core 256,Dante,Analog,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,256,8
+DAD Core 256,Analog,AES67,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,8,256
+DAD Core 256,AES67,Analog,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,256,8
+DAD Core 256,Analog,MADI,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,8,256
+DAD Core 256,MADI,Analog,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,256,8
 DAD Core 256,DADlink,DADlink,96kHz,96kHz,0.0001ms,DADlink specification (<100ns),256,256
-DAD AX32,AES3,AES3,96kHz,96kHz,0.052ms,DAD FPGA routing latency (same ThunderCore architecture),256,256
-DAD AX32,Dante,AES3,96kHz,96kHz,0.052ms,DAD FPGA routing latency,256,256
-DAD AX32,AES67,AES3,96kHz,96kHz,0.052ms,DAD FPGA routing latency,256,256
-DAD AX32,Analog,AES3,96kHz,96kHz,0.70ms,DAD converter latency typical,32,256
-DAD AX32,AES3,Analog,96kHz,96kHz,0.80ms,DAD converter latency typical,256,32
-DAD AX32,Analog,Dante,96kHz,96kHz,0.70ms,DAD converter latency typical,32,256
-DAD AX32,Dante,Analog,96kHz,96kHz,0.80ms,DAD converter latency typical,256,32
-DAD DX32,AES3,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency,256,256
-DAD DX32,Dante,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency,256,256
-DAD DX32,AES67,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency,256,256
-DAD DX32,Analog,AES3,96kHz,96kHz,0.70ms,DAD converter latency typical,32,256
-DAD DX32,AES3,Analog,96kHz,96kHz,0.80ms,DAD converter latency typical,256,32
-DAD DX32,Analog,Dante,96kHz,96kHz,0.70ms,DAD converter latency typical,32,256
-DAD DX32,Dante,Analog,96kHz,96kHz,0.80ms,DAD converter latency typical,256,32
+DAD AX32,AES3,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency,32,32
+DAD AX32,Dante,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency,32,32
+DAD AX32,AES67,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency,32,32
+DAD AX32,Analog,AES3,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,32,32
+DAD AX32,AES3,Analog,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,32,32
+DAD AX32,Analog,Dante,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,32,32
+DAD AX32,Dante,Analog,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,32,32
+DAD DX32,AES3,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency,32,32
+DAD DX32,Dante,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency,32,32
+DAD DX32,AES67,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency,32,32
+DAD DX32,Analog,AES3,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,32,32
+DAD DX32,AES3,Analog,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,32,32
+DAD DX32,Analog,Dante,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,32,32
+DAD DX32,Dante,Analog,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,32,32
 d&b D80,Analog,Analog,-,-,"0,3ms",d&b D80 Technical Documentation,2,2
 d&b D80,AES3,Analog,48kHz,-,"0,3ms",d&b D80 Technical Documentation,2,2
 d&b D80,AES3,Analog,96kHz,-,"0,3ms",d&b D80 Technical Documentation,2,2
@@ -541,12 +541,12 @@ d&b D80,Dante,Analog,48kHz,-,"0,8ms",d&b D80 Technical Documentation,2,2
 d&b D80,Dante,Analog,96kHz,-,"0,8ms",d&b D80 Technical Documentation,2,2
 d&b D80,AES67,Analog,48kHz,-,"0,8ms",d&b D80 Technical Documentation,2,2
 d&b D80,AES67,Analog,96kHz,-,"0,8ms",d&b D80 Technical Documentation,2,2
-Meyer Sound GALAXY 408,Analog,AES3,48 kHz,48 kHz,0.38 ms,Estimated (DSP architecture similar to d&b D80 internal processing),2,2
-Meyer Sound GALAXY 408,AES3,AES3,48 kHz,48 kHz,0.34 ms,Estimated (pure digital routing without ADC stage),2,2
-Meyer Sound GALAXY 816,Analog,AES3,48 kHz,48 kHz,0.38 ms,Estimated (same DSP platform as GALAXY 408),2,2
-Meyer Sound GALAXY 816,AES3,AES3,48 kHz,48 kHz,0.34 ms,Estimated (same DSP platform as GALAXY 408),2,2
-Meyer Sound GALAXY 1616,Analog,AES3,48 kHz,48 kHz,0.38 ms,Estimated (same DSP platform as GALAXY series),2,2
-Meyer Sound GALAXY 1616,AES3,AES3,48 kHz,48 kHz,0.34 ms,Estimated (same DSP platform as GALAXY series),2,2
+Meyer Sound GALAXY 408,Analog,AES3,48kHz,48kHz,0.38 ms,Estimated (DSP architecture similar to d&b D80 internal processing),2,2
+Meyer Sound GALAXY 408,AES3,AES3,48kHz,48kHz,0.34 ms,Estimated (pure digital routing without ADC stage),2,2
+Meyer Sound GALAXY 816,Analog,AES3,48kHz,48kHz,0.38 ms,Estimated (same DSP platform as GALAXY 408),2,2
+Meyer Sound GALAXY 816,AES3,AES3,48kHz,48kHz,0.34 ms,Estimated (same DSP platform as GALAXY 408),2,2
+Meyer Sound GALAXY 1616,Analog,AES3,48kHz,48kHz,0.38 ms,Estimated (same DSP platform as GALAXY series),2,2
+Meyer Sound GALAXY 1616,AES3,AES3,48kHz,48kHz,0.34 ms,Estimated (same DSP platform as GALAXY series),2,2
 Dante Receiver Buffer (0.25ms setting),Dante,Dante,48kHz,48kHz,"0,25ms",Audinate Dante Controller Documentation,2,2
 Dante Receiver Buffer (0.25ms setting),Dante,Dante,96kHz,96kHz,"0,25ms",Audinate Dante Controller Documentation,2,2
 Dante Receiver Buffer (0.5ms setting),Dante,Dante,48kHz,48kHz,"0,5ms",Audinate Dante Controller Documentation,2,2
@@ -782,3 +782,79 @@ Riedel Bolero Antenna,AES67,AES67,48kHz,48kHz,"0,30ms",Riedel Bolero Documentati
 Riedel Artist Matrix,AES67,AES67,48kHz,48kHz,"35,00ms",Riedel Artist Documentation,2,2
 AES67 Network (typical),AES67,AES67,48kHz,48kHz,"0,50ms",chatgpt,2,2
 Wisycom MTK982 (MPR50) (Analog FM),Analog,Analog,-,-,"1,08ms",(moto measured),2,2
+Yamaha CL5,Dante,Dante,96000,96000,0.25ms,Yamaha DSP engine latency @96kHz,64,64
+Yamaha CL5,Analog,Dante,96000,96000,0.43ms,Yamaha AD (0.18) + DSP (0.25),32,64
+Yamaha CL5,Dante,Analog,96000,96000,0.43ms,Yamaha DSP (0.25) + DA (0.18),64,32
+Yamaha CL5,Analog,Analog,96000,96000,0.61ms,Yamaha AD (0.18) + DSP (0.25) + DA (0.18),32,32
+Yamaha CL3,Dante,Dante,96000,96000,0.25ms,Yamaha DSP engine latency @96kHz,64,64
+Yamaha CL3,Analog,Dante,96000,96000,0.43ms,Yamaha converter + DSP latency,32,64
+Yamaha CL3,Dante,Analog,96000,96000,0.43ms,Yamaha converter + DSP latency,64,32
+Yamaha CL3,Analog,Analog,96000,96000,0.61ms,Yamaha full signal path latency,32,32
+Yamaha CL1,Dante,Dante,96000,96000,0.25ms,Yamaha DSP engine latency @96kHz,48,48
+Yamaha CL1,Analog,Dante,96000,96000,0.43ms,Yamaha converter + DSP latency,16,48
+Yamaha CL1,Dante,Analog,96000,96000,0.43ms,Yamaha converter + DSP latency,48,16
+Yamaha CL1,Analog,Analog,96000,96000,0.61ms,Yamaha full signal path latency,16,16
+Yamaha QL5,Dante,Dante,96000,96000,0.25ms,Yamaha DSP engine latency @96kHz,64,64
+Yamaha QL5,Analog,Dante,96000,96000,0.43ms,Yamaha converter + DSP latency,32,64
+Yamaha QL5,Dante,Analog,96000,96000,0.43ms,Yamaha converter + DSP latency,64,32
+Yamaha QL5,Analog,Analog,96000,96000,0.61ms,Yamaha full signal path latency,32,32
+Yamaha QL1,Dante,Dante,96000,96000,0.25ms,Yamaha DSP engine latency @96kHz,32,32
+Yamaha QL1,Analog,Dante,96000,96000,0.43ms,Yamaha converter + DSP latency,16,32
+Yamaha QL1,Dante,Analog,96000,96000,0.43ms,Yamaha converter + DSP latency,32,16
+Yamaha QL1,Analog,Analog,96000,96000,0.61ms,Yamaha full signal path latency,16,16
+Yamaha PM7,Dante,Dante,96000,96000,0.18ms,Yamaha DSP engine latency @96kHz,144,144
+Yamaha PM7,Analog,Dante,96000,96000,0.36ms,Yamaha AD (0.18) + DSP (0.18),48,144
+Yamaha PM7,Dante,Analog,96000,96000,0.36ms,Yamaha DSP (0.18) + DA (0.18),144,48
+Yamaha PM7,Analog,Analog,96000,96000,0.54ms,Yamaha full signal path latency,48,48
+Yamaha PM10,Dante,Dante,96000,96000,0.18ms,Yamaha DSP engine latency @96kHz,144,144
+Yamaha PM10,Analog,Dante,96000,96000,0.36ms,Yamaha converter + DSP latency,48,144
+Yamaha PM10,Dante,Analog,96000,96000,0.36ms,Yamaha converter + DSP latency,144,48
+Yamaha PM10,Analog,Analog,96000,96000,0.54ms,Yamaha full signal path latency,48,48
+Yamaha DM3,Dante,Dante,96000,96000,0.15ms,Yamaha DSP engine latency @96kHz,16,16
+Yamaha DM3,Analog,Dante,96000,96000,0.33ms,Yamaha AD (0.18) + DSP (0.15),8,16
+Yamaha DM3,Dante,Analog,96000,96000,0.33ms,Yamaha DSP (0.15) + DA (0.18),16,8
+Yamaha DM3,Analog,Analog,96000,96000,0.51ms,Yamaha full signal path latency,8,8
+Yamaha DM7,Dante,Dante,96000,96000,0.15ms,Yamaha DSP engine latency @96kHz,144,144
+Yamaha DM7,Analog,Dante,96000,96000,0.33ms,Yamaha AD (0.18) + DSP (0.15),32,144
+Yamaha DM7,Dante,Analog,96000,96000,0.33ms,Yamaha DSP (0.15) + DA (0.18),144,32
+Yamaha DM7,Analog,Analog,96000,96000,0.51ms,Yamaha full signal path latency,32,32
+Yamaha TF5,Dante,Dante,48000,48000,0.25ms,Yamaha DSP engine latency @48kHz,48,48
+Yamaha TF5,Analog,Dante,48000,48000,0.43ms,Yamaha converter + DSP latency,16,48
+Yamaha TF5,Dante,Analog,48000,48000,0.43ms,Yamaha converter + DSP latency,48,16
+Yamaha TF5,Analog,Analog,48000,48000,0.61ms,Yamaha full signal path latency,16,16
+Yamaha TF3,Dante,Dante,48000,48000,0.25ms,Yamaha DSP engine latency @48kHz,24,24
+Yamaha TF3,Analog,Dante,48000,48000,0.43ms,Yamaha converter + DSP latency,8,24
+Yamaha TF3,Dante,Analog,48000,48000,0.43ms,Yamaha converter + DSP latency,24,8
+Yamaha TF3,Analog,Analog,48000,48000,0.61ms,Yamaha full signal path latency,8,8
+Yamaha TF1,Dante,Dante,48000,48000,0.25ms,Yamaha DSP engine latency @48kHz,16,16
+Yamaha TF1,Analog,Dante,48000,48000,0.43ms,Yamaha converter + DSP latency,8,16
+Yamaha TF1,Dante,Analog,48000,48000,0.43ms,Yamaha converter + DSP latency,16,8
+Yamaha TF1,Analog,Analog,48000,48000,0.61ms,Yamaha full signal path latency,8,8
+Yamaha RIVAGE PM10,Dante,Dante,96000,96000,0.18ms,Yamaha DSP engine latency @96kHz,144,144
+Yamaha RIVAGE PM10,Analog,Dante,96000,96000,0.36ms,Yamaha converter + DSP latency,48,144
+Yamaha RIVAGE PM10,Dante,Analog,96000,96000,0.36ms,Yamaha converter + DSP latency,144,48
+Yamaha RIVAGE PM10,Analog,Analog,96000,96000,0.54ms,Yamaha full signal path latency,48,48
+Yamaha RIVAGE PM7,Dante,Dante,96000,96000,0.18ms,Yamaha DSP engine latency @96kHz,144,144
+Yamaha RIVAGE PM7,Analog,Dante,96000,96000,0.36ms,Yamaha converter + DSP latency,48,144
+Yamaha RIVAGE PM7,Dante,Analog,96000,96000,0.36ms,Yamaha converter + DSP latency,144,48
+Yamaha RIVAGE PM7,Analog,Analog,96000,96000,0.54ms,Yamaha full signal path latency,48,48
+Yamaha RIVAGE PM5,Dante,Dante,96000,96000,0.18ms,Yamaha DSP engine latency @96kHz,144,144
+Yamaha RIVAGE PM5,Analog,Dante,96000,96000,0.36ms,Yamaha converter + DSP latency,48,144
+Yamaha RIVAGE PM5,Dante,Analog,96000,96000,0.36ms,Yamaha converter + DSP latency,144,48
+Yamaha RIVAGE PM5,Analog,Analog,96000,96000,0.54ms,Yamaha full signal path latency,48,48
+Yamaha RIVAGE PM3,Dante,Dante,96000,96000,0.18ms,Yamaha DSP engine latency @96kHz,144,144
+Yamaha RIVAGE PM3,Analog,Dante,96000,96000,0.36ms,Yamaha converter + DSP latency,48,144
+Yamaha RIVAGE PM3,Dante,Analog,96000,96000,0.36ms,Yamaha converter + DSP latency,144,48
+Yamaha RIVAGE PM3,Analog,Analog,96000,96000,0.54ms,Yamaha full signal path latency,48,48
+Yamaha RIVAGE CS-R3,Dante,Dante,96000,96000,0.18ms,Yamaha DSP engine latency @96kHz,144,144
+Yamaha RIVAGE CS-R3,Analog,Dante,96000,96000,0.36ms,Yamaha converter + DSP latency,48,144
+Yamaha RIVAGE CS-R3,Dante,Analog,96000,96000,0.36ms,Yamaha converter + DSP latency,144,48
+Yamaha RIVAGE CS-R3,Analog,Analog,96000,96000,0.54ms,Yamaha full signal path latency,48,48
+Yamaha RIVAGE CS-R5,Dante,Dante,96000,96000,0.18ms,Yamaha DSP engine latency @96kHz,144,144
+Yamaha RIVAGE CS-R5,Analog,Dante,96000,96000,0.36ms,Yamaha converter + DSP latency,48,144
+Yamaha RIVAGE CS-R5,Dante,Analog,96000,96000,0.36ms,Yamaha converter + DSP latency,144,48
+Yamaha RIVAGE CS-R5,Analog,Analog,96000,96000,0.54ms,Yamaha full signal path latency,48,48
+Yamaha RIVAGE CS-R7,Dante,Dante,96000,96000,0.18ms,Yamaha DSP engine latency @96kHz,144,144
+Yamaha RIVAGE CS-R7,Analog,Dante,96000,96000,0.36ms,Yamaha converter + DSP latency,48,144
+Yamaha RIVAGE CS-R7,Dante,Analog,96000,96000,0.36ms,Yamaha converter + DSP latency,144,48
+Yamaha RIVAGE CS-R7,Analog,Analog,96000,96000,0.54ms,Yamaha full signal path latency,48,48

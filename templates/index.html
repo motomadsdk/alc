@@ -27,6 +27,10 @@
 </head>
 
 <body>
+    <div class="mobile-warning" id="mobile-warning">
+        <span>For the best experience building and mapping signal chains, please use a desktop browser.</span>
+        <button class="close-warning" id="close-mobile-warning">&times;</button>
+    </div>
     <div class="app-container">
         <!-- Header -->
         <header>
@@ -93,6 +97,16 @@
                 <div class="chain-header">
                     <h2>Signal Chain</h2>
                     <div class="chain-actions">
+                        <label class="global-network-toggle" title="Show/Hide Network Settings for all devices">
+                            <input type="checkbox" id="global-network-enable">
+                            <span class="slider round"></span>
+                            <span class="toggle-text">Network Config</span>
+                        </label>
+                        <label class="global-network-toggle" title="Show/Hide Port Numbers on all devices">
+                            <input type="checkbox" id="global-ports-enable">
+                            <span class="slider round"></span>
+                            <span class="toggle-text">Port Numbers</span>
+                        </label>
                         <button id="toggle-topology" class="btn-secondary"
                             title="Switch to Network Topology View">Overview Map</button>
                         <button id="export-jpg" class="btn-secondary" style="display: none;"
@@ -130,6 +144,24 @@
                                 </svg>
                                 Hear Latency
                             </button>
+                            <div class="info-container">
+                                <button class="btn-info" id="btn-hear-info">
+                                    <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor"
+                                        stroke-width="2" fill="none">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <line x1="12" y1="16" x2="12" y2="12"></line>
+                                        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                                    </svg>
+                                </button>
+                                <div class="info-tooltip" id="hear-info-tooltip">
+                                    <strong>How it works:</strong><br>
+                                    Compare the original sound with the calculated delay.
+                                    <ul>
+                                        <li><strong>Ref:</strong> Pure sound (0ms).</li>
+                                        <li><strong>Hear Latency:</strong> Sound with the total delay applied.</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="total-value" id="total-latency">0.00 ms</div>

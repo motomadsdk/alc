@@ -12,6 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const showSourceCheckbox = document.getElementById('show-source');
     const hearLatencyBtn = document.getElementById('hear-latency');
     const hearRefBtn = document.getElementById('hear-ref');
+    const hearInfoBtn = document.getElementById('btn-hear-info');
+    const hearInfoTooltip = document.getElementById('hear-info-tooltip');
     const exportJpgBtn = document.getElementById('export-jpg');
 
     // Disclaimer Modal Elements
@@ -78,12 +80,24 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>`;
     }
 
+    // Helper to format sample rates (e.g. 48000 -> 48kHz)
+    const formatSR = (sr) => {
+        if (!sr || sr === '-') return '-';
+        // If it's a number (or string that looks like a number)
+        if (typeof sr === 'number' || (!isNaN(sr) && !sr.toString().includes('k'))) {
+            const val = parseFloat(sr);
+            if (val >= 1000) return (val / 1000) + 'kHz';
+            return val + 'Hz';
+        }
+        return sr;
+    };
+
     function getDeviceBadgesHtml(device) {
         // Fallback for technical data if missing from top-level (migration/consistency)
         const inputType = device.inputType || device.raw_data?.input_type || '-';
         const outputType = device.outputType || device.raw_data?.output_type || '-';
-        const inputSR = device.inputSR || device.raw_data?.input_sr || '-';
-        const outputSR = device.outputSR || device.raw_data?.output_sr || '-';
+        const inputSR = formatSR(device.inputSR || device.raw_data?.input_sr || '-');
+        const outputSR = formatSR(device.outputSR || device.raw_data?.output_sr || '-');
 
         const inClass = getProtocolClass(inputType);
         const outClass = getProtocolClass(outputType);
@@ -102,19 +116,22 @@ document.addEventListener('DOMContentLoaded', () => {
                 ${outputSR !== '-' ? `<span class="badge-sr">${outputSR}</span>` : ''}
             </div>`;
 
+        const portCountValue = `${device.raw_data?.input_count || device.inputCount || '2'} In / ${device.raw_data?.output_count || device.outputCount || '2'} Out`;
         const portCount = `
             <div class="badge-group ports">
                 <span class="badge-label">Ports:</span>
-                <span class="badge-value">${device.raw_data?.input_count || device.inputCount || '2'} In / ${device.raw_data?.output_count || device.outputCount || '2'} Out</span>
+                <span class="badge-value">${portCountValue}</span>
             </div>`;
 
         return `
             <div class="device-badges">
-                <div class="badges-left">
-                    ${inputBadge}
-                </div>
-                <div class="badges-right">
-                    ${outputBadge}
+                <div class="badges-main">
+                    <div class="badges-left">
+                        ${inputBadge}
+                    </div>
+                    <div class="badges-right">
+                        ${outputBadge}
+                    </div>
                 </div>
                 <div class="badges-footer">
                     ${portCount}
@@ -244,6 +261,19 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    if (hearInfoBtn && hearInfoTooltip) {
+        // Toggle for mobile, hover is handled by CSS
+        hearInfoBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            hearInfoTooltip.classList.toggle('active');
+        });
+
+        // Close when clicking elsewhere
+        window.addEventListener('click', () => {
+            hearInfoTooltip.classList.remove('active');
+        });
+    }
+
     // Render Library
     function renderDeviceLibrary(devices) {
         deviceListEl.innerHTML = '';
@@ -264,7 +294,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 contextHeader.innerHTML = `
                     <div style="font-size: 0.8rem; color: #888;">Next Step Requirements:</div>
                     <div class="context-tag matched ${protoClass}">${lastOutput}</div>
-                    ${lastSR !== '-' ? `<div class="context-tag matched ${protoClass}">${lastSR}</div>` : ''}
+                    ${lastSR !== '-' ? `<div class="context-tag matched ${protoClass}">${formatSR(lastSR)}</div>` : ''}
                     <div style="font-size: 0.7rem; color: #666; font-style: italic;">(Library is filtered to show matches first)</div>
                 `;
             } else {
@@ -850,25 +880,35 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!item.ipLabels) item.ipLabels = ["IP"];
 
         itemEl.innerHTML = `
-            <div class="chain-item-info">
-                <div class="chain-icon">
-                    ${getProtocolBgHtml(item.raw_data?.input_type, item.raw_data?.output_type)}
-                    <img src="/static/images/${item.image}" onload="this.style.opacity=1" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
-                    <div class="chain-fallback">
-                        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><circle cx="12" cy="12" r="3"></circle></svg>
+            <div class="chain-item-top">
+                <div class="chain-item-info">
+                    <div class="chain-icon">
+                        ${getProtocolBgHtml(item.raw_data?.input_type, item.raw_data?.output_type)}
+                        <img src="/static/images/${item.image}" onload="this.style.opacity=1" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                        <div class="chain-fallback">
+                            <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><circle cx="12" cy="12" r="3"></circle></svg>
+                        </div>
+                    </div>
+                    <div class="chain-item-details">
+                        <div class="name-container">
+                            <input type="text" class="chain-item-nickname" value="${item.nickname || item.name}" placeholder="Label..." title="Click to rename">
+                            ${!isMini ? `<span class="chain-item-model">${item.nickname ? item.name : ''}</span>` : ''}
+                        </div>
+                        <div class="chain-meta">
+                            <span class="chain-item-latency">${item.display_time}</span>
+                        </div>
+                        <div class="chain-item-technical">
+                            ${getDeviceBadgesHtml(item)}
+                        </div>
                     </div>
                 </div>
-                <div class="chain-item-details">
-                    <div class="name-container">
-                        <input type="text" class="chain-item-nickname" value="${item.nickname || item.name}" placeholder="Label..." title="Click to rename">
-                        ${!isMini ? `<span class="chain-item-model">${item.nickname ? item.name : ''}</span>` : ''}
-                    </div>
-                    <div class="chain-meta">
-                        <span class="chain-item-latency">${item.display_time}</span>
-                    </div>
-                    <div class="chain-item-technical">
-                        ${getDeviceBadgesHtml(item)}
-                    </div>
+                
+                <div class="chain-item-actions">
+                    ${!isMini ? `
+                    <button class="split-btn" title="Split Path Here">
+                        <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><path d="M7 11v 8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V1a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v8"/><path d="M17 11v 8a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V1a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v8"/></svg>
+                    </button>` : ''}
+                    <button class="remove-btn">×</button>
                 </div>
             </div>
             
@@ -906,14 +946,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                     ` : '').join('')}
                 </div>
-            </div>
-
-            <div class="chain-item-actions">
-                ${!isMini ? `
-                <button class="split-btn" title="Split Path Here">
-                    <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><path d="M7 11v 8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V1a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v8"/><path d="M17 11v 8a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2V1a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v8"/></svg>
-                </button>` : ''}
-                <button class="remove-btn">×</button>
             </div>
         `;
 
@@ -1175,8 +1207,9 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
         const pathTotals = getAllPathTotals(currentChain);
+        let newValueHtml = '';
         if (pathTotals.length === 1 && pathTotals[0].label === '') {
-            totalLatencyEl.innerHTML = `<span class="total-value">${pathTotals[0].latency.toFixed(2)} ms</span>`;
+            newValueHtml = `<span class="total-value">${pathTotals[0].latency.toFixed(2)} ms</span>`;
         } else {
             let html = '<div class="path-results-list">';
             pathTotals.forEach(p => {
@@ -1187,7 +1220,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>`;
             });
             html += '</div>';
-            totalLatencyEl.innerHTML = html;
+            newValueHtml = html;
+        }
+
+        // Only animate if value changed
+        if (totalLatencyEl.innerHTML !== newValueHtml) {
+            totalLatencyEl.innerHTML = newValueHtml;
+            totalLatencyEl.classList.remove('latency-update-anim');
+            void totalLatencyEl.offsetWidth; // Trigger reflow
+            totalLatencyEl.classList.add('latency-update-anim');
         }
     }
 
@@ -1347,4 +1388,51 @@ document.addEventListener('DOMContentLoaded', () => {
             closeDisclaimer();
         }
     });
+
+    // Mobile Warning Close Logic
+    const closeMobileWarningBtn = document.getElementById('close-mobile-warning');
+    const mobileWarningBanner = document.getElementById('mobile-warning');
+    if (closeMobileWarningBtn && mobileWarningBanner) {
+        closeMobileWarningBtn.addEventListener('click', () => {
+            mobileWarningBanner.style.display = 'none';
+        });
+    }
+
+    // Global Network Config Toggle
+    const globalNetworkToggle = document.getElementById('global-network-enable');
+    const signalChainContainer = document.getElementById('signal-chain'); // Applies variable filtering down to nodes
+    if (globalNetworkToggle && signalChainContainer) {
+        globalNetworkToggle.addEventListener('change', (e) => {
+            if (e.target.checked) {
+                signalChainContainer.classList.remove('global-network-disabled');
+                showToast("Network Configurations Enabled", "info");
+            } else {
+                signalChainContainer.classList.add('global-network-disabled');
+                showToast("Network Configurations Hidden", "info");
+            }
+        });
+
+        // Ensure state is correct initially or based on saved preferences
+        if (!globalNetworkToggle.checked) {
+            signalChainContainer.classList.add('global-network-disabled');
+        }
+    }
+
+    // Global Ports Toggle
+    const globalPortsToggle = document.getElementById('global-ports-enable');
+    if (globalPortsToggle) {
+        globalPortsToggle.addEventListener('change', (e) => {
+            if (e.target.checked) {
+                document.body.classList.remove('global-ports-disabled');
+                showToast("Port Numbers Shown", "info");
+            } else {
+                document.body.classList.add('global-ports-disabled');
+                showToast("Port Numbers Hidden", "info");
+            }
+        });
+
+        if (!globalPortsToggle.checked) {
+            document.body.classList.add('global-ports-disabled');
+        }
+    }
 });

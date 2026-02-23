@@ -12,20 +12,57 @@ app = Flask(__name__)
 
 # Configuration
 CSV_FILE = 'MOTO Audio delay - Ark1.csv'
+NETWORK_CNF_FILE = 'device_network_cnf.csv'
 
 # Detect image folder (root /images or static/images)
 IMAGE_FOLDER = 'images' if os.path.exists('images') else os.path.join('static', 'images')
 
 # Image Cache (filename -> relative path)
 IMAGE_CACHE = {}
+SCANNED_IMAGES = False
+
+# Network Config Cache
+NETWORK_CONFIGS = {}
+
+def parse_network_cnf():
+    """
+    Parses device_network_cnf.csv and builds a lookup map based on new schema:
+    device_name,interface_name,protocol,ip_type
+    """
+    global NETWORK_CONFIGS
+    NETWORK_CONFIGS = {}
+    if not os.path.exists(NETWORK_CNF_FILE):
+        return
+    
+    try:
+        with open(NETWORK_CNF_FILE, mode='r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                name = row.get('device_name')
+                if not name: continue
+                
+                if name not in NETWORK_CONFIGS:
+                    NETWORK_CONFIGS[name] = {'interfaces': []}
+                
+                NETWORK_CONFIGS[name]['interfaces'].append({
+                    'name': row.get('interface_name', 'IP'),
+                    'protocol': row.get('protocol', '-'),
+                    'ip_type': row.get('ip_type', '-')
+                })
+    except Exception as e:
+        print(f"Error parsing network config: {e}")
+
+# Initial parse
+parse_network_cnf()
 
 def scan_images():
     """
     Recursively scans the image folder and builds a map of {filename: relative_path}.
     This allows images to be organized in subfolders and even in a root /images folder.
     """
-    global IMAGE_CACHE
+    global IMAGE_CACHE, SCANNED_IMAGES
     IMAGE_CACHE = {} 
+    SCANNED_IMAGES = True
     
     if not os.path.exists(IMAGE_FOLDER):
         print(f"Warning: Image folder '{IMAGE_FOLDER}' not found.")
@@ -88,7 +125,8 @@ def find_best_image_match(device_name):
     # Check if files exist
     # Check if files exist via Recursive Cache
     # Ensure cache is populated
-    if not IMAGE_CACHE:
+    # Ensure cache is populated (only once)
+    if not SCANNED_IMAGES:
         scan_images()
 
     for candidate in candidates:
@@ -101,8 +139,8 @@ def find_best_image_match(device_name):
             if target_filename in IMAGE_CACHE:
                 return IMAGE_CACHE[target_filename]
                 
-    # Fallback: Return the legacy generated name (flat) if not found
-    return f"{sanitize(short_name)}.png"
+    # Fallback: Return None if no actual file found
+    return None
 
 def get_devices_from_csv():
     devices = []
@@ -139,6 +177,11 @@ def get_devices_from_csv():
                 # Extract Brand (first word of name)
                 brand = name.split(' ')[0].strip() if name else "Unknown"
 
+                # Network configuration lookup
+                net_cfg = NETWORK_CONFIGS.get(name, {
+                    'interfaces': [{'name': 'IP', 'protocol': '-', 'ip_type': '-'}]
+                })
+
                 devices.append({
                     'id': len(devices),
                     'name': name,
@@ -147,6 +190,7 @@ def get_devices_from_csv():
                     'display_time': time_str,
                     'image': image_filename,
                     'source': source,
+                    'network_config': net_cfg,
                     'raw_data': {
                         'input_type': input_type,
                         'output_type': output_type,
@@ -157,6 +201,12 @@ def get_devices_from_csv():
                     }
                 })
                 
+        # Log missing images (Count only to avoid stalling)
+        missing_images = [d['name'] for d in devices if d['image'] is None]
+        if missing_images:
+            print(f"--- INFO: {len(missing_images)} devices are missing images in /static/images ---")
+        else:
+            print("All device images found! ✅")
     except Exception as e:
         print(f"Error parsing CSV: {e}")
         return []

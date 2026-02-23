@@ -491,3 +491,41 @@ Timestamp,Event,Device,Brand
 2026-02-21 05:16:32,add_to_chain,DiGiCo Quantum 112,DiGiCo,b7cac77a-b96c-4ce3-a1fa-ba2c6aa7c981
 2026-02-21 05:16:32,add_to_chain,DiGiCo Quantum 112,DiGiCo,b7cac77a-b96c-4ce3-a1fa-ba2c6aa7c981
 2026-02-21 05:16:48,add_to_chain,Shure AD4D (ADX1),Shure,b7cac77a-b96c-4ce3-a1fa-ba2c6aa7c981
+2026-02-21 05:22:51,add_to_chain,Shure AD4D (ADX1),Shure,b7cac77a-b96c-4ce3-a1fa-ba2c6aa7c981
+2026-02-21 05:22:51,add_to_chain,DiGiCo SD‑Rack,DiGiCo,b7cac77a-b96c-4ce3-a1fa-ba2c6aa7c981
+2026-02-21 05:22:52,add_to_chain,DiGiCo SD‑Rack,DiGiCo,b7cac77a-b96c-4ce3-a1fa-ba2c6aa7c981
+2026-02-23 17:38:04,add_to_chain,DiGiCo SD‑Rack,DiGiCo,c7e20ef5-d526-4dd9-b372-89a38445a051
+2026-02-23 17:38:04,add_to_chain,DiGiCo SD‑Rack,DiGiCo,c7e20ef5-d526-4dd9-b372-89a38445a051
+2026-02-23 17:38:08,add_to_chain,DiGiCo Quantum 112,DiGiCo,c7e20ef5-d526-4dd9-b372-89a38445a051
+2026-02-23 17:38:08,add_to_chain,DiGiCo Quantum 112,DiGiCo,c7e20ef5-d526-4dd9-b372-89a38445a051
+2026-02-23 17:38:12,add_to_chain,DiGiCo S21,DiGiCo,c7e20ef5-d526-4dd9-b372-89a38445a051
+2026-02-23 17:38:12,add_to_chain,DiGiCo S21,DiGiCo,c7e20ef5-d526-4dd9-b372-89a38445a051
+2026-02-23 17:38:13,add_to_chain,DiGiCo Quantum 338,DiGiCo,c7e20ef5-d526-4dd9-b372-89a38445a051
+2026-02-23 17:38:15,add_to_chain,Allen & Heath dLive MixRack,Allen,c7e20ef5-d526-4dd9-b372-89a38445a051
+2026-02-23 17:38:19,add_to_chain,Allen & Heath dLive MixRack,Allen,c7e20ef5-d526-4dd9-b372-89a38445a051
+2026-02-23 17:39:30,add_to_chain,DiGiCo SD‑Rack,DiGiCo,8eb2b1fe-ceed-404e-8571-ed8de971e74e
+2026-02-23 17:39:30,add_to_chain,DiGiCo Quantum 112,DiGiCo,8eb2b1fe-ceed-404e-8571-ed8de971e74e
+2026-02-23 17:39:31,add_to_chain,Allen & Heath dLive MixRack,Allen,8eb2b1fe-ceed-404e-8571-ed8de971e74e
+2026-02-23 17:47:52,add_to_chain,DiGiCo SD‑Rack,DiGiCo,8eb2b1fe-ceed-404e-8571-ed8de971e74e
+2026-02-23 17:48:00,add_to_chain,DiGiCo Quantum 112,DiGiCo,8eb2b1fe-ceed-404e-8571-ed8de971e74e
+2026-02-23 18:06:44,add_to_chain,Sennheiser Digital 6000 (Standard),Sennheiser,8eb2b1fe-ceed-404e-8571-ed8de971e74e
+2026-02-23 18:35:39,add_to_chain,Yamaha CL1,Yamaha,8eb2b1fe-ceed-404e-8571-ed8de971e74e
+2026-02-23 18:35:41,add_to_chain,Yamaha CL1,Yamaha,8eb2b1fe-ceed-404e-8571-ed8de971e74e
+2026-02-23 18:43:36,add_to_chain,Meyer Sound GALAXY 408,Meyer,8c18368f-f325-4e0d-85cc-fba46988d364
+2026-02-23 18:44:19,add_to_chain,DAD Core 256,DAD,8c18368f-f325-4e0d-85cc-fba46988d364
+2026-02-23 18:44:25,add_to_chain,DAD Core 256,DAD,8c18368f-f325-4e0d-85cc-fba46988d364
+2026-02-23 18:49:12,add_to_chain,DiGiCo SD‑Rack,DiGiCo,8eb2b1fe-ceed-404e-8571-ed8de971e74e
+2026-02-23 18:49:13,add_to_chain,Shure AD4D (ADX1),Shure,8eb2b1fe-ceed-404e-8571-ed8de971e74e
+2026-02-23 18:49:16,add_to_chain,Shure AD4D (ADX1),Shure,8eb2b1fe-ceed-404e-8571-ed8de971e74e
+2026-02-23 18:49:35,add_to_chain,DiGiCo SD‑Rack,DiGiCo,8eb2b1fe-ceed-404e-8571-ed8de971e74e
+2026-02-23 18:49:36,add_to_chain,Shure AD4D (ADX1),Shure,8eb2b1fe-ceed-404e-8571-ed8de971e74e
+2026-02-23 23:02:52,add_to_chain,Shure AD4D (ADX1),Shure,8eb2b1fe-ceed-404e-8571-ed8de971e74e
+2026-02-23 23:03:41,add_to_chain,Sound Devices Astral ARX32 (Long Range),Sound,8eb2b1fe-ceed-404e-8571-ed8de971e74e
+2026-02-23 23:17:47,add_to_chain,DiGiCo SD‑Rack,DiGiCo,8eb2b1fe-ceed-404e-8571-ed8de971e74e
+2026-02-23 23:19:19,add_to_chain,DiGiCo SD‑Rack,DiGiCo,8eb2b1fe-ceed-404e-8571-ed8de971e74e
+2026-02-23 23:19:20,add_to_chain,Shure AD4D (ADX1),Shure,8eb2b1fe-ceed-404e-8571-ed8de971e74e
+2026-02-23 23:20:44,add_to_chain,Sound Devices Astral ARX32 (Long Range),Sound,8eb2b1fe-ceed-404e-8571-ed8de971e74e
+2026-02-23 23:20:46,add_to_chain,Sound Devices Astral ARX32 (Long Range),Sound,8eb2b1fe-ceed-404e-8571-ed8de971e74e
+2026-02-23 23:29:10,add_to_chain,DiGiCo SD‑Rack,DiGiCo,8eb2b1fe-ceed-404e-8571-ed8de971e74e
+2026-02-23 23:29:10,add_to_chain,Shure AD4D (ADX1),Shure,8eb2b1fe-ceed-404e-8571-ed8de971e74e
+2026-02-23 23:29:11,add_to_chain,DiGiCo SD‑Rack,DiGiCo,8eb2b1fe-ceed-404e-8571-ed8de971e74e
