@@ -1,0 +1,4 @@
+Device Name,Input Type,Output Type,Input Sample Rate,Output Sample Rate,Latency,Source,Input Count,Output Count
+Riedel Bolero Beltpack,AES67,Analog,48kHz,-,"35,00ms",Riedel Bolero Documentation,2,2
+Riedel Bolero Antenna,AES67,AES67,48kHz,48kHz,"0,30ms",Riedel Bolero Documentation,2,2
+Riedel Artist Matrix,AES67,AES67,48kHz,48kHz,"35,00ms",Riedel Artist Documentation,2,2

@@ -1,47 +1,73 @@
 device_name,interface_name,protocol,ip_type
-"Shure AD4D (ADX1)","Control","Network","DHCP"
-"Shure AD4D (ADX1)","Dante","Dante","Static"
-"Shure ADTQ (ADXR) (Analog FM)","Control","Network","DHCP"
-"Shure ADTQ (ADXR) (Analog FM)","Dante","Dante","Static"
-"Allen & Heath CDM48 (Dante128x128) (96kHz)","Primary","Dante","Static"
-"Allen & Heath CDM48 (Dante128x128) (96kHz)","Secondary","Dante","Static"
-"Allen & Heath dLive MixRack","Primary","Dante","Static"
-"Allen & Heath dLive MixRack","Secondary","Dante","Static"
-"Allen & Heath dLive MixRack","Control","Network","DHCP"
-"Shure Axient Digital AD4D/AD4Q (Standard)","Control","Network","DHCP"
-"Shure Axient Digital AD4D/AD4Q (Standard)","Dante Primary","Dante","Static"
-"Shure Axient Digital AD4D/AD4Q (Standard)","Dante Secondary","Dante","Static"
-"Shure Axient Digital AD4D/AD4Q (High Density)","Control","Network","DHCP"
-"Shure Axient Digital AD4D/AD4Q (High Density)","Dante Primary","Dante","Static"
-"Shure ULX-D (Standard)","Control","Network","DHCP"
-"Shure ULX-D (Standard)","Dante","Dante","Static"
-"Shure ULX-D (High Density)","Control","Network","DHCP"
-"Shure ULX-D (High Density)","Dante","Dante","Static"
-"L-Acoustics LA12X","L-NET","Network","DHCP"
-"L-Acoustics LA12X","AVB","AVB","Manual"
-"L-Acoustics LA7.16","L-NET","Network","DHCP"
-"L-Acoustics LA7.16","Milan","AVB","Manual"
-"L-Acoustics P1","L-NET","Network","DHCP"
-"L-Acoustics P1","AVB Primary","AVB","Manual"
-"L-Acoustics P1","AVB Secondary","AVB","Manual"
-"Meyer Sound GALAXY 408","Control","Network","DHCP"
-"Meyer Sound GALAXY 408","AVB","AVB","Static"
-"Meyer Sound GALAXY 816","Control","Network","DHCP"
-"Meyer Sound GALAXY 816","AVB Primary","AVB","Static"
-"Meyer Sound GALAXY 816","AVB Secondary","AVB","Static"
-"Meyer Sound GALAXY 1616","Control","Network","DHCP"
-"Meyer Sound GALAXY 1616","AVB Primary","AVB","Static"
-"Meyer Sound GALAXY 1616","AVB Secondary","AVB","Static"
-"d&b D80","Remote","Network","DHCP"
-"Sennheiser Digital 6000 (Standard)","Control","Network","DHCP"
-"Sennheiser Digital 6000 (Standard)","Dante","Dante","Static"
-"Sennheiser Digital 6000 (Long Range)","Control","Network","DHCP"
-"Sennheiser EW-DX (Standard)","Control","Network","DHCP"
-"Sennheiser EW-DX (Standard)","Dante","Dante","Static"
-"Focusrite RedNet A16R MkII","Primary","Dante","Static"
-"Focusrite RedNet A16R MkII","Secondary","Dante","Static"
-"Riedel Bolero Antenna","Control","Network","DHCP"
-"Riedel Bolero Antenna","AES67","AES67","Static"
-"DiGiCo SD-Rack","Control","Network","DHCP"
-"DiGiCo SD-Rack","MADI","MADI","-"
-"AES67 Network (typical)","Interface","AES67","Static"
+Shure AD4D (ADX1),Control,Network,DHCP
+Shure AD4D (ADX1),Dante Primary,Dante,Static
+Shure AD4D (ADX1),Dante Secondary,Dante,Static
+
+Shure AD4Q (ADXR),Control,Network,DHCP
+Shure AD4Q (ADXR),Dante Primary,Dante,Static
+Shure AD4Q (ADXR),Dante Secondary,Dante,Static
+
+Allen & Heath CDM48,Control,Network,DHCP
+Allen & Heath CDM48,Dante Primary,Dante,Static
+Allen & Heath CDM48,Dante Secondary,Dante,Static
+
+Allen & Heath dLive MixRack,Control,Network,DHCP
+Allen & Heath dLive MixRack,Dante Primary,Dante,Static
+Allen & Heath dLive MixRack,Dante Secondary,Dante,Static
+
+Shure Axient Digital AD4D,Control,Network,DHCP
+Shure Axient Digital AD4D,Dante Primary,Dante,Static
+Shure Axient Digital AD4D,Dante Secondary,Dante,Static
+
+Shure Axient Digital AD4Q,Control,Network,DHCP
+Shure Axient Digital AD4Q,Dante Primary,Dante,Static
+Shure Axient Digital AD4Q,Dante Secondary,Dante,Static
+
+Shure ULX-D Receiver,Control,Network,DHCP
+Shure ULX-D Receiver,Dante Primary,Dante,Static
+Shure ULX-D Receiver,Dante Secondary,Dante,Static
+
+L-Acoustics LA12X,L-NET,Network,DHCP
+L-Acoustics LA12X,Milan Primary,AVB,Layer2
+L-Acoustics LA12X,Milan Secondary,AVB,Layer2
+
+L-Acoustics LA7.16,L-NET,Network,DHCP
+L-Acoustics LA7.16,Milan Primary,AVB,Layer2
+L-Acoustics LA7.16,Milan Secondary,AVB,Layer2
+
+L-Acoustics P1,L-NET,Network,DHCP
+L-Acoustics P1,Milan Primary,AVB,Layer2
+L-Acoustics P1,Milan Secondary,AVB,Layer2
+
+Meyer Sound GALAXY 408,Control,Network,DHCP
+Meyer Sound GALAXY 408,AVB Primary,AVB,Layer2
+Meyer Sound GALAXY 408,AVB Secondary,AVB,Layer2
+
+Meyer Sound GALAXY 816,Control,Network,DHCP
+Meyer Sound GALAXY 816,AVB Primary,AVB,Layer2
+Meyer Sound GALAXY 816,AVB Secondary,AVB,Layer2
+
+Meyer Sound GALAXY 1616,Control,Network,DHCP
+Meyer Sound GALAXY 1616,AVB Primary,AVB,Layer2
+Meyer Sound GALAXY 1616,AVB Secondary,AVB,Layer2
+
+d&b D80,Remote,Network,DHCP
+
+Sennheiser Digital 6000 Receiver,Control,Network,DHCP
+Sennheiser Digital 6000 Receiver,Dante Primary,Dante,Static
+Sennheiser Digital 6000 Receiver,Dante Secondary,Dante,Static
+
+Sennheiser EW-DX Receiver,Control,Network,DHCP
+Sennheiser EW-DX Receiver,Dante Primary,Dante,Static
+Sennheiser EW-DX Receiver,Dante Secondary,Dante,Static
+
+Focusrite RedNet A16R MkII,Dante Primary,Dante,Static
+Focusrite RedNet A16R MkII,Dante Secondary,Dante,Static
+
+Riedel Bolero Antenna,Control,Network,DHCP
+Riedel Bolero Antenna,AES67,AES67,Static
+
+DiGiCo SD-Rack,Control,Network,DHCP
+DiGiCo SD-Rack,MADI,MADI,None
+
+AES67 Network,Interface,AES67,Static

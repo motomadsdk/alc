@@ -1,0 +1,32 @@
+Device Name,Input Type,Output Type,Input Sample Rate,Output Sample Rate,Latency,Source,Input Count,Output Count
+Sennheiser Digital 6000 (Long Range),Analog,Analog,-,-,"3,0ms",Sennheiser Digital 6000 Spec Sheet,2,2
+Sennheiser Digital 6000 (Long Range),Analog,AES3,-,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet,2,2
+Sennheiser Digital 6000 (Long Range),Analog,AES3,-,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet,2,2
+Sennheiser Digital 6000 (Long Range),Analog,Dante,-,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet,2,2
+Sennheiser Digital 6000 (Long Range),Analog,Dante,-,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet,2,2
+Sennheiser Digital 6000 (Long Range),Analog,AES67,-,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet,2,2
+Sennheiser Digital 6000 (Long Range),Analog,AES67,-,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet,2,2
+Sennheiser Digital 6000 (Standard),Analog,Analog,-,-,"3,0ms",Sennheiser Digital 6000 Spec Sheet,2,2
+Sennheiser Digital 6000 (Standard),Analog,AES3,-,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet,2,2
+Sennheiser Digital 6000 (Standard),Analog,AES3,-,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet,2,2
+Sennheiser Digital 6000 (Standard),Analog,Dante,-,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet,2,2
+Sennheiser Digital 6000 (Standard),Analog,Dante,-,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet,2,2
+Sennheiser Digital 6000 (Standard),Analog,AES67,-,48kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet,2,2
+Sennheiser Digital 6000 (Standard),Analog,AES67,-,96kHz,"3,0ms",Sennheiser Digital 6000 Spec Sheet,2,2
+Sennheiser EW-DX (High Density),Analog,Analog,-,-,"1,9ms",Sennheiser EW-DX Spec Sheet,2,2
+Sennheiser EW-DX (High Density),Analog,AES3,-,48kHz,"1,9ms",Sennheiser EW-DX Spec Sheet,2,2
+Sennheiser EW-DX (High Density),Analog,AES3,-,96kHz,"1,9ms",Sennheiser EW-DX Spec Sheet,2,2
+Sennheiser EW-DX (High Density),Analog,Dante,-,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet,2,2
+Sennheiser EW-DX (High Density),Analog,Dante,-,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet,2,2
+Sennheiser EW-DX (High Density),Analog,AES67,-,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet,2,2
+Sennheiser EW-DX (High Density),Analog,AES67,-,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet,2,2
+Sennheiser EW-DX (Standard),Analog,Analog,-,-,"2,4ms",Sennheiser EW-DX Spec Sheet,2,2
+Sennheiser EW-DX (Standard),Analog,AES3,-,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet,2,2
+Sennheiser EW-DX (Standard),Analog,AES3,-,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet,2,2
+Sennheiser EW-DX (Standard),Analog,Dante,-,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet,2,2
+Sennheiser EW-DX (Standard),Analog,Dante,-,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet,2,2
+Sennheiser EW-DX (Standard),Analog,AES67,-,48kHz,"2,4ms",Sennheiser EW-DX Spec Sheet,2,2
+Sennheiser EW-DX (Standard),Analog,AES67,-,96kHz,"2,4ms",Sennheiser EW-DX Spec Sheet,2,2
+Sennheiser EM 6000,Analog,AES3,48000,48000,3.0ms,Same system latency; EM6000 has AES3 (DANTE model adds Dante),2,2
+Sennheiser EM 6000 DANTE,Analog,Dante,48000,48000,3.0ms,Same system latency; EM6000 DANTE has Dante interface + AES3,2,2
+Sennheiser EM 6000 DANTE,Analog,AES3,48000,48000,3.0ms,Same system latency; EM6000 DANTE has AES3 + Dante,2,2

@@ -1,0 +1,448 @@
+Device Name,Input Type,Output Type,Input Sample Rate,Output Sample Rate,Latency,Source,Input Count,Output Count
+DiGiCo Quantum 112,Analog,Analog,-,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,Analog,AES3,-,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,Analog,Dante,-,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,Analog,Optocore,-,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,AES3,Analog,48kHz,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,AES3,AES3,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,AES3,Dante,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,AES3,Optocore,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,Dante,Analog,48kHz,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,Dante,AES3,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,Dante,Dante,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,Dante,Optocore,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,Optocore,Analog,48kHz,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,Optocore,AES3,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,Optocore,Dante,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,Optocore,Optocore,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,Analog,AES3,-,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,Analog,Dante,-,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,Analog,Optocore,-,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,AES3,Analog,96kHz,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,AES3,AES3,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,AES3,Dante,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,AES3,Optocore,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,Dante,Analog,96kHz,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,Dante,AES3,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,Dante,Dante,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,Dante,Optocore,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,Optocore,Analog,96kHz,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,Optocore,AES3,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,Optocore,Dante,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 112,Optocore,Optocore,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,Analog,Analog,-,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,Analog,AES3,-,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,Analog,Dante,-,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,Analog,Optocore,-,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,AES3,Analog,48kHz,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,AES3,AES3,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,AES3,Dante,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,AES3,Optocore,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,Dante,Analog,48kHz,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,Dante,AES3,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,Dante,Dante,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,Dante,Optocore,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,Optocore,Analog,48kHz,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,Optocore,AES3,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,Optocore,Dante,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,Optocore,Optocore,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,Analog,AES3,-,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,Analog,Dante,-,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,Analog,Optocore,-,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,AES3,Analog,96kHz,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,AES3,AES3,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,AES3,Dante,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,AES3,Optocore,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,Dante,Analog,96kHz,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,Dante,AES3,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,Dante,Dante,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,Dante,Optocore,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,Optocore,Analog,96kHz,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,Optocore,AES3,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,Optocore,Dante,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 225,Optocore,Optocore,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,Analog,Analog,-,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,Analog,AES3,-,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,Analog,Dante,-,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,Analog,Optocore,-,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,AES3,Analog,48kHz,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,AES3,AES3,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,AES3,Dante,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,AES3,Optocore,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,Dante,Analog,48kHz,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,Dante,AES3,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,Dante,Dante,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,Dante,Optocore,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,Optocore,Analog,48kHz,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,Optocore,AES3,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,Optocore,Dante,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,Optocore,Optocore,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,Analog,AES3,-,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,Analog,Dante,-,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,Analog,Optocore,-,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,AES3,Analog,96kHz,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,AES3,AES3,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,AES3,Dante,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,AES3,Optocore,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,Dante,Analog,96kHz,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,Dante,AES3,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,Dante,Dante,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,Dante,Optocore,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,Optocore,Analog,96kHz,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,Optocore,AES3,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,Optocore,Dante,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 338,Optocore,Optocore,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,Analog,Analog,-,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,Analog,AES3,-,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,Analog,Dante,-,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,Analog,Optocore,-,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,AES3,Analog,48kHz,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,AES3,AES3,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,AES3,Dante,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,AES3,Optocore,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,Dante,Analog,48kHz,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,Dante,AES3,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,Dante,Dante,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,Dante,Optocore,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,Optocore,Analog,48kHz,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,Optocore,AES3,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,Optocore,Dante,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,Optocore,Optocore,48kHz,48kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,Analog,Analog,-,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,Analog,AES3,-,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,Analog,Dante,-,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,Analog,Optocore,-,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,AES3,Analog,96kHz,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,AES3,AES3,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,AES3,Dante,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,AES3,Optocore,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,Dante,Analog,96kHz,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,Dante,AES3,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,Dante,Dante,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,Dante,Optocore,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,Optocore,Analog,96kHz,-,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,Optocore,AES3,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,Optocore,Dante,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo Quantum 7,Optocore,Optocore,96kHz,96kHz,"1,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,Analog,Analog,-,-,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,Analog,AES3,-,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,Analog,Dante,-,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,Analog,Optocore,-,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,AES3,Analog,48kHz,-,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,AES3,AES3,48kHz,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,AES3,Dante,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,AES3,Optocore,48kHz,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,Dante,Analog,48kHz,-,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,Dante,AES3,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,Dante,Dante,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,Dante,Optocore,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,Optocore,Analog,48kHz,-,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,Optocore,AES3,48kHz,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,Optocore,Dante,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,Optocore,Optocore,48kHz,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,Analog,Analog,-,-,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,Analog,AES3,-,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,Analog,Dante,-,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,Analog,Optocore,-,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,AES3,Analog,96kHz,-,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,AES3,AES3,96kHz,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,AES3,Dante,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,AES3,Optocore,96kHz,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,Dante,Analog,96kHz,-,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,Dante,AES3,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,Dante,Dante,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,Dante,Optocore,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,Optocore,Analog,96kHz,-,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,Optocore,AES3,96kHz,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,Optocore,Dante,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD7,Optocore,Optocore,96kHz,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,Analog,Analog,-,-,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,Analog,AES3,-,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,Analog,Dante,-,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,Analog,Optocore,-,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,AES3,Analog,48kHz,-,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,AES3,AES3,48kHz,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,AES3,Dante,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,AES3,Optocore,48kHz,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,Dante,Analog,48kHz,-,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,Dante,AES3,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,Dante,Dante,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,Dante,Optocore,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,Optocore,Analog,48kHz,-,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,Optocore,AES3,48kHz,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,Optocore,Dante,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,Optocore,Optocore,48kHz,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,Analog,Analog,-,-,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,Analog,AES3,-,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,Analog,Dante,-,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,Analog,Optocore,-,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,AES3,Analog,96kHz,-,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,AES3,AES3,96kHz,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,AES3,Dante,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,AES3,Optocore,96kHz,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,Dante,Analog,96kHz,-,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,Dante,AES3,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,Dante,Dante,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,Dante,Optocore,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,Optocore,Analog,96kHz,-,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,Optocore,AES3,96kHz,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,Optocore,Dante,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD10,Optocore,Optocore,96kHz,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,Analog,Analog,-,-,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,Analog,AES3,-,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,Analog,Dante,-,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,Analog,Optocore,-,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,AES3,Analog,48kHz,-,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,AES3,AES3,48kHz,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,AES3,Dante,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,AES3,Optocore,48kHz,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,Dante,Analog,48kHz,-,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,Dante,AES3,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,Dante,Dante,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,Dante,Optocore,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,Optocore,Analog,48kHz,-,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,Optocore,AES3,48kHz,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,Optocore,Dante,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,Optocore,Optocore,48kHz,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,Analog,Analog,-,-,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,Analog,AES3,-,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,Analog,Dante,-,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,Analog,Optocore,-,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,AES3,Analog,96kHz,-,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,AES3,AES3,96kHz,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,AES3,Dante,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,AES3,Optocore,96kHz,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,Dante,Analog,96kHz,-,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,Dante,AES3,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,Dante,Dante,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,Dante,Optocore,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,Optocore,Analog,96kHz,-,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,Optocore,AES3,96kHz,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,Optocore,Dante,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD12,Optocore,Optocore,96kHz,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,Analog,Analog,-,-,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,Analog,AES3,-,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,Analog,Dante,-,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,Analog,Optocore,-,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,AES3,Analog,48kHz,-,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,AES3,AES3,48kHz,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,AES3,Dante,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,AES3,Optocore,48kHz,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,Dante,Analog,48kHz,-,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,Dante,AES3,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,Dante,Dante,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,Dante,Optocore,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,Optocore,Analog,48kHz,-,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,Optocore,AES3,48kHz,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,Optocore,Dante,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,Optocore,Optocore,48kHz,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,Analog,Analog,-,-,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,Analog,AES3,-,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,Analog,Dante,-,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,Analog,Optocore,-,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,AES3,Analog,96kHz,-,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,AES3,AES3,96kHz,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,AES3,Dante,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,AES3,Optocore,96kHz,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,Dante,Analog,96kHz,-,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,Dante,AES3,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,Dante,Dante,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,Dante,Optocore,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,Optocore,Analog,96kHz,-,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,Optocore,AES3,96kHz,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,Optocore,Dante,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD5,Optocore,Optocore,96kHz,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,Analog,Analog,-,-,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,Analog,AES3,-,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,Analog,Dante,-,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,Analog,Optocore,-,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,AES3,Analog,48kHz,-,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,AES3,AES3,48kHz,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,AES3,Dante,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,AES3,Optocore,48kHz,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,Dante,Analog,48kHz,-,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,Dante,AES3,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,Dante,Dante,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,Dante,Optocore,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,Optocore,Analog,48kHz,-,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,Optocore,AES3,48kHz,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,Optocore,Dante,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,Optocore,Optocore,48kHz,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,Analog,Analog,-,-,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,Analog,AES3,-,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,Analog,Dante,-,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,Analog,Optocore,-,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,AES3,Analog,96kHz,-,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,AES3,AES3,96kHz,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,AES3,Dante,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,AES3,Optocore,96kHz,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,Dante,Analog,96kHz,-,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,Dante,AES3,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,Dante,Dante,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,Dante,Optocore,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,Optocore,Analog,96kHz,-,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,Optocore,AES3,96kHz,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,Optocore,Dante,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21,Optocore,Optocore,96kHz,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,Analog,Analog,-,-,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,Analog,AES3,-,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,Analog,Dante,-,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,Analog,Optocore,-,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,AES3,Analog,48kHz,-,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,AES3,AES3,48kHz,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,AES3,Dante,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,AES3,Optocore,48kHz,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,Dante,Analog,48kHz,-,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,Dante,AES3,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,Dante,Dante,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,Dante,Optocore,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,Optocore,Analog,48kHz,-,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,Optocore,AES3,48kHz,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,Optocore,Dante,48kHz,48kHz,"2,5ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,Optocore,Optocore,48kHz,48kHz,"2,0ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,Analog,Analog,-,-,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,Analog,AES3,-,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,Analog,Dante,-,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,Analog,Optocore,-,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,AES3,Analog,96kHz,-,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,AES3,AES3,96kHz,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,AES3,Dante,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,AES3,Optocore,96kHz,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,Dante,Analog,96kHz,-,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,Dante,AES3,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,Dante,Dante,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,Dante,Optocore,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,Optocore,Analog,96kHz,-,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,Optocore,AES3,96kHz,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,Optocore,Dante,96kHz,96kHz,"1,6ms",DiGiCo Console Datasheet,2,2
+DiGiCo S31,Optocore,Optocore,96kHz,96kHz,"1,1ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),Analog,Analog,-,-,"2,3ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),Analog,AES3,-,48kHz,"2,3ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),Analog,Dante,-,48kHz,"2,8ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),Analog,Optocore,-,48kHz,"2,3ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),AES3,Analog,48kHz,-,"2,3ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),AES3,AES3,48kHz,48kHz,"2,3ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),AES3,Dante,48kHz,48kHz,"2,8ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),AES3,Optocore,48kHz,48kHz,"2,3ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),Dante,Analog,48kHz,-,"2,8ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),Dante,AES3,48kHz,48kHz,"2,8ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),Dante,Dante,48kHz,48kHz,"2,8ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),Dante,Optocore,48kHz,48kHz,"2,8ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),Optocore,Analog,48kHz,-,"2,3ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),Optocore,AES3,48kHz,48kHz,"2,3ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),Optocore,Dante,48kHz,48kHz,"2,8ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),Optocore,Optocore,48kHz,48kHz,"2,3ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),Analog,Analog,-,-,"1,4ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),Analog,AES3,-,96kHz,"1,4ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),Analog,Dante,-,96kHz,"1,9ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),Analog,Optocore,-,96kHz,"1,4ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),AES3,Analog,96kHz,-,"1,4ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),AES3,AES3,96kHz,96kHz,"1,4ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),AES3,Dante,96kHz,96kHz,"1,9ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),AES3,Optocore,96kHz,96kHz,"1,4ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),Dante,Analog,96kHz,-,"1,9ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),Dante,AES3,96kHz,96kHz,"1,9ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),Dante,Dante,96kHz,96kHz,"1,9ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),Dante,Optocore,96kHz,96kHz,"1,9ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),Optocore,Analog,96kHz,-,"1,4ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),Optocore,AES3,96kHz,96kHz,"1,4ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),Optocore,Dante,96kHz,96kHz,"1,9ms",DiGiCo Console Datasheet,2,2
+DiGiCo S21 (Optocore),Optocore,Optocore,96kHz,96kHz,"1,4ms",DiGiCo Console Datasheet,2,2
+DiGiCo SD‑Rack,Analog,Analog,-,-,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,Analog,AES3,-,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,Analog,Dante,-,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,Analog,Optocore,-,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,AES3,Analog,48kHz,-,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,AES3,AES3,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,AES3,Dante,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,AES3,Optocore,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,Dante,Analog,48kHz,-,"2,2ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,Dante,AES3,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,Dante,Dante,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,Dante,Optocore,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,Optocore,Analog,48kHz,-,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,Optocore,AES3,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,Optocore,Dante,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,Optocore,Optocore,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,Analog,Analog,-,-,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,Analog,AES3,-,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,Analog,Dante,-,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,Analog,Optocore,-,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,AES3,Analog,96kHz,-,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,AES3,AES3,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,AES3,Dante,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,AES3,Optocore,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,Dante,Analog,96kHz,-,"1,83ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,Dante,AES3,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,Dante,Dante,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,Dante,Optocore,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,Optocore,Analog,96kHz,-,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,Optocore,AES3,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,Optocore,Dante,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Rack,Optocore,Optocore,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,Analog,Analog,-,-,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,Analog,AES3,-,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,Analog,Dante,-,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,Analog,Optocore,-,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,AES3,Analog,48kHz,-,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,AES3,AES3,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,AES3,Dante,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,AES3,Optocore,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,Dante,Analog,48kHz,-,"2,2ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,Dante,AES3,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,Dante,Dante,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,Dante,Optocore,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,Optocore,Analog,48kHz,-,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,Optocore,AES3,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,Optocore,Dante,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,Optocore,Optocore,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,Analog,Analog,-,-,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,Analog,AES3,-,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,Analog,Dante,-,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,Analog,Optocore,-,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,AES3,Analog,96kHz,-,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,AES3,AES3,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,AES3,Dante,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,AES3,Optocore,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,Dante,Analog,96kHz,-,"1,83ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,Dante,AES3,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,Dante,Dante,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,Dante,Optocore,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,Optocore,Analog,96kHz,-,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,Optocore,AES3,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,Optocore,Dante,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Mini Rack,Optocore,Optocore,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,Analog,Analog,-,-,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,Analog,AES3,-,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,Analog,Dante,-,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,Analog,Optocore,-,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,AES3,Analog,48kHz,-,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,AES3,AES3,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,AES3,Dante,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,AES3,Optocore,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,Dante,Analog,48kHz,-,"2,2ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,Dante,AES3,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,Dante,Dante,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,Dante,Optocore,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,Optocore,Analog,48kHz,-,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,Optocore,AES3,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,Optocore,Dante,48kHz,48kHz,"2,2ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,Optocore,Optocore,48kHz,48kHz,"1,7ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,Analog,Analog,-,-,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,Analog,AES3,-,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,Analog,Dante,-,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,Analog,Optocore,-,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,AES3,Analog,96kHz,-,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,AES3,AES3,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,AES3,Dante,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,AES3,Optocore,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,Dante,Analog,96kHz,-,"1,83ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,Dante,AES3,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,Dante,Dante,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,Dante,Optocore,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,Optocore,Analog,96kHz,-,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,Optocore,AES3,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,Optocore,Dante,96kHz,96kHz,"1,83ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo SD‑Nano Rack,Optocore,Optocore,96kHz,96kHz,"1,33ms",DiGiCo Rack Converter Datasheet,2,2
+DiGiCo DMI‑KLANG,Digital,Digital,48kHz,48kHz,"0,25ms",DiGiCo KLANG Module Datasheet,2,2
+DiGiCo DMI‑KLANG,Digital,Digital,96kHz,96kHz,"0,25ms",DiGiCo KLANG Module Datasheet,2,2

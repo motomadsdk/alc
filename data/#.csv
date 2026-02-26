@@ -1,0 +1,8 @@
+Device Name,Input Type,Output Type,Input Sample Rate,Output Sample Rate,Latency,Source,Input Count,Output Count
+# --- YAMAHA CL SERIES (CL5/CL3/CL1) ---
+# --- YAMAHA QL SERIES (QL5/QL1) ---
+# (QL kører typisk 48k; du har dem i 96k i din model – jeg matcher din eksisterende Yamaha-latency-setup her)
+# --- YAMAHA DM7 (har AES/EBU 2in/2out + Dante 144/144) ---
+# --- SHURE AXIENT DIGITAL AD4D (protocols: Analog + AES3 + Dante + AES67) ---
+# --- SENNHEISER DIGITAL 6000 (EM 6000 / EM 6000 DANTE) ---
+# --- SOUND DEVICES A10-RX / A10-RACK (AES3 + analog; A10-RACK også Dante) ---

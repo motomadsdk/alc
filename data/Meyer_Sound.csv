@@ -1,0 +1,7 @@
+Device Name,Input Type,Output Type,Input Sample Rate,Output Sample Rate,Latency,Source,Input Count,Output Count
+Meyer Sound GALAXY 408,Analog,AES3,48kHz,48kHz,0.38 ms,Estimated (DSP architecture similar to d&b D80 internal processing),2,2
+Meyer Sound GALAXY 408,AES3,AES3,48kHz,48kHz,0.34 ms,Estimated (pure digital routing without ADC stage),2,2
+Meyer Sound GALAXY 816,Analog,AES3,48kHz,48kHz,0.38 ms,Estimated (same DSP platform as GALAXY 408),2,2
+Meyer Sound GALAXY 816,AES3,AES3,48kHz,48kHz,0.34 ms,Estimated (same DSP platform as GALAXY 408),2,2
+Meyer Sound GALAXY 1616,Analog,AES3,48kHz,48kHz,0.38 ms,Estimated (same DSP platform as GALAXY series),2,2
+Meyer Sound GALAXY 1616,AES3,AES3,48kHz,48kHz,0.34 ms,Estimated (same DSP platform as GALAXY series),2,2

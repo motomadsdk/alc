@@ -1,0 +1,23 @@
+Device Name,Input Type,Output Type,Input Sample Rate,Output Sample Rate,Latency,Source,Input Count,Output Count
+Wisycom MPR50-IEM (High Density),Analog,Analog,-,-,"0,9ms",Wisycom MPR50 Product Documentation,2,2
+Wisycom MPR50-IEM (High Density),Analog,AES3,-,48kHz,"0,9ms",Wisycom MPR50 Product Documentation,2,2
+Wisycom MPR50-IEM (High Density),Analog,AES3,-,96kHz,"0,9ms",Wisycom MPR50 Product Documentation,2,2
+Wisycom MPR50-IEM (High Density),Analog,Dante,-,48kHz,"1,4ms",Wisycom MPR50 Product Documentation,2,2
+Wisycom MPR50-IEM (High Density),Analog,Dante,-,96kHz,"1,4ms",Wisycom MPR50 Product Documentation,2,2
+Wisycom MPR50-IEM (High Density),Analog,AES67,-,48kHz,"1,4ms",Wisycom MPR50 Product Documentation,2,2
+Wisycom MPR50-IEM (High Density),Analog,AES67,-,96kHz,"1,4ms",Wisycom MPR50 Product Documentation,2,2
+Wisycom MPR50-IEM (Long Range),Analog,Analog,-,-,"1,4ms",Wisycom MPR50 Product Documentation,2,2
+Wisycom MPR50-IEM (Long Range),Analog,AES3,-,48kHz,"1,4ms",Wisycom MPR50 Product Documentation,2,2
+Wisycom MPR50-IEM (Long Range),Analog,AES3,-,96kHz,"1,4ms",Wisycom MPR50 Product Documentation,2,2
+Wisycom MPR50-IEM (Long Range),Analog,Dante,-,48kHz,"1,4ms",Wisycom MPR50 Product Documentation,2,2
+Wisycom MPR50-IEM (Long Range),Analog,Dante,-,96kHz,"1,4ms",Wisycom MPR50 Product Documentation,2,2
+Wisycom MPR50-IEM (Long Range),Analog,AES67,-,48kHz,"1,4ms",Wisycom MPR50 Product Documentation,2,2
+Wisycom MPR50-IEM (Long Range),Analog,AES67,-,96kHz,"1,4ms",Wisycom MPR50 Product Documentation,2,2
+Wisycom MPR50-IEM (Standard),Analog,Analog,-,-,"0,9ms",Wisycom MPR50 Product Documentation,2,2
+Wisycom MPR50-IEM (Standard),Analog,AES3,-,48kHz,"0,9ms",Wisycom MPR50 Product Documentation,2,2
+Wisycom MPR50-IEM (Standard),Analog,AES3,-,96kHz,"0,9ms",Wisycom MPR50 Product Documentation,2,2
+Wisycom MPR50-IEM (Standard),Analog,Dante,-,48kHz,"0,9ms",Wisycom MPR50 Product Documentation,2,2
+Wisycom MPR50-IEM (Standard),Analog,Dante,-,96kHz,"0,9ms",Wisycom MPR50 Product Documentation,2,2
+Wisycom MPR50-IEM (Standard),Analog,AES67,-,48kHz,"0,9ms",Wisycom MPR50 Product Documentation,2,2
+Wisycom MPR50-IEM (Standard),Analog,AES67,-,96kHz,"0,9ms",Wisycom MPR50 Product Documentation,2,2
+Wisycom MTK982 (MPR50) (Analog FM),Analog,Analog,-,-,"1,08ms",(moto measured),2,2

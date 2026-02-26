@@ -1,0 +1,5 @@
+Device Name,Input Type,Output Type,Input Sample Rate,Output Sample Rate,Latency,Source,Input Count,Output Count
+Soniflex RB-ADDA,Analog,AES3,-,96kHz,"0,105ms",(moto measured),2,2
+Soniflex RB-ADDA,AES3,Analog,96kHz,-,"0,105ms",(moto measured),2,2
+Soniflex RB-ADDA,Analog,AES3,-,48kHz,"0,24ms",(moto measured),2,2
+Soniflex RB-ADDA,AES3,Analog,48kHz,-,"0,24ms",(moto measured),2,2

@@ -1,0 +1,10 @@
+Device Name,Input Type,Output Type,Input Sample Rate,Output Sample Rate,Latency,Source,Input Count,Output Count
+Midas HD96,Analog,Analog,96kHz,96kHz,1.34ms,Midas HD96 product listing/spec (Sweetwater) + prior dataset note,8,8
+Midas HD96,Analog,AES3,96kHz,96kHz,1.34ms,Assumed same console I/O latency (engine); AES3 I/O present per Sweetwater,8,6
+Midas HD96,AES3,Analog,96kHz,96kHz,1.34ms,Assumed same console I/O latency (engine); AES3 I/O present per Sweetwater,6,8
+Midas HD96,AES3,AES3,96kHz,96kHz,1.34ms,Assumed same console I/O latency (engine); AES3 I/O present per Sweetwater,6,6
+Midas HD96,AES50,AES50,96kHz,96kHz,1.34ms,Assumed same console I/O latency (engine); AES50 ports present per Sweetwater (4x AES50),144,144
+Midas HD96,AES50,Analog,96kHz,96kHz,1.34ms,Assumed same console I/O latency (engine); AES50 ports present per Sweetwater (4x AES50),144,8
+Midas HD96,Analog,AES50,96kHz,96kHz,1.34ms,Assumed same console I/O latency (engine); AES50 ports present per Sweetwater (4x AES50),8,144
+Midas HD96,AES50,AES3,96kHz,96kHz,1.34ms,Assumed same console I/O latency (engine); AES50+AES3 present per Sweetwater,144,6
+Midas HD96,AES3,AES50,96kHz,96kHz,1.34ms,Assumed same console I/O latency (engine); AES50+AES3 present per Sweetwater,6,144

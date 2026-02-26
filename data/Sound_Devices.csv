@@ -1,0 +1,24 @@
+Device Name,Input Type,Output Type,Input Sample Rate,Output Sample Rate,Latency,Source,Input Count,Output Count
+Sound Devices Astral ARX32 (Long Range),Analog,Analog,-,-,"6,85ms",(moto measured),2,2
+Sound Devices Astral ARX32 (Long Range),Analog,AES3,-,48kHz,"6,85ms",(moto measured),2,2
+Sound Devices Astral ARX32 (Long Range),Analog,AES3,-,96kHz,"6,85ms",(moto measured),2,2
+Sound Devices Astral ARX32 (Long Range),Analog,Dante,-,48kHz,"6,85ms",(moto measured),2,2
+Sound Devices Astral ARX32 (Long Range),Analog,Dante,-,96kHz,"6,85ms",(moto measured),2,2
+Sound Devices Astral ARX32 (Long Range),Analog,AES67,-,48kHz,"6,85ms",(moto measured),2,2
+Sound Devices Astral ARX32 (Long Range),Analog,AES67,-,96kHz,"6,85ms",(moto measured),2,2
+Sound Devices Astral ARX32 (Standard),Analog,Analog,-,-,"2,92ms",(moto measured),2,2
+Sound Devices Astral ARX32 (Standard),Analog,AES3,-,48kHz,"2,92ms",(moto measured),2,2
+Sound Devices Astral ARX32 (Standard),Analog,AES3,-,96kHz,"2,92ms",(moto measured),2,2
+Sound Devices Astral ARX32 (Standard),Analog,Dante,-,48kHz,"2,92ms",(moto measured),2,2
+Sound Devices Astral ARX32 (Standard),Analog,Dante,-,96kHz,"2,92ms",(moto measured),2,2
+Sound Devices Astral ARX32 (Standard),Analog,AES67,-,48kHz,"2,92ms",(moto measured),2,2
+Sound Devices Astral ARX32 (Standard),Analog,AES67,-,96kHz,"2,92ms",(moto measured),2,2
+Sound Devices Astral ARX32 (Astral TX) (Long Range),Analog,Analog,-,-,"6,85ms",(moto measured),2,2
+Sound Devices Astral ARX32 (Astral TX) (Long Range),Analog,AES3,-,96kHz,"6,815ms",(moto measured),2,2
+Sound Devices Astral ARX32 (Astral TX) (Standard),Analog,Analog,-,-,"2,92ms",(moto measured),2,2
+Sound Devices Astral ARX32 (Astral TX) (Standard),Analog,AES3,-,96kHz,"2,855ms",(moto measured),2,2
+Sound Devices Astral ARX32 (Astral TX) (T&M),Analog,Analog,-,-,"6,98ms",(moto measured),2,2
+Sound Devices Astral ARX32 (Astral TX) (T&M),Analog,AES3,-,96kHz,"6,895ms",(moto measured),2,2
+Sound Devices A10-RX,Analog,AES3,48000,48000,2.92ms,Receiver can output AES3 or analog; latency unchanged by output format,2,2
+Sound Devices A10-RACK,Analog,AES3,48000,48000,2.92ms,Analog and/or AES3 outputs; (Dante available on A10-RACK),2,2
+Sound Devices A10-RACK,Analog,Dante,48000,48000,2.92ms,Analog -> Dante output (buffers not included here),2,2

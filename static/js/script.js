@@ -16,15 +16,24 @@ document.addEventListener('DOMContentLoaded', () => {
     const hearInfoTooltip = document.getElementById('hear-info-tooltip');
     const exportJpgBtn = document.getElementById('export-jpg');
 
+    // UI Elements
+    const deviceLibraryEl = document.getElementById('device-library');
+    const zoomSlider = document.getElementById('zoom-slider');
+
     // Disclaimer Modal Elements
     const disclaimerModal = document.getElementById('disclaimer-modal');
     const openDisclaimerBtn = document.getElementById('open-disclaimer');
     const closeDisclaimerBtn = document.getElementById('close-disclaimer');
     const ackDisclaimerBtn = document.getElementById('disclaimer-ack');
 
+    // Suggest Device Modal Elements
+    const suggestModal = document.getElementById('suggest-modal');
+    const openSuggestBtn = document.getElementById('open-suggest');
+    const closeSuggestBtn = document.getElementById('close-suggest');
+
     let allDevices = [];
     let currentChain = [];
-    let isTopologyView = false; // Toggle state for Overview Map
+
 
     const MEASURED_SOURCE = '(moto measured)';
     const measuredIcon = `<img src="/static/images/measured.svg" class="measured-icon-file" alt="Measured">`;
@@ -59,6 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!type) return 'default';
         const t = type.toLowerCase();
         if (t.includes('analog')) return 'analog';
+        if (t.includes('aes50')) return 'aes50';
         if (t.includes('aes3') || t.includes('aes')) return 'aes3';
         if (t.includes('dante')) return 'dante';
         if (t.includes('avb')) return 'avb';
@@ -132,6 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="badges-right">
                         ${outputBadge}
                     </div>
+                    ${device.display_time ? `<div class="device-latency">${device.display_time}</div>` : ''}
                 </div>
                 <div class="badges-footer">
                     ${portCount}
@@ -292,14 +303,16 @@ document.addEventListener('DOMContentLoaded', () => {
             if (lastOutput) {
                 const protoClass = getProtocolClass(lastOutput);
                 contextHeader.innerHTML = `
-                    <div style="font-size: 0.8rem; color: #888;">Next Step Requirements:</div>
-                    <div class="context-tag matched ${protoClass}">${lastOutput}</div>
-                    ${lastSR !== '-' ? `<div class="context-tag matched ${protoClass}">${formatSR(lastSR)}</div>` : ''}
-                    <div style="font-size: 0.7rem; color: #666; font-style: italic;">(Library is filtered to show matches first)</div>
+                    <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 4px;">
+                        <span style="font-size: 0.7rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 1px;">Req:</span>
+                        <div class="context-tag matched ${protoClass}" style="padding: 2px 6px; font-size: 0.75rem;">${lastOutput}</div>
+                        ${lastSR !== '-' ? `<div class="context-tag matched ${protoClass}" style="padding: 2px 6px; font-size: 0.75rem;">${formatSR(lastSR)}</div>` : ''}
+                        <span style="font-size: 0.65rem; color: #666; font-style: italic; margin-left: auto;">(Sorted by match)</span>
+                    </div>
                 `;
             } else {
                 contextHeader.innerHTML = `
-                    <div style="font-size: 0.8rem; color: #888;">Select a starting device or focus a path to see compatibility.</div>
+                    <div style="font-size: 0.75rem; color: #888; text-align: center; padding: 4px;">Select a starting device or focus a path</div>
                 `;
             }
             contextContainer.appendChild(contextHeader);
@@ -310,10 +323,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const warning = document.createElement('div');
             warning.className = 'limit-warning';
             warning.style.gridColumn = '1 / -1';
-            warning.style.padding = '10px';
+            warning.style.padding = '4px';
+            warning.style.fontSize = '0.7rem';
             warning.style.color = '#888';
             warning.style.textAlign = 'center';
-            warning.innerText = `Showing top 100 of ${devices.length} devices. Use search to find specific models.`;
+            warning.style.marginBottom = '8px';
+            warning.innerText = `Showing 100 of ${devices.length}. Search for more.`;
             deviceListEl.appendChild(warning);
         }
 
@@ -363,75 +378,70 @@ document.addEventListener('DOMContentLoaded', () => {
                 return 0;
             });
 
+            // Group devices by Name (and Brand to be safe)
+            const groupedDevicesMap = {};
+            processedDevices.forEach(device => {
+                const key = `${device.brand}-|-${device.name}`;
+                if (!groupedDevicesMap[key]) {
+                    groupedDevicesMap[key] = {
+                        name: device.name,
+                        brand: device.brand,
+                        image: device.image,
+                        source: device.source,
+                        variants: [],
+                        hasValid: false
+                    };
+                }
+                groupedDevicesMap[key].variants.push(device);
+                if (device.isValid) {
+                    groupedDevicesMap[key].hasValid = true;
+                }
+            });
+
+            // Convert to array and sort: groups with valid variants first
+            let groupArray = Object.values(groupedDevicesMap);
+            groupArray.sort((a, b) => {
+                if (a.hasValid && !b.hasValid) return -1;
+                if (!a.hasValid && b.hasValid) return 1;
+                return 0; // Default sorting from previous layers will loosely preserve order
+            });
+
             // Limit to top 100 to prevent DOM freeze
             const displayLimit = 100;
-            const limitedDevices = processedDevices.slice(0, displayLimit);
+            const limitedGroups = groupArray.slice(0, displayLimit);
 
-            limitedDevices.forEach(device => {
+            // Store globally so the onchange handler can access them
+            window.currentGroupedDevices = limitedGroups;
+
+            limitedGroups.forEach((group, groupIndex) => {
                 const card = document.createElement('div');
-                card.className = 'device-card';
+                card.className = 'device-card grouped-card';
+                card.id = `group-card-${groupIndex}`;
 
-                if (!device.isValid) {
-                    card.classList.add('dimmed'); // Visual dimming
-                    card.title = device.statusMessage;
-                } else {
-                    if (currentChain.length > 0) {
-                        card.classList.add('recommended'); // Highlight valid next steps
-                    }
+                // Find the first valid variant to display by default
+                let defaultVariantIdx = group.variants.findIndex(v => v.isValid);
+                if (defaultVariantIdx === -1) defaultVariantIdx = 0; // fallback to the first one
+
+                // Set initial state
+                card.dataset.currentIndex = defaultVariantIdx;
+
+                if (!group.variants[defaultVariantIdx].isValid) {
+                    card.classList.add('dimmed');
+                    card.title = group.variants[defaultVariantIdx].statusMessage;
+                } else if (currentChain.length > 0) {
+                    card.classList.add('recommended');
                 }
 
-                // Dynamic Background Logic
-                const bgHtml = getProtocolBgHtml(device.inputType, device.raw_data?.output_type);
+                // Render the internal HTML of the card based on the selected variant index
+                card.innerHTML = window.renderGroupCardInnerHtml(groupIndex, defaultVariantIdx);
 
-                // Allow adding any device (user freedom)
-                card.onclick = () => addToChain(device, activeBranch);
+                // Add to chain uses the explicitly selected variant
+                card.onclick = () => {
+                    const currentIdx = parseInt(card.dataset.currentIndex);
+                    const selectedVariant = window.currentGroupedDevices[groupIndex].variants[currentIdx];
+                    addToChain(selectedVariant, activeBranch);
+                };
 
-                // Technical Badges
-                const badgesHtml = getDeviceBadgesHtml(device);
-
-                // If In-to-Out SR conversion exists, we can still show it or rely on the grouped ones
-                let srDisplay = '';
-                if (device.inputSR !== '-' && device.outputSR !== '-' && device.inputSR !== device.outputSR) {
-                    // Visual indicator for conversion if needed, but the groups might be enough
-                    // srDisplay = `<span class="badge state sr-conversion">${device.inputSR} ➔ ${device.outputSR}</span>`;
-                }
-
-                // Source Link Logic
-                let sourceDisplay = '';
-                if (showSourceCheckbox.checked && device.source) {
-                    const url = sourceMappings[device.source];
-                    if (url) {
-                        sourceDisplay = `<a href="${url}" target="_blank" class="device-source link" title="${device.source} - Click to open documentation" onclick="event.stopPropagation()">${device.source} 🔗</a>`;
-                    } else {
-                        sourceDisplay = `<div class="device-source" title="${device.source}">${device.source}</div>`;
-                    }
-                }
-
-                // Measured Badge Overlay
-                let measuredBadge = '';
-                if (device.source === MEASURED_SOURCE) {
-                    measuredBadge = `<div class="measured-badge" title="Verified Measurement By MOTO">${measuredIcon}</div>`;
-                }
-
-                card.innerHTML = `
-                    <div class="card-media">
-                        ${bgHtml}
-                        <img src="/static/images/${device.image}" alt="${device.name}" onload="this.style.opacity=1" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
-                         <div class="fallback-icon">
-                            <svg viewBox="0 0 24 24" width="48" height="48" stroke="currentColor" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><circle cx="12" cy="12" r="3"></circle><line x1="12" y1="9" x2="12" y2="15"></line><line x1="9" y1="12" x2="15" y2="12"></line></svg>
-                        </div>
-                        ${measuredBadge}
-                    </div>
-                    <div class="card-content">
-                        <div class="device-latency">${device.display_time}</div>
-                        <div class="device-title-container">
-                            <div class="device-part">${device.name}</div>
-                        </div>
-                        ${sourceDisplay}
-                        ${badgesHtml}
-                    </div>
-                    </div>
-                `;
                 deviceListEl.appendChild(card);
             });
         } catch (e) {
@@ -440,6 +450,182 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    // Expose the inner HTML renderer to the window so the select onchange can call it
+    window.renderGroupCardInnerHtml = (groupIndex, variantIdx) => {
+        const group = window.currentGroupedDevices[groupIndex];
+        const variant = group.variants[variantIdx];
+
+        // Dynamic Background Logic
+        const bgHtml = getProtocolBgHtml(variant.inputType, variant.outputType);
+
+        // Technical Badges
+        const badgesHtml = getDeviceBadgesHtml(variant);
+
+        // Source Link Logic
+        let sourceDisplay = '';
+        if (showSourceCheckbox.checked && group.source) {
+            const url = sourceMappings[group.source];
+            if (url) {
+                sourceDisplay = `<a href="${url}" target="_blank" class="device-source link" title="${group.source} - Click to open documentation" onclick="event.stopPropagation()">${group.source} 🔗</a>`;
+            } else {
+                sourceDisplay = `<div class="device-source" title="${group.source}">${group.source}</div>`;
+            }
+        }
+
+        // Measured Badge Overlay
+        let measuredBadge = '';
+        if (group.source === MEASURED_SOURCE) {
+            measuredBadge = `<div class="measured-badge" title="Verified Measurement By MOTO">${measuredIcon}</div>`;
+        }
+
+        // Generate Dropdown for Variants
+        let selectHtml = '';
+        if (group.variants.length > 1) {
+            // Extract unique Inputs and Outputs
+            const uniqueInputs = [...new Set(group.variants.map(v => `${v.inputType}${v.inputSR !== '-' ? ' ' + formatSR(v.inputSR) : ''}`))];
+            const uniqueOutputs = [...new Set(group.variants.map(v => `${v.outputType}${v.outputSR !== '-' ? ' ' + formatSR(v.outputSR) : ''}`))];
+
+            // Current variant's Input and Output display strings
+            const currentInStr = `${variant.inputType}${variant.inputSR !== '-' ? ' ' + formatSR(variant.inputSR) : ''}`;
+            const currentOutStr = `${variant.outputType}${variant.outputSR !== '-' ? ' ' + formatSR(variant.outputSR) : ''}`;
+
+            // User's explicitly attempted selection, if any
+            const cardElement = document.getElementById(`group-card-${groupIndex}`);
+            const explicitInStr = cardElement?.dataset.selectedInStr || currentInStr;
+            const explicitOutStr = cardElement?.dataset.selectedOutStr || currentOutStr;
+
+            // Get context requirements
+            const requiredOut = window.lastOutput;
+            const requiredSR = window.lastSR;
+            const hasContext = !!requiredOut;
+
+            const inOptions = uniqueInputs.map(inStr => {
+                // Determine if this specific input string matches the required context
+                let isOptionValid = true;
+                if (hasContext) {
+                    const [optType, optSR] = inStr.split(' ');
+                    if (optType !== requiredOut) isOptionValid = false;
+                    if (isOptionValid && requiredSR !== '-' && optSR && optSR !== formatSR(requiredSR) && optSR !== '-') {
+                        isOptionValid = false;
+                    }
+                }
+
+                // If we have a strict context, and this option doesn't match, we disable it
+                const disabledAttr = (!isOptionValid && hasContext) ? 'disabled' : '';
+
+                // If this is the currently actively selected variant's input, mark it selected
+                // prioritizing the user's explicit choice
+                const selectedAttr = (inStr === explicitInStr) ? 'selected' : '';
+
+                return `<option value="${inStr}" ${selectedAttr} ${disabledAttr}>${inStr}${!isOptionValid && hasContext ? ' (Incompatible)' : ''}</option>`;
+            }).join('');
+
+            const outOptions = uniqueOutputs.map(outStr =>
+                `<option value="${outStr}" ${outStr === explicitOutStr ? 'selected' : ''}>${outStr}</option>`
+            ).join('');
+
+            selectHtml = `
+                <div class="variant-select-container dual-select">
+                    <div class="select-wrapper">
+                        <label>In</label>
+                        <select class="variant-select dual-inp" onchange="window.updateGroupCardDual(${groupIndex}, this.value, this.parentElement.nextElementSibling.querySelector('select').value)" onclick="event.stopPropagation()">
+                            ${inOptions}
+                        </select>
+                    </div>
+                    <div class="select-wrapper">
+                        <label>Out</label>
+                        <select class="variant-select dual-out" onchange="window.updateGroupCardDual(${groupIndex}, this.parentElement.previousElementSibling.querySelector('select').value, this.value)" onclick="event.stopPropagation()">
+                            ${outOptions}
+                        </select>
+                    </div>
+                </div>
+            `;
+        } else {
+            // Only one variant, no dropdown needed
+            const v = variant;
+            const inStr = `${v.inputType}${v.inputSR !== '-' ? ' ' + formatSR(v.inputSR) : ''}`;
+            const outStr = `${v.outputType}${v.outputSR !== '-' ? ' ' + formatSR(v.outputSR) : ''}`;
+            selectHtml = `
+                <div class="variant-single-label">
+                    In: ${inStr} ➔ Out: ${outStr}
+                </div>
+            `;
+        }
+
+        return `
+            <div class="card-media">
+                ${bgHtml}
+                <img src="/static/images/${group.image}" alt="${group.name}" class="device-image" onload="this.style.opacity=1" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                <div class="fallback-icon">
+                    <svg viewBox="0 0 24 24" width="48" height="48" stroke="currentColor" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><circle cx="12" cy="12" r="3"></circle><line x1="12" y1="9" x2="12" y2="15"></line><line x1="9" y1="12" x2="15" y2="12"></line></svg>
+                </div>
+                ${measuredBadge}
+            </div>
+            <div class="card-content">
+                <div class="device-title-container">
+                    <div class="device-title">${group.name}</div>
+                </div>
+                <div class="card-controls-group">
+                    ${selectHtml}
+                    <div class="device-latency-wrapper" style="${sourceDisplay ? '' : 'display: none; margin-bottom: 0;'}">
+                        ${sourceDisplay ? `<div style="margin-left: auto;">${sourceDisplay}</div>` : ''}
+                    </div>
+                    <div class="card-badges-wrapper">
+                        ${badgesHtml}
+                    </div>
+                </div>
+            </div>
+        `;
+    };
+
+    window.updateGroupCardDual = (groupIndex, selectedInStr, selectedOutStr) => {
+        const card = document.getElementById(`group-card-${groupIndex}`);
+        if (!card) return;
+
+        const group = window.currentGroupedDevices[groupIndex];
+
+        // Find the variant that matches both In and Out if possible
+        let foundVariantIdx = group.variants.findIndex(v => {
+            const vInStr = `${v.inputType}${v.inputSR !== '-' ? ' ' + formatSR(v.inputSR) : ''}`;
+            const vOutStr = `${v.outputType}${v.outputSR !== '-' ? ' ' + formatSR(v.outputSR) : ''}`;
+            return vInStr === selectedInStr && vOutStr === selectedOutStr;
+        });
+
+        // Fallback: If exact combination doesn't exist, just find one that matches the Input
+        if (foundVariantIdx === -1) {
+            foundVariantIdx = group.variants.findIndex(v => {
+                const vInStr = `${v.inputType}${v.inputSR !== '-' ? ' ' + formatSR(v.inputSR) : ''}`;
+                return vInStr === selectedInStr;
+            });
+        }
+
+        // Final Fallback: If STILL nothing matches (should rarely happen), stick to 0
+        if (foundVariantIdx === -1) foundVariantIdx = 0;
+
+        // Store explicit choices so dropdowns don't visually snap away
+        card.dataset.selectedInStr = selectedInStr;
+        card.dataset.selectedOutStr = selectedOutStr;
+
+        // Update state
+        card.dataset.currentIndex = foundVariantIdx;
+
+        // Re-render inner HTML
+        card.innerHTML = window.renderGroupCardInnerHtml(groupIndex, foundVariantIdx);
+
+        // Re-evaluate validity for dimming entirely based on the newly selected variant
+        const variant = group.variants[foundVariantIdx];
+        if (!variant.isValid) {
+            card.classList.add('dimmed');
+            card.title = variant.statusMessage;
+            card.classList.remove('recommended');
+        } else {
+            card.classList.remove('dimmed');
+            card.title = '';
+            if (currentChain.length > 0) {
+                card.classList.add('recommended');
+            }
+        }
+    };
     // Add to Chain
     function addToChain(device, branchPath = null) {
         const netCfg = device.network_config || { interfaces: [{ name: 'IP', protocol: '-', ip_type: '-' }] };
@@ -460,6 +646,13 @@ document.addEventListener('DOMContentLoaded', () => {
         if (context) {
             const compat = isCompatible(context, device);
             if (!compat.ok) {
+                // Show custom modal instead of native alert
+                const incModal = document.getElementById('incompatible-modal');
+                const incMsg = document.getElementById('incompatible-message');
+                if (incModal && incMsg) {
+                    incMsg.innerHTML = `<strong>Incompatible:</strong><br><br>${compat.reason}<br><br><span style="font-size: 0.9em; opacity: 0.8;">Please choose a device with a matching protocol and sample rate.</span>`;
+                    incModal.classList.add('active');
+                }
                 showToast(`Incompatible: ${compat.reason}`, 'error');
                 return; // BLOCK ADDITION
             }
@@ -595,14 +788,17 @@ document.addEventListener('DOMContentLoaded', () => {
     function getUniqueOutputs(node) {
         if (!node || node.type !== 'device') return [];
 
-        // Find all rows in allDevices matching this device name and input type
+        // Find all rows in allDevices matching this exact device-row (prefer stable id).
         const portMap = new Map();
         allDevices.forEach(d => {
-            // Fix: Use raw_data for matching
+            const sameRow = (d.id && node.id && d.id === node.id);
+
+            // Fallback for old saved chains (no stable id stored yet)
             const dInput = d.raw_data?.input_type || d.inputType;
             const nodeInput = node.raw_data?.input_type || node.inputType;
+            const fallbackMatch = (d.name === node.name && dInput === nodeInput);
 
-            if (d.name === node.name && dInput === nodeInput) {
+            if (sameRow || fallbackMatch) {
                 const outType = d.raw_data?.output_type || d.outputType || '-';
                 const outSR = d.raw_data?.output_sr || d.outputSR || '-';
                 const key = `${outType}-${outSR}`;
@@ -636,29 +832,71 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function getConsentStatus() {
-        return localStorage.getItem('alc_consent');
+        try {
+            return localStorage.getItem('alc_consent');
+        } catch (e) {
+            console.warn('localStorage access failed:', e);
+            return 'auto-accepted'; // Assume acceptance if localStorage fails
+        }
     }
 
     function initCookieBanner() {
         const status = getConsentStatus();
         const banner = document.getElementById('cookie-banner');
 
+        // Ensure banner is never shown on initial load unless explicitly needed
+        if (!banner) return;
+
+        // Auto-accept on first visit - banner should NEVER show by default
         if (!status) {
-            banner.style.display = 'block';
+            try {
+                localStorage.setItem('alc_consent', 'auto-accepted');
+            } catch (e) {
+                console.warn('Could not save consent to localStorage');
+            }
+            banner.classList.remove('active');
+            return;
         }
 
-        document.getElementById('cookie-accept').addEventListener('click', () => {
-            localStorage.setItem('alc_consent', 'accepted');
-            banner.style.display = 'none';
-            showToast("Preferences saved. Thank you!", "success");
-        });
+        // If status exists, make sure banner is hidden
+        banner.classList.remove('active');
 
-        document.getElementById('cookie-decline').addEventListener('click', () => {
-            localStorage.setItem('alc_consent', 'declined');
-            banner.style.display = 'none';
-            showToast("Preferences saved. Analytics disabled.", "info");
-        });
+        const acceptBtn = document.getElementById('cookie-accept');
+        const declineBtn = document.getElementById('cookie-decline');
+
+        if (acceptBtn) {
+            acceptBtn.addEventListener('click', () => {
+                try {
+                    localStorage.setItem('alc_consent', 'accepted');
+                    banner.classList.remove('active');
+                    showToast("Preferences saved. Thank you!", "success");
+                } catch (e) {
+                    console.error('Failed to save consent:', e);
+                    banner.classList.remove('active');
+                }
+            });
+        }
+
+        if (declineBtn) {
+            declineBtn.addEventListener('click', () => {
+                try {
+                    localStorage.setItem('alc_consent', 'declined');
+                    banner.classList.remove('active');
+                    showToast("Preferences saved. Analytics disabled.", "info");
+                } catch (e) {
+                    console.error('Failed to save consent:', e);
+                    banner.classList.remove('active');
+                }
+            });
+        }
     }
+
+    // CRITICAL: Ensure NO modals are active on page load
+    document.querySelectorAll('.modal-overlay, .cookie-banner').forEach(el => {
+        el.classList.remove('active');
+        el.style.display = 'none';
+        el.style.pointerEvents = 'none';
+    });
 
     // Initialize Banner
     initCookieBanner();
@@ -729,13 +967,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Recursive Render
     function renderChain() {
-        signalChainEl.classList.toggle('topology-mode', isTopologyView);
-
-        if (isTopologyView) {
-            renderTopologyMap();
-            return;
-        }
-
         signalChainEl.innerHTML = '';
 
         if (currentChain.length === 0) {
@@ -823,12 +1054,19 @@ document.addEventListener('DOMContentLoaded', () => {
                     const protocolClass = getProtocolClass(protocolName);
 
                     arrow.classList.add('connector-' + protocolClass);
+                    const wireColor = `var(--neon-${protocolClass}, var(--primary-color))`;
 
                     if (!compat.ok) {
                         arrow.classList.add('mismatch');
-                        arrow.innerHTML = `<span class="arrow-symbol">⚠</span><span class="protocol-label">MISMATCH: ${compat.reason}</span>`;
+                        arrow.innerHTML = `
+                            <div class="wire-vertical mismatch-wire" style="--wire-color: #ff4444;"></div>
+                            <span class="arrow-symbol">⚠</span><span class="protocol-label">MISMATCH: ${compat.reason}</span>
+                        `;
                     } else {
-                        arrow.innerHTML = `<span class="arrow-symbol">→</span><span class="protocol-label">${protocolName}</span>`;
+                        arrow.innerHTML = `
+                            <div class="wire-vertical" style="--wire-color: ${wireColor};"></div>
+                            <span class="arrow-symbol">→</span><span class="protocol-label">${protocolName}</span>
+                        `;
                     }
                     container.appendChild(arrow);
                 } else if (!prev && !isMainChain) {
@@ -839,8 +1077,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             if (node.type === 'device') {
-                // Mini nodes for branches OR if global topology view is active
-                const itemEl = createDeviceElement(node, (!isMainChain || isTopologyView));
+                // Mini nodes for branches
+                const itemEl = createDeviceElement(node, !isMainChain);
                 container.appendChild(itemEl);
             } else if (node.type === 'split') {
                 const splitEl = createSplitElement(node);
@@ -875,11 +1113,31 @@ document.addEventListener('DOMContentLoaded', () => {
         const itemEl = document.createElement('div');
         itemEl.className = 'chain-item' + (isMini ? ' mini' : '');
 
+        // Generate dynamically colored wires based on input protocol (coming IN)
+        let wireColorIn = 'var(--primary-color)';
+        const inProto = item.raw_data?.input_type || item.inputType;
+        if (inProto && inProto !== '-') {
+            wireColorIn = `var(--neon-${getProtocolClass(inProto)}, var(--primary-color))`;
+        }
+
+        // Generate dynamically colored wires based on output protocol (going OUT)
+        let wireColorOut = 'var(--primary-color)';
+        const outProto = item.raw_data?.output_type || item.outputType;
+        if (outProto && outProto !== '-') {
+            wireColorOut = `var(--neon-${getProtocolClass(outProto)}, var(--primary-color))`;
+        }
+
         // Fallback for old data or mini items
         if (!item.ips) item.ips = [""];
         if (!item.ipLabels) item.ipLabels = ["IP"];
 
         itemEl.innerHTML = `
+            ${!isMini ? `
+                <div class="wire-vertical-top" style="--wire-color: ${wireColorIn};"></div>
+                <div class="wire-vertical-bottom" style="--wire-color: ${wireColorOut};"></div>
+                <div class="wire-horizontal" style="--wire-color: ${wireColorIn};"></div>
+                <div class="wire-dot" style="--wire-color: ${wireColorIn};"></div>
+            ` : ''}
             <div class="chain-item-top">
                 <div class="chain-item-info">
                     <div class="chain-icon">
@@ -893,9 +1151,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="name-container">
                             <input type="text" class="chain-item-nickname" value="${item.nickname || item.name}" placeholder="Label..." title="Click to rename">
                             ${!isMini ? `<span class="chain-item-model">${item.nickname ? item.name : ''}</span>` : ''}
-                        </div>
-                        <div class="chain-meta">
-                            <span class="chain-item-latency">${item.display_time}</span>
                         </div>
                         <div class="chain-item-technical">
                             ${getDeviceBadgesHtml(item)}
@@ -1295,16 +1550,21 @@ document.addEventListener('DOMContentLoaded', () => {
         };
     }
 
-    const toggleTopologyBtn = document.getElementById('toggle-topology');
-    if (toggleTopologyBtn) {
-        toggleTopologyBtn.addEventListener('click', () => {
-            isTopologyView = !isTopologyView;
-            toggleTopologyBtn.textContent = isTopologyView ? 'Live Builder' : 'Overview Map';
-            toggleTopologyBtn.classList.toggle('active', isTopologyView);
-            if (exportJpgBtn) exportJpgBtn.style.display = isTopologyView ? 'inline-block' : 'none';
-            renderChain();
+    // Zoom Slider Logic
+    if (zoomSlider && deviceListEl) {
+        // Base width 160px allows comfortably fitting 4 per row inside the 800px max-width library
+        const baseWidth = 160;
+        zoomSlider.addEventListener('input', (e) => {
+            const scale = parseFloat(e.target.value);
+            const newWidth = Math.max(160, Math.round(baseWidth * scale));
+            deviceListEl.style.setProperty('--grid-item-min-width', `${newWidth}px`);
         });
+
+        // Trigger initial update based on HTML default value
+        zoomSlider.dispatchEvent(new Event('input'));
     }
+
+
 
     clearBtn.addEventListener('click', () => {
         if (confirm("Are you sure you want to clear the entire chain?")) {
@@ -1318,16 +1578,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
     exportBtn.addEventListener('click', () => {
         if (currentChain.length === 0) {
-            alert("Signal chain is empty. Add devices before exporting.");
+            showToast("Signal chain is empty. Add devices before exporting.", "warning");
             return;
         }
-        const chainHeader = document.querySelector('.chain-header');
-        if (chainHeader) {
-            const now = new Date();
-            const dateStr = now.toLocaleDateString() + ' ' + now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-            chainHeader.setAttribute('data-date', dateStr);
-        }
-        window.print();
+
+        // Get the total latency value
+        const totalLatencyEl = document.getElementById('total-latency');
+        const totalLatencyText = totalLatencyEl ? totalLatencyEl.textContent : '0';
+        const totalLatency = parseFloat(totalLatencyText.replace(/[^0-9.]/g, '')) || 0;
+
+        // Show loading state
+        const originalText = exportBtn.textContent;
+        exportBtn.textContent = '⏳ Generating...';
+        exportBtn.disabled = true;
+
+        // Use the new flowchart PDF export function
+        exportChainAsFlowchartPDF(currentChain, totalLatency)
+            .then(() => {
+                showToast("PDF exported successfully! 📊", "success");
+                exportBtn.textContent = originalText;
+                exportBtn.disabled = false;
+            })
+            .catch(error => {
+                console.error('PDF export error:', error);
+                showToast("Failed to export PDF: " + error.message, "error");
+                exportBtn.textContent = originalText;
+                exportBtn.disabled = false;
+            });
     });
 
     if (exportJpgBtn) {
@@ -1362,8 +1639,23 @@ document.addEventListener('DOMContentLoaded', () => {
                 showToast("Overview Map exported", "success");
             }).catch(err => {
                 console.error("Export failed", err);
-                showToast("Export failed", "error");
             });
+        });
+    }
+
+    // Custom Incompatible Modal Logic
+    const incModal = document.getElementById('incompatible-modal');
+    const closeIncBtn = document.getElementById('close-incompatible');
+    const okIncBtn = document.getElementById('btn-incompatible-ok');
+
+    if (incModal) {
+        const closeIncModal = () => incModal.classList.remove('active');
+        if (closeIncBtn) closeIncBtn.addEventListener('click', closeIncModal);
+        if (okIncBtn) okIncBtn.addEventListener('click', closeIncModal);
+
+        // Close on outside click
+        incModal.addEventListener('click', (e) => {
+            if (e.target === incModal) closeIncModal();
         });
     }
 
@@ -1382,10 +1674,27 @@ document.addEventListener('DOMContentLoaded', () => {
     if (closeDisclaimerBtn) closeDisclaimerBtn.addEventListener('click', closeDisclaimer);
     if (ackDisclaimerBtn) ackDisclaimerBtn.addEventListener('click', closeDisclaimer);
 
+    // Suggest Device Modal Logic
+    if (openSuggestBtn && suggestModal) {
+        openSuggestBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            suggestModal.classList.add('active');
+        });
+    }
+
+    const closeSuggest = () => {
+        if (suggestModal) suggestModal.classList.remove('active');
+    };
+
+    if (closeSuggestBtn) closeSuggestBtn.addEventListener('click', closeSuggest);
+
     // Close on outside click
     window.addEventListener('click', (e) => {
         if (e.target === disclaimerModal) {
             closeDisclaimer();
+        }
+        if (e.target === suggestModal) {
+            closeSuggest();
         }
     });
 
@@ -1401,6 +1710,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // Global Network Config Toggle
     const globalNetworkToggle = document.getElementById('global-network-enable');
     const signalChainContainer = document.getElementById('signal-chain'); // Applies variable filtering down to nodes
+
+    // Ensure network is hidden by default
+    if (signalChainContainer) {
+        signalChainContainer.classList.add('global-network-disabled');
+    }
+
     if (globalNetworkToggle && signalChainContainer) {
         globalNetworkToggle.addEventListener('change', (e) => {
             if (e.target.checked) {
@@ -1411,15 +1726,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 showToast("Network Configurations Hidden", "info");
             }
         });
-
-        // Ensure state is correct initially or based on saved preferences
-        if (!globalNetworkToggle.checked) {
-            signalChainContainer.classList.add('global-network-disabled');
-        }
     }
 
     // Global Ports Toggle
     const globalPortsToggle = document.getElementById('global-ports-enable');
+
+    // Ensure ports are hidden by default
+    if (document.body) {
+        document.body.classList.add('global-ports-disabled');
+    }
+
     if (globalPortsToggle) {
         globalPortsToggle.addEventListener('change', (e) => {
             if (e.target.checked) {
@@ -1430,9 +1746,5 @@ document.addEventListener('DOMContentLoaded', () => {
                 showToast("Port Numbers Hidden", "info");
             }
         });
-
-        if (!globalPortsToggle.checked) {
-            document.body.classList.add('global-ports-disabled');
-        }
     }
 });

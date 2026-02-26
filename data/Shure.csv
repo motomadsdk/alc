@@ -1,0 +1,41 @@
+Device Name,Input Type,Output Type,Input Sample Rate,Output Sample Rate,Latency,Source,Input Count,Output Count
+Shure AD4D (ADX1),Analog,Analog,-,-,"2,27ms",(moto measured),2,2
+Shure AD4D (ADX1) (Axient digital),Analog,AES3,-,96kHz,"2,25ms",(moto measured),2,2
+Shure ADTQ (ADXR) (Analog FM),Analog,Analog,-,-,"1,27ms",(moto measured),2,2
+Shure ADTQ (ADXR) (Narrow band),Analog,Analog,-,-,"3,1ms",(moto measured),2,2
+Shure ADTQ (ADXR) (Wide band),Analog,Analog,-,-,"3,1ms",(moto measured),2,2
+Shure ADTQ (P10R+ Legacy mode) (Analog FM),Analog,Analog,-,-,"0,98ms",(moto measured),2,2
+Shure Axient Digital AD4D/AD4Q (High Density),Analog,Analog,-,-,"2,9ms",Shure Axient Digital Spec Sheet,2,2
+Shure Axient Digital AD4D/AD4Q (High Density),Analog,AES3,-,48kHz,"2,9ms",Shure Axient Digital Spec Sheet,2,2
+Shure Axient Digital AD4D/AD4Q (High Density),Analog,AES3,-,96kHz,"2,9ms",Shure Axient Digital Spec Sheet,2,2
+Shure Axient Digital AD4D/AD4Q (High Density),Analog,Dante,-,48kHz,"2,9ms",Shure Axient Digital Spec Sheet,2,2
+Shure Axient Digital AD4D/AD4Q (High Density),Analog,Dante,-,96kHz,"2,9ms",Shure Axient Digital Spec Sheet,2,2
+Shure Axient Digital AD4D/AD4Q (High Density),Analog,AES67,-,48kHz,"2,9ms",Shure Axient Digital Spec Sheet,2,2
+Shure Axient Digital AD4D/AD4Q (High Density),Analog,AES67,-,96kHz,"2,9ms",Shure Axient Digital Spec Sheet,2,2
+Shure Axient Digital AD4D/AD4Q (Standard),Analog,Analog,-,-,"2,0ms",Shure Axient Digital Spec Sheet,2,2
+Shure Axient Digital AD4D/AD4Q (Standard),Analog,AES3,-,48kHz,"2,0ms",Shure Axient Digital Spec Sheet,2,2
+Shure Axient Digital AD4D/AD4Q (Standard),Analog,AES3,-,96kHz,"2,0ms",Shure Axient Digital Spec Sheet,2,2
+Shure Axient Digital AD4D/AD4Q (Standard),Analog,Dante,-,48kHz,"2,0ms",Shure Axient Digital Spec Sheet,2,2
+Shure Axient Digital AD4D/AD4Q (Standard),Analog,Dante,-,96kHz,"2,0ms",Shure Axient Digital Spec Sheet,2,2
+Shure Axient Digital AD4D/AD4Q (Standard),Analog,AES67,-,48kHz,"2,0ms",Shure Axient Digital Spec Sheet,2,2
+Shure Axient Digital AD4D/AD4Q (Standard),Analog,AES67,-,96kHz,"2,0ms",Shure Axient Digital Spec Sheet,2,2
+Shure PSM1000 P10T (P10R+) (Analog FM),Analog,Analog,-,-,"0,44ms",(moto measured),2,2
+Shure ULX-D (High Density),Analog,Analog,-,-,"2,9ms",Shure ULX-D Spec Sheet,2,2
+Shure ULX-D (High Density),Analog,AES3,-,48kHz,"2,9ms",Shure ULX-D Spec Sheet,2,2
+Shure ULX-D (High Density),Analog,AES3,-,96kHz,"2,9ms",Shure ULX-D Spec Sheet,2,2
+Shure ULX-D (High Density),Analog,Dante,-,48kHz,"2,9ms",Shure ULX-D Spec Sheet,2,2
+Shure ULX-D (High Density),Analog,Dante,-,96kHz,"2,9ms",Shure ULX-D Spec Sheet,2,2
+Shure ULX-D (High Density),Analog,AES67,-,48kHz,"2,9ms",Shure ULX-D Spec Sheet,2,2
+Shure ULX-D (High Density),Analog,AES67,-,96kHz,"2,9ms",Shure ULX-D Spec Sheet,2,2
+Shure ULX-D (Standard),Analog,Analog,-,-,"2,45ms",Shure ULX-D Spec Sheet,2,2
+Shure ULX-D (Standard),Analog,AES3,-,48kHz,"2,45ms",Shure ULX-D Spec Sheet,2,2
+Shure ULX-D (Standard),Analog,AES3,-,96kHz,"2,45ms",Shure ULX-D Spec Sheet,2,2
+Shure ULX-D (Standard),Analog,Dante,-,48kHz,"2,45ms",Shure ULX-D Spec Sheet,2,2
+Shure ULX-D (Standard),Analog,Dante,-,96kHz,"2,45ms",Shure ULX-D Spec Sheet,2,2
+Shure ULX-D (Standard),Analog,AES67,-,48kHz,"2,45ms",Shure ULX-D Spec Sheet,2,2
+Shure ULX-D (Standard),Analog,AES67,-,96kHz,"2,45ms",Shure ULX-D Spec Sheet,2,2
+Shure AD4D (Axient Digital),Analog,AES3,48000,48000,2.9ms,Same system latency; AD4D supports AES3 + Dante/AES67,2,2
+Shure AD4D (Axient Digital),Analog,Dante,48000,48000,2.9ms,Same system latency; AD4D supports AES3 + Dante/AES67,2,2
+Shure AD4D (Axient Digital),Analog,AES67,48000,48000,2.9ms,Same system latency; AD4D supports AES3 + Dante/AES67,2,2
+Shure AD4D (Axient Digital),AES3,AES3,48000,48000,2.9ms,Digital in/out path treated as same system latency (if used),2,2
+Shure AD4D (Axient Digital),Dante,Dante,48000,48000,2.9ms,Network audio path treated as same system latency (buffers not included here),2,2

@@ -1,7 +1,7 @@
 :root {
     --bg-color: #121212;
-    --surface-color: #1e1e1e;
-    --surface-hover: #2c2c2c;
+    --surface-color: #202020;
+    --surface-hover: #2a2a2a;
     --primary-color: #bb86fc;
     --primary-variant: #3700b3;
     --secondary-color: #03dac6;
@@ -14,16 +14,19 @@
     --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 
     /* Protocol Colors – Pro Audio Standard */
-    --color-analog: rgba(8, 238, 0, 0.7);
-    --color-aes3: rgba(0, 132, 255, 0.473);
-    --color-dante: rgba(227, 28, 35, 0.7);
-    --color-avb: rgba(166, 255, 0, 0.7);
+
+    --color-analog: rgba(34, 197, 94, 0.75);
+    --color-aes3: rgba(59, 130, 246, 0.75);
+    --color-aes50: rgba(68, 0, 131, 0.75);
+    --color-dante: rgba(224, 36, 36, 0.85);
+    --color-avb: rgba(6, 182, 212, 0.75);
 
     /* New Protocols */
-    --color-aes67: rgba(0, 168, 107, 0.7);
-    --color-optocore: rgba(0, 175, 239, 0.438);
-    --color-madi: rgba(245, 158, 11, 0.7);
-    --color-digital: rgba(71, 85, 105, 0.7);
+
+    --color-aes67: rgba(16, 185, 129, 0.85);
+    --color-optocore: rgba(14, 165, 233, 0.75);
+    --color-madi: rgba(245, 158, 11, 0.85);
+    --color-digital: rgba(100, 116, 139, 0.75);
 }
 
 /* Toast Notifications */
@@ -87,7 +90,6 @@
 }
 
 body {
-    background-color: var(--bg-color);
     color: var(--text-primary);
     font-family: var(--font-body);
     height: 100vh;
@@ -445,6 +447,10 @@ main {
     background: linear-gradient(135deg, var(--color-aes3) 0%, rgba(0, 132, 255, 0.1) 100%);
 }
 
+.bg-side.bg-aes50 {
+    background: linear-gradient(135deg, var(--color-aes50) 0%, rgba(177, 83, 255, 0.1) 100%);
+}
+
 .bg-side.bg-dante {
     background: linear-gradient(135deg, var(--color-dante) 0%, rgba(227, 28, 35, 0.1) 100%);
 }
@@ -476,6 +482,10 @@ main {
 
 .bg-side.right.bg-aes3 {
     background: linear-gradient(315deg, var(--color-aes3) 0%, rgba(0, 132, 255, 0.1) 100%);
+}
+
+.bg-side.right.bg-aes50 {
+    background: linear-gradient(315deg, var(--color-aes50) 0%, rgba(177, 83, 255, 0.1) 100%);
 }
 
 .bg-side.right.bg-dante {
@@ -644,6 +654,7 @@ main {
     align-items: stretch;
     gap: 12px;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .badges-left,
@@ -699,6 +710,8 @@ main {
     /* Standardized to prevent jitter */
     letter-spacing: 1.2px;
     border-right: 1px solid rgba(255, 255, 255, 0.1);
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .badge-group.ports {
@@ -716,7 +729,8 @@ main {
     align-items: center;
     color: #fff;
     background: transparent;
-    /* Owned by group */
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .badge-group .badge-sr {
@@ -727,6 +741,8 @@ main {
     display: flex;
     align-items: center;
     font-size: 0.65rem;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 /* Protocol Backgrounds - Apply to whole group, labels override with dark transparent segment */
@@ -736,8 +752,13 @@ main {
 }
 
 .badge-group.aes3 {
-    background-color: rgba(0, 132, 255, 0.3);
+    background: rgba(0, 132, 255, 0.05);
     border-color: rgba(0, 132, 255, 0.5);
+}
+
+.badge-group.aes50 {
+    background: rgba(177, 83, 255, 0.05);
+    border-color: rgba(177, 83, 255, 0.5);
 }
 
 .badge-group.dante {
@@ -791,9 +812,15 @@ main {
 }
 
 .badge.aes3 {
-    background-color: rgba(59, 130, 246, 0.15);
+    background: rgba(0, 132, 255, 0.1);
     color: var(--color-aes3);
     border: 1px solid var(--color-aes3);
+}
+
+.badge.aes50 {
+    background: rgba(177, 83, 255, 0.1);
+    color: var(--color-aes50);
+    border: 1px solid var(--color-aes50);
 }
 
 .badge.dante {
@@ -1627,7 +1654,6 @@ main {
     height: 40px;
     object-fit: cover;
     border-radius: 4px;
-    background-color: #000;
 }
 
 .chain-item-details {
@@ -1851,6 +1877,11 @@ main {
     opacity: 0.9;
 }
 
+.chain-arrow-connector.connector-aes50 {
+    color: var(--color-aes50);
+    opacity: 0.9;
+}
+
 .chain-arrow-connector.connector-dante {
     color: var(--color-dante);
     opacity: 0.9;
@@ -1923,6 +1954,10 @@ main {
 
 .context-tag.matched.aes3 {
     background: var(--color-aes3);
+}
+
+.context-tag.matched.aes50 {
+    background: var(--color-aes50);
 }
 
 .context-tag.matched.dante {
@@ -2133,6 +2168,43 @@ main {
     cursor: pointer;
     transition: all 0.3s ease;
     padding: 0;
+}
+
+.latency-demo .info-icon {
+    position: relative;
+    cursor: help;
+    width: 24px;
+    height: 24px;
+    background: rgba(0, 230, 255, 0.1);
+    border: 1px solid var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-style: italic;
+    z-index: 1000;
+}
+
+.latency-demo .info-popup {
+    display: none;
+    position: absolute;
+    bottom: calc(100% + 15px);
+    right: 0;
+    width: 320px;
+    background: var(--bg-card);
+    border: 1px solid var(--primary-color);
+    padding: 1.25rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5),
+        0 0 20px rgba(0, 230, 255, 0.2);
+    z-index: 1001;
+    /* High z-index to overlay on top of cards */
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
 }
 
 .btn-info:hover {

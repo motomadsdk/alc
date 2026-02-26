@@ -1,0 +1,3 @@
+Device Name,Input Type,Output Type,Input Sample Rate,Output Sample Rate,Latency,Source,Input Count,Output Count
+Remote box,Analog,Analog,-,-,"0,0ms",(moto measured),2,2
+AES67 Network (typical),AES67,AES67,48kHz,48kHz,"0,50ms",chatgpt,2,2

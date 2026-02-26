@@ -1,0 +1,8 @@
+Device Name,Input Type,Output Type,Input Sample Rate,Output Sample Rate,Latency,Source,Input Count,Output Count
+d&b D80,Analog,Analog,-,-,"0,3ms",d&b D80 Technical Documentation,2,2
+d&b D80,AES3,Analog,48kHz,-,"0,3ms",d&b D80 Technical Documentation,2,2
+d&b D80,AES3,Analog,96kHz,-,"0,3ms",d&b D80 Technical Documentation,2,2
+d&b D80,Dante,Analog,48kHz,-,"0,8ms",d&b D80 Technical Documentation,2,2
+d&b D80,Dante,Analog,96kHz,-,"0,8ms",d&b D80 Technical Documentation,2,2
+d&b D80,AES67,Analog,48kHz,-,"0,8ms",d&b D80 Technical Documentation,2,2
+d&b D80,AES67,Analog,96kHz,-,"0,8ms",d&b D80 Technical Documentation,2,2

@@ -1,0 +1,37 @@
+Device Name,Input Type,Output Type,Input Sample Rate,Output Sample Rate,Latency,Source,Input Count,Output Count
+DAD Core 256,AES3,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples @96kHz),256,256
+DAD Core 256,AES3,Dante,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples @96kHz),256,256
+DAD Core 256,AES3,AES67,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples @96kHz),256,256
+DAD Core 256,AES3,MADI,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples @96kHz),256,256
+DAD Core 256,Dante,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples @96kHz),256,256
+DAD Core 256,Dante,AES67,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples @96kHz),256,256
+DAD Core 256,Dante,MADI,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples @96kHz),256,256
+DAD Core 256,AES67,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples @96kHz),256,256
+DAD Core 256,AES67,Dante,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples @96kHz),256,256
+DAD Core 256,AES67,MADI,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples @96kHz),256,256
+DAD Core 256,MADI,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples @96kHz),256,256
+DAD Core 256,MADI,Dante,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples @96kHz),256,256
+DAD Core 256,MADI,AES67,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency (5 samples @96kHz),256,256
+DAD Core 256,Analog,AES3,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,8,256
+DAD Core 256,AES3,Analog,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,256,8
+DAD Core 256,Analog,Dante,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,8,256
+DAD Core 256,Dante,Analog,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,256,8
+DAD Core 256,Analog,AES67,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,8,256
+DAD Core 256,AES67,Analog,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,256,8
+DAD Core 256,Analog,MADI,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,8,256
+DAD Core 256,MADI,Analog,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,256,8
+DAD Core 256,DADlink,DADlink,96kHz,96kHz,0.0001ms,DADlink specification (<100ns),256,256
+DAD AX32,AES3,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency,32,32
+DAD AX32,Dante,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency,32,32
+DAD AX32,AES67,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency,32,32
+DAD AX32,Analog,AES3,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,32,32
+DAD AX32,AES3,Analog,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,32,32
+DAD AX32,Analog,Dante,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,32,32
+DAD AX32,Dante,Analog,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,32,32
+DAD DX32,AES3,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency,32,32
+DAD DX32,Dante,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency,32,32
+DAD DX32,AES67,AES3,96kHz,96kHz,0.052ms,DAD ThunderCore FPGA routing latency,32,32
+DAD DX32,Analog,AES3,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,32,32
+DAD DX32,AES3,Analog,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,32,32
+DAD DX32,Analog,Dante,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,32,32
+DAD DX32,Dante,Analog,96kHz,96kHz,0.18ms,DAD AKM converter latency typical @96kHz,32,32

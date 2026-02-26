@@ -814,22 +814,20 @@ Yamaha DM3,Dante,Dante,96000,96000,0.15ms,Yamaha DSP engine latency @96kHz,16,16
 Yamaha DM3,Analog,Dante,96000,96000,0.33ms,Yamaha AD (0.18) + DSP (0.15),8,16
 Yamaha DM3,Dante,Analog,96000,96000,0.33ms,Yamaha DSP (0.15) + DA (0.18),16,8
 Yamaha DM3,Analog,Analog,96000,96000,0.51ms,Yamaha full signal path latency,8,8
-Yamaha DM7,Dante,Dante,96000,96000,0.15ms,Yamaha DSP engine latency @96kHz,144,144
-Yamaha DM7,Analog,Dante,96000,96000,0.33ms,Yamaha AD (0.18) + DSP (0.15),32,144
-Yamaha DM7,Dante,Analog,96000,96000,0.33ms,Yamaha DSP (0.15) + DA (0.18),144,32
-Yamaha DM7,Analog,Analog,96000,96000,0.51ms,Yamaha full signal path latency,32,32
-Yamaha TF5,Dante,Dante,48000,48000,0.25ms,Yamaha DSP engine latency @48kHz,48,48
-Yamaha TF5,Analog,Dante,48000,48000,0.43ms,Yamaha converter + DSP latency,16,48
-Yamaha TF5,Dante,Analog,48000,48000,0.43ms,Yamaha converter + DSP latency,48,16
-Yamaha TF5,Analog,Analog,48000,48000,0.61ms,Yamaha full signal path latency,16,16
-Yamaha TF3,Dante,Dante,48000,48000,0.25ms,Yamaha DSP engine latency @48kHz,24,24
-Yamaha TF3,Analog,Dante,48000,48000,0.43ms,Yamaha converter + DSP latency,8,24
-Yamaha TF3,Dante,Analog,48000,48000,0.43ms,Yamaha converter + DSP latency,24,8
-Yamaha TF3,Analog,Analog,48000,48000,0.61ms,Yamaha full signal path latency,8,8
-Yamaha TF1,Dante,Dante,48000,48000,0.25ms,Yamaha DSP engine latency @48kHz,16,16
-Yamaha TF1,Analog,Dante,48000,48000,0.43ms,Yamaha converter + DSP latency,8,16
-Yamaha TF1,Dante,Analog,48000,48000,0.43ms,Yamaha converter + DSP latency,16,8
-Yamaha TF1,Analog,Analog,48000,48000,0.61ms,Yamaha full signal path latency,8,8
+Yamaha DM7,Dante,Dante,96000,96000,0.19ms,Yamaha DM7 DSP latency @96kHz,64,64
+Yamaha DM7,AES3,AES3,96000,96000,0.19ms,Yamaha DM7 DSP latency @96kHz,32,32
+Yamaha DM7,Analog,Analog,96000,96000,0.47ms,Yamaha AD (0.14) + DSP (0.19) + DA (0.14),32,32
+Yamaha DM7,Dante,Dante,48000,48000,0.39ms,Yamaha DM7 DSP latency @48kHz,64,64
+Yamaha DM7,Analog,Analog,48000,48000,0.73ms,Yamaha AD (0.17) + DSP (0.39) + DA (0.17),32,32
+Yamaha TF Series,Dante,Dante,48000,48000,0.66ms,Yamaha TF DSP engine latency @48kHz,64,64
+Yamaha TF Series,AES3,AES3,48000,48000,0.66ms,Yamaha TF DSP engine latency @48kHz,32,32
+Yamaha TF Series,Dante,AES3,48000,48000,0.66ms,Yamaha TF DSP engine latency @48kHz,64,32
+Yamaha TF Series,AES3,Dante,48000,48000,0.66ms,Yamaha TF DSP engine latency @48kHz,32,64
+Yamaha TF Series,Analog,Dante,48000,48000,0.96ms,Yamaha AD (0.30) + DSP (0.66),32,64
+Yamaha TF Series,Dante,Analog,48000,48000,0.96ms,Yamaha DSP (0.66) + DA (0.30),64,32
+Yamaha TF Series,Analog,AES3,48000,48000,0.96ms,Yamaha AD (0.30) + DSP (0.66),32,32
+Yamaha TF Series,AES3,Analog,48000,48000,0.96ms,Yamaha DSP (0.66) + DA (0.30),32,32
+Yamaha TF Series,Analog,Analog,48000,48000,1.26ms,Yamaha AD (0.30) + DSP (0.66) + DA (0.30),32,32
 Yamaha RIVAGE PM10,Dante,Dante,96000,96000,0.18ms,Yamaha DSP engine latency @96kHz,144,144
 Yamaha RIVAGE PM10,Analog,Dante,96000,96000,0.36ms,Yamaha converter + DSP latency,48,144
 Yamaha RIVAGE PM10,Dante,Analog,96000,96000,0.36ms,Yamaha converter + DSP latency,144,48
@@ -858,3 +856,62 @@ Yamaha RIVAGE CS-R7,Dante,Dante,96000,96000,0.18ms,Yamaha DSP engine latency @96
 Yamaha RIVAGE CS-R7,Analog,Dante,96000,96000,0.36ms,Yamaha converter + DSP latency,48,144
 Yamaha RIVAGE CS-R7,Dante,Analog,96000,96000,0.36ms,Yamaha converter + DSP latency,144,48
 Yamaha RIVAGE CS-R7,Analog,Analog,96000,96000,0.54ms,Yamaha full signal path latency,48,48
+Allen & Heath Avantis,Analog,Analog,96kHz,96kHz,"0,7ms",Allen & Heath Avantis marketing/spec ("class-leading 0.7ms latency"),2,2
+Midas HD96,Analog,Analog,96kHz,96kHz,1.34ms,Midas HD96 product listing/spec (Sweetwater) + prior dataset note,8,8
+Midas HD96,Analog,AES3,96kHz,96kHz,1.34ms,Assumed same console I/O latency (engine); AES3 I/O present per Sweetwater,8,6
+Midas HD96,AES3,Analog,96kHz,96kHz,1.34ms,Assumed same console I/O latency (engine); AES3 I/O present per Sweetwater,6,8
+Midas HD96,AES3,AES3,96kHz,96kHz,1.34ms,Assumed same console I/O latency (engine); AES3 I/O present per Sweetwater,6,6
+Midas HD96,AES50,AES50,96kHz,96kHz,1.34ms,Assumed same console I/O latency (engine); AES50 ports present per Sweetwater (4x AES50),144,144
+Midas HD96,AES50,Analog,96kHz,96kHz,1.34ms,Assumed same console I/O latency (engine); AES50 ports present per Sweetwater (4x AES50),144,8
+Midas HD96,Analog,AES50,96kHz,96kHz,1.34ms,Assumed same console I/O latency (engine); AES50 ports present per Sweetwater (4x AES50),8,144
+Midas HD96,AES50,AES3,96kHz,96kHz,1.34ms,Assumed same console I/O latency (engine); AES50+AES3 present per Sweetwater,144,6
+Midas HD96,AES3,AES50,96kHz,96kHz,1.34ms,Assumed same console I/O latency (engine); AES50+AES3 present per Sweetwater,6,144
+
+Yamaha DM7,Analog,Analog,96kHz,96kHz,"<1,5ms","Yamaha DM7 datasheet: Signal delay less than 1.5 ms (INPUT to OMNI OUT @Fs=96 kHz)",2,2
+
+# --- YAMAHA CL SERIES (CL5/CL3/CL1) ---
+Yamaha CL5,Dante,AES3,96000,96000,0.25ms,Derived: DSP engine latency @96kHz -> AES3 out (console has AES/EBU digital out),64,2
+Yamaha CL5,Analog,AES3,96000,96000,0.43ms,Derived: AD (0.18) + DSP (0.25) -> AES3 out,32,2
+
+Yamaha CL3,Dante,AES3,96000,96000,0.25ms,Derived: DSP engine latency @96kHz -> AES3 out,64,2
+Yamaha CL3,Analog,AES3,96000,96000,0.43ms,Derived: AD (0.18) + DSP (0.25) -> AES3 out,32,2
+
+Yamaha CL1,Dante,AES3,96000,96000,0.25ms,Derived: DSP engine latency @96kHz -> AES3 out,48,2
+Yamaha CL1,Analog,AES3,96000,96000,0.43ms,Derived: AD (0.18) + DSP (0.25) -> AES3 out,16,2
+
+
+# --- YAMAHA QL SERIES (QL5/QL1) ---
+# (QL kører typisk 48k; du har dem i 96k i din model – jeg matcher din eksisterende Yamaha-latency-setup her)
+Yamaha QL5,Dante,AES3,96000,96000,0.25ms,Derived: DSP engine latency -> AES3 out (console has AES/EBU digital out),64,2
+Yamaha QL5,Analog,AES3,96000,96000,0.43ms,Derived: AD (0.18) + DSP (0.25) -> AES3 out,32,2
+
+Yamaha QL1,Dante,AES3,96000,96000,0.25ms,Derived: DSP engine latency -> AES3 out,32,2
+Yamaha QL1,Analog,AES3,96000,96000,0.43ms,Derived: AD (0.18) + DSP (0.25) -> AES3 out,16,2
+
+
+# --- YAMAHA DM7 (har AES/EBU 2in/2out + Dante 144/144) ---
+Yamaha DM7,Dante,AES3,96000,96000,0.19ms,Derived: DSP latency @96kHz -> AES3 out (DM7 has AES/EBU I/O),64,2
+Yamaha DM7,AES3,Dante,96000,96000,0.19ms,Derived: AES3 in -> DSP -> Dante out,2,64
+Yamaha DM7,Analog,AES3,96000,96000,0.33ms,Derived: AD (0.14) + DSP (0.19) -> AES3 out,32,2
+Yamaha DM7,AES3,Analog,96000,96000,0.33ms,Derived: AES3 in -> DSP (0.19) + DA (0.14),2,32
+Yamaha DM7,AES3,AES3,96000,96000,0.19ms,Derived: AES3 in -> DSP -> AES3 out,2,2
+
+
+# --- SHURE AXIENT DIGITAL AD4D (protocols: Analog + AES3 + Dante + AES67) ---
+Shure AD4D (Axient Digital),Analog,AES3,48000,48000,2.9ms,Same system latency; AD4D supports AES3 + Dante/AES67,2,2
+Shure AD4D (Axient Digital),Analog,Dante,48000,48000,2.9ms,Same system latency; AD4D supports AES3 + Dante/AES67,2,2
+Shure AD4D (Axient Digital),Analog,AES67,48000,48000,2.9ms,Same system latency; AD4D supports AES3 + Dante/AES67,2,2
+Shure AD4D (Axient Digital),AES3,AES3,48000,48000,2.9ms,Digital in/out path treated as same system latency (if used),2,2
+Shure AD4D (Axient Digital),Dante,Dante,48000,48000,2.9ms,Network audio path treated as same system latency (buffers not included here),2,2
+
+
+# --- SENNHEISER DIGITAL 6000 (EM 6000 / EM 6000 DANTE) ---
+Sennheiser EM 6000,Analog,AES3,48000,48000,3.0ms,Same system latency; EM6000 has AES3 (DANTE model adds Dante),2,2
+Sennheiser EM 6000 DANTE,Analog,Dante,48000,48000,3.0ms,Same system latency; EM6000 DANTE has Dante interface + AES3,2,2
+Sennheiser EM 6000 DANTE,Analog,AES3,48000,48000,3.0ms,Same system latency; EM6000 DANTE has AES3 + Dante,2,2
+
+
+# --- SOUND DEVICES A10-RX / A10-RACK (AES3 + analog; A10-RACK også Dante) ---
+Sound Devices A10-RX,Analog,AES3,48000,48000,2.92ms,Receiver can output AES3 or analog; latency unchanged by output format,2,2
+Sound Devices A10-RACK,Analog,AES3,48000,48000,2.92ms,Analog and/or AES3 outputs; (Dante available on A10-RACK),2,2
+Sound Devices A10-RACK,Analog,Dante,48000,48000,2.92ms,Analog -> Dante output (buffers not included here),2,2

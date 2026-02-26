@@ -1,0 +1,9 @@
+Device Name,Input Type,Output Type,Input Sample Rate,Output Sample Rate,Latency,Source,Input Count,Output Count
+Dante Receiver Buffer (0.25ms setting),Dante,Dante,48kHz,48kHz,"0,25ms",Audinate Dante Controller Documentation,2,2
+Dante Receiver Buffer (0.25ms setting),Dante,Dante,96kHz,96kHz,"0,25ms",Audinate Dante Controller Documentation,2,2
+Dante Receiver Buffer (0.5ms setting),Dante,Dante,48kHz,48kHz,"0,5ms",Audinate Dante Controller Documentation,2,2
+Dante Receiver Buffer (0.5ms setting),Dante,Dante,96kHz,96kHz,"0,5ms",Audinate Dante Controller Documentation,2,2
+Dante Receiver Buffer (1.0ms setting),Dante,Dante,48kHz,48kHz,"1,0ms",Audinate Dante Controller Documentation,2,2
+Dante Receiver Buffer (1.0ms setting),Dante,Dante,96kHz,96kHz,"1,0ms",Audinate Dante Controller Documentation,2,2
+Dante Receiver Buffer (2.0ms setting),Dante,Dante,48kHz,48kHz,"2,0ms",Audinate Dante Controller Documentation,2,2
+Dante Receiver Buffer (2.0ms setting),Dante,Dante,96kHz,96kHz,"2,0ms",Audinate Dante Controller Documentation,2,2

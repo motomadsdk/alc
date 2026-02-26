@@ -1,0 +1,17 @@
+Device Name,Input Type,Output Type,Input Sample Rate,Output Sample Rate,Latency,Source,Input Count,Output Count
+L-Acoustics LA12X,Analog,Analog,-,-,"3,84ms",L-Acoustics LA12X Technical Datasheet,2,2
+L-Acoustics LA12X,AES3,Analog,48kHz,-,"3,84ms",L-Acoustics LA12X Technical Datasheet,2,2
+L-Acoustics LA12X,AES3,Analog,96kHz,-,"3,84ms",L-Acoustics LA12X Technical Datasheet,2,2
+L-Acoustics LA12X,AVB,Analog,48kHz,-,"3,84ms",L-Acoustics LA12X Technical Datasheet,2,2
+L-Acoustics LA12X,AVB,Analog,96kHz,-,"3,84ms",L-Acoustics LA12X Technical Datasheet,2,2
+L-Acoustics LA7.16,Analog,Analog,-,-,"3,84ms",L-Acoustics LA7.16 Technical Datasheet,2,2
+L-Acoustics LA7.16,AES3,Analog,48kHz,-,"3,84ms",L-Acoustics LA7.16 Technical Datasheet,2,2
+L-Acoustics LA7.16,AES3,Analog,96kHz,-,"3,84ms",L-Acoustics LA7.16 Technical Datasheet,2,2
+L-Acoustics LA7.16,AVB,Analog,48kHz,-,"3,84ms",L-Acoustics LA7.16 Technical Datasheet,2,2
+L-Acoustics LA7.16,AVB,Analog,96kHz,-,"3,84ms",L-Acoustics LA7.16 Technical Datasheet,2,2
+L-Acoustics P1,Analog,AES3,-,96kHz,"0,995ms",(moto measured),2,2
+L-Acoustics P1,AES3,Analog,96kHz,-,"1,045ms",(moto measured),2,2
+L-Acoustics P1,Analog,AES3,-,48kHz,"2,0ms",(Estimated - 2x buffer),2,2
+L-Acoustics P1,AES3,Analog,48kHz,-,"2,0ms",(Estimated - 2x buffer),2,2
+L-Acoustics P1,AVB,Analog,48kHz,-,"2,37ms",(2ms presentation + 0.37ms DSP),2,2
+L-Acoustics P1,AVB,Analog,96kHz,-,"2,37ms",(2ms presentation + 0.37ms DSP),2,2

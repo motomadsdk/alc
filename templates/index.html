@@ -4,181 +4,213 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MOTO Audio Latency Calculator</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    <!-- Google Fonts for premium feel -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@500;700&display=swap"
+    <title>MOTO Audio Latency Calculator - Professional Signal Chain Tools</title>
+    <meta name="description"
+        content="Calculate audio latency for your signal chain. Professional tool for audio engineers and technicians.">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/enhanced_style.css') }}?v=2.2">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
         rel="stylesheet">
-    <!-- html2canvas for JPG export -->
+    <!-- html2canvas for image export -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-
-    <!-- SEO & Traffic Tracking (Google Analytics, etc.) -->
-    <!-- PASTE YOUR GOOGLE ANALYTICS CODE BELOW THIS LINE -->
-    <!-- Google tag (gtag.js) -->
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LMJH5L6Y7X"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-LMJH5L6Y7X');
     </script>
-    <!-- PASTE YOUR GOOGLE ANALYTICS CODE ABOVE THIS LINE -->
 </head>
 
 <body>
+    <!-- Mobile Warning Banner -->
     <div class="mobile-warning" id="mobile-warning">
-        <span>For the best experience building and mapping signal chains, please use a desktop browser.</span>
+        <span>⚠️ For the best experience, please use a desktop browser.</span>
         <button class="close-warning" id="close-mobile-warning">&times;</button>
     </div>
+
     <div class="app-container">
         <!-- Header -->
-        <header>
-            <div class="logo-container">
-                <img src="{{ url_for('static', filename='images/logo_main.svg') }}" alt="MOTO Audio Latency Calculator"
-                    class="main-logo">
+        <header class="app-header">
+            <div class="header-content">
+                <div class="logo-container">
+                    <img src="{{ url_for('static', filename='images/logo_main.svg') }}" alt="MOTO" class="main-logo">
+                    <div class="logo-text">
+                        <h1>Audio Latency Calculator</h1>
+                        <p class="header-subtitle">Professional Signal Chain Analysis</p>
+                    </div>
+                </div>
+                <div class="header-info">
+                    <p class="version-badge">0.2 version beta</p>
+                </div>
             </div>
-            <!-- <h1>MOTO Audio Latency Calculator</h1> removed in favor of logo -->
-            <p>Build your signal chain to calculate total latency<br>
-                Match <strong>Output</strong> to <strong>Input</strong> and <strong>Sample Rate</strong><br>
-                <span style="font-size: 0.7em; opacity: 0.7; letter-spacing: 1px; margin-top: 5px; display: block;">BETA
-                    VERSION: 0.1</span>
-            </p>
-
         </header>
 
         <!-- Main Content -->
-        <main>
+        <main class="main-content">
             <!-- Left Panel: Device Library -->
-            <section class="device-library">
-                <div class="library-header-row">
+            <section class="device-library" id="device-library">
+                <div class="library-header">
                     <h2>Device Library</h2>
-                    <button id="toggle-library" class="btn-toggle-icon" title="Minimize Library to show more chain">
-                        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2"
-                            fill="none">
-                            <path d="M18 15l-6-6-6 6" />
-                        </svg>
-                    </button>
+                    <div class="header-actions" style="display: flex; align-items: center; gap: 10px;">
+                        <input type="range" id="zoom-slider" min="1.0" max="2.5" step="0.1" value="1.3"
+                            class="zoom-slider" title="Zoom Cards">
+                        <button id="toggle-library" class="btn-icon" title="Minimize Library">
+                            <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2"
+                                fill="none">
+                                <path d="M18 15l-6-6-6 6" />
+                            </svg>
+                        </button>
+                    </div>
                 </div>
-                <div class="search-bar">
-                    <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
-                        <input type="text" id="search-input" placeholder="Search devices..."
-                            style="flex: 1; min-width: 150px;">
 
-                        <!-- Sort Dropdown -->
-                        <select id="sort-select"
-                            style="padding: 10px; border-radius: 8px; border: 1px solid #333; background: #1a1a1a; color: #fff;">
-                            <option value="popularity">Popularity</option>
-                            <option value="name_asc">Name (A-Z)</option>
-                            <option value="name_desc">Name (Z-A)</option>
-                            <option value="latency_asc">Lowest Latency</option>
-                            <option value="latency_desc">Highest Latency</option>
+                <!-- Search and Filters -->
+                <div class="search-controls">
+                    <div class="search-input-wrapper">
+                        <svg class="search-icon" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor"
+                            fill="none">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                        <input type="text" id="search-input" placeholder="Search devices..." class="search-input">
+                    </div>
+
+                    <div class="filter-controls">
+                        <select id="sort-select" class="filter-select">
+                            <option value="popularity">📊 Popularity</option>
+                            <option value="name_asc">A-Z Name</option>
+                            <option value="name_desc">Z-A Name</option>
+                            <option value="latency_asc">⬇️ Lowest Latency</option>
+                            <option value="latency_desc">⬆️ Highest Latency</option>
                         </select>
 
-                        <!-- Brand Filter -->
-                        <select id="brand-filter"
-                            style="padding: 10px; border-radius: 8px; border: 1px solid #333; background: #1a1a1a; color: #fff;">
+                        <select id="brand-filter" class="filter-select">
                             <option value="">All Brands</option>
                         </select>
-                        <label
-                            style="cursor: pointer; display: flex; align-items: center; user-select: none; color: #b0b0b0; font-size: 0.9em; white-space: nowrap;">
-                            <input type="checkbox" id="show-source" style="margin-right: 6px;"> Source
+
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="show-source">
+                            <span>Show Source</span>
                         </label>
                     </div>
                 </div>
+
+                <!-- Context Info -->
                 <div id="library-context-container"></div>
+
+                <!-- Device List -->
                 <div id="device-list" class="device-grid">
-                    <!-- Devices will be injected here by JS -->
+                    <div class="loading-state">Loading devices...</div>
                 </div>
             </section>
 
-            <!-- Right Panel: Signal Chain & Results -->
-            <section class="signal-chain-container" id="signal-chain-container">
+            <!-- Right Panel: Signal Chain -->
+            <section class="signal-chain-section" id="signal-chain-container">
                 <div class="chain-header">
                     <h2>Signal Chain</h2>
-                    <div class="chain-actions">
-                        <label class="global-network-toggle" title="Show/Hide Network Settings for all devices">
-                            <input type="checkbox" id="global-network-enable">
-                            <span class="slider round"></span>
-                            <span class="toggle-text">Network Config</span>
-                        </label>
-                        <label class="global-network-toggle" title="Show/Hide Port Numbers on all devices">
-                            <input type="checkbox" id="global-ports-enable">
-                            <span class="slider round"></span>
-                            <span class="toggle-text">Port Numbers</span>
-                        </label>
-                        <button id="toggle-topology" class="btn-secondary"
-                            title="Switch to Network Topology View">Overview Map</button>
-                        <button id="export-jpg" class="btn-secondary" style="display: none;"
-                            title="Save Overview Map as Image">Export Image</button>
-                        <button id="export-pdf" class="btn-secondary" title="Save as PDF">Export PDF</button>
-                        <button id="clear-chain" class="btn-secondary">Clear</button>
+                    <div class="chain-controls">
+                        <div class="toggle-group">
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="global-network-enable">
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-label">Network</span>
+                            </label>
+                            <label class="toggle-switch">
+                                <input type="checkbox" id="global-ports-enable">
+                                <span class="toggle-slider"></span>
+                                <span class="toggle-label">Ports</span>
+                            </label>
+                        </div>
+                        <div class="action-buttons">
+                            <button id="export-pdf" class="btn-secondary btn-sm"
+                                title="Export as Professional Flowchart PDF">
+                                📄 PDF
+                            </button>
+                            <button id="export-jpg" class="btn-secondary btn-sm" style="display: none;">
+                                🖼️ Image
+                            </button>
+                            <button id="clear-chain" class="btn-secondary btn-sm btn-danger">
+                                🗑️ Clear
+                            </button>
+                        </div>
                     </div>
                 </div>
 
+                <!-- Chain Content -->
                 <div id="signal-chain" class="chain-list">
-                    <!-- Chain items will go here -->
                     <div class="empty-state">
-                        <p>Drag or click devices from the library to add them here.</p>
+                        <div class="empty-icon">
+                            <svg viewBox="0 0 24 24" width="48" height="48" stroke="currentColor" stroke-width="1.5"
+                                fill="none" class="chain-svg">
+                                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                            </svg>
+                        </div>
+                        <p>Drag or click devices to build your signal chain</p>
                     </div>
                 </div>
 
-                <!-- Total Result Footer -->
-                <div class="result-footer">
-                    <div class="result-top">
-                        <div class="total-label">Total Latency</div>
-                        <div class="audio-controls">
-                            <button id="hear-ref" class="btn-audio ref" title="Hear reference (0ms delay)">
-                                <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2"
-                                    fill="none">
-                                    <path d="M12 8v8m-4-4h8"></path>
-                                    <circle cx="12" cy="12" r="10"></circle>
-                                </svg>
-                                Ref
-                            </button>
-                            <button id="hear-latency" class="btn-audio" title="Hear the latency difference">
-                                <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2"
-                                    fill="none">
-                                    <path d="M11 5L6 9H2v6h4l5 4V5z"></path>
-                                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
-                                </svg>
-                                Hear Latency
-                            </button>
-                            <div class="info-container">
-                                <button class="btn-info" id="btn-hear-info">
-                                    <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor"
-                                        stroke-width="2" fill="none">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <line x1="12" y1="16" x2="12" y2="12"></line>
-                                        <line x1="12" y1="8" x2="12.01" y2="8"></line>
-                                    </svg>
-                                </button>
-                                <div class="info-tooltip" id="hear-info-tooltip">
-                                    <strong>How it works:</strong><br>
-                                    Compare the original sound with the calculated delay.
-                                    <ul>
-                                        <li><strong>Ref:</strong> Pure sound (0ms).</li>
-                                        <li><strong>Hear Latency:</strong> Sound with the total delay applied.</li>
-                                    </ul>
-                                </div>
+                <!-- Results Footer -->
+                <div class="results-footer">
+                    <div class="audio-controls">
+                        <button id="hear-ref" class="btn-audio btn-audio-ref" title="Reference (0ms)">
+                            <span class="audio-icon">🔊</span>
+                            Reference
+                        </button>
+                        <button id="hear-latency" class="btn-audio btn-audio-main" title="Hear the latency">
+                            <span class="audio-icon">🔉</span>
+                            Hear Latency
+                        </button>
+                        <div class="info-container">
+                            <button class="btn-info" id="btn-hear-info">ℹ️</button>
+                            <div class="info-tooltip" id="hear-info-tooltip">
+                                <strong>Audio Latency Demo:</strong><br>
+                                Listen to the timing difference caused by the signal chain's processing delay.<br><br>
+                                <strong>Left Channel:</strong> The original reference signal (0ms latency).<br>
+                                <strong>Right Channel:</strong> The delayed signal passing through your chain.
                             </div>
                         </div>
                     </div>
-                    <div class="total-value" id="total-latency">0.00 ms</div>
-                </div>
 
-                <div class="app-footer">
-                    <img src="{{ url_for('static', filename='images/logo_buttom.svg') }}" alt="MOTO"
-                        class="footer-logo">
-                    <div class="footer-legal">
-                        <a href="#" id="open-disclaimer" class="legal-link">Accuracy Disclaimer</a>
+                    <div class="latency-display">
+                        <div class="latency-label">Total Latency</div>
+                        <div class="latency-value" id="total-latency">0.00 ms</div>
                     </div>
                 </div>
+
+                <!-- Footer -->
+                <footer class="app-footer">
+                    <div class="footer-content">
+                        <img src="{{ url_for('static', filename='images/logo_buttom.svg') }}" alt="MOTO"
+                            class="footer-logo">
+                        <div style="display: flex; gap: 20px; align-items: center;">
+                            <a href="#" id="open-suggest" class="footer-link">✉️ Suggest Device</a>
+                            <a href="#" id="open-disclaimer" class="footer-link">📋 Accuracy Disclaimer</a>
+                        </div>
+                    </div>
+                </footer>
             </section>
         </main>
     </div>
 
-    <!-- Accuracy Disclaimer Modal -->
+    <!-- Incompatible Device Modal -->
+    <div id="incompatible-modal" class="modal-overlay">
+        <div class="modal-card" style="max-width: 450px;">
+            <div class="modal-header">
+                <h2>⚠️ MOTO ALC says</h2>
+                <button class="close-modal" id="close-incompatible">&times;</button>
+            </div>
+            <div class="modal-body" style="text-align: center; padding: 2rem;">
+                <p id="incompatible-message"
+                    style="font-size: 1.1rem; margin-bottom: 1.5rem; color: var(--text-primary);"></p>
+                <button id="btn-incompatible-ok" class="btn-primary" style="width: 100%;">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Disclaimer Modal -->
     <div id="disclaimer-modal" class="modal-overlay">
         <div class="modal-card">
             <div class="modal-header">
@@ -186,12 +218,16 @@
                 <button class="close-modal" id="close-disclaimer">&times;</button>
             </div>
             <div class="modal-body">
-                <p>The latency values provided by this tool are for <strong>informational purposes only</strong>. While
-                    we strive for accuracy, measurements may vary based on hardware configurations, firmware versions,
-                    and environmental factors.</p>
-                <p>MOTO Audio Latency Calculator and its developers assume no liability for errors, omissions, or any
-                    damages resulting from the use of this information. Always verify critical timing offsets with
-                    physical measurements in your specific setup.</p>
+                <p>The latency values in this tool are provided for <strong>informational purposes only</strong>. Actual
+                    measurements may vary based on:</p>
+                <ul>
+                    <li>Hardware configurations and versions</li>
+                    <li>Firmware updates</li>
+                    <li>Environmental factors</li>
+                    <li>Signal routing setup</li>
+                </ul>
+                <p><strong>Important:</strong> Always verify critical timing offsets with physical measurements in your
+                    specific setup.</p>
             </div>
             <div class="modal-footer">
                 <button class="btn-primary" id="disclaimer-ack">I Understand</button>
@@ -199,31 +235,44 @@
         </div>
     </div>
 
-    <!-- Cookie Consent Banner -->
-    <div id="cookie-banner"
-        style="display: none; position: fixed; bottom: 0; left: 0; right: 0; background: #222; border-top: 1px solid #444; padding: 20px; z-index: 2000; box-shadow: 0 -4px 10px rgba(0,0,0,0.5);">
-        <div
-            style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: space-between;">
-            <div style="flex: 1; min-width: 300px;">
-                <h4 style="margin: 0 0 5px 0; color: #fff;">Cookie & Privacy Settings</h4>
-                <p style="margin: 0; color: #aaa; font-size: 0.9em;">
-                    We use <strong>LocalStorage</strong> to save your signal chain so you don't lose your work.
-                    We also collect anonymous usage data (clicks & popular devices) to improve the tool.
-                    No personal identifiable information (PII) is stored.
-                </p>
+    <!-- Suggest Device Modal -->
+    <div id="suggest-modal" class="modal-overlay">
+        <div class="modal-card" style="max-width: 500px;">
+            <div class="modal-header">
+                <h2>Suggest a New Device</h2>
+                <button class="close-modal" id="close-suggest">&times;</button>
             </div>
-            <div style="display: flex; gap: 10px;">
-                <button id="cookie-decline"
-                    style="padding: 8px 16px; background: transparent; border: 1px solid #666; color: #ccc; border-radius: 5px; cursor: pointer;">Decline
-                    Tracking</button>
-                <button id="cookie-accept"
-                    style="padding: 8px 16px; background: var(--primary-color); border: none; color: #000; font-weight: bold; border-radius: 5px; cursor: pointer;">Accept
-                    & Continue</button>
+            <div class="modal-body" style="text-align: center;">
+                <p>Is a device missing from our library?</p>
+                <p>You are very welcome to send an email with suggestions for new products to add to the Audio Latency
+                    Calculator.</p>
+                <p style="font-size: 0.9rem; opacity: 0.8; margin-top: 1rem;">Please include information about the
+                    brand, model, and if possible, a link to latency documentation.</p>
+            </div>
+            <div class="modal-footer" style="justify-content: center;">
+                <a href="mailto:mads@motomads.dk?subject=ALC:%20New%20Product%20Suggestion&body=Please%20add%20the%20following%20product%20to%20the%20Audio%20Latency%20Calculator:%0A%0ABrand:%20%0AModel:%20%0ALink%20to%20documentation:%20"
+                    class="btn-primary" style="text-decoration: none; display: inline-block; padding: 0.5rem 2rem;">Send
+                    Email</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cookie Banner -->
+    <div id="cookie-banner" class="cookie-banner">
+        <div class="cookie-content">
+            <div class="cookie-text">
+                <h4>Privacy & Analytics</h4>
+                <p>We use LocalStorage to save your work and collect anonymous usage data to improve the tool.</p>
+            </div>
+            <div class="cookie-actions">
+                <button id="cookie-decline" class="btn-secondary btn-sm">Decline</button>
+                <button id="cookie-accept" class="btn-primary btn-sm">Accept</button>
             </div>
         </div>
     </div>
 
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/pdf-export.js') }}"></script>
 </body>
 
 </html>
