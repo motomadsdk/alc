@@ -6,3 +6,4 @@ python-dotenv==1.0.0
 werkzeug==3.0.1
 reportlab==4.0.7
 pillow==10.1.0
+svglib==1.6.0
